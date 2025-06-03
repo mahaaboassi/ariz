@@ -27,10 +27,10 @@ const Founder = ()=>{
                 <p>Featured By Trusted News Sources</p>
             </div>
             <div className="grid grid-cols-2 gap-5">
-                <div className="container-icons p-5">
+                <div className="container-icons p-5 cursor-pointer">
                     <img className="h-10" src={news} alt="Gulf-News" />
                 </div>
-                <div className="container-icons p-5">
+                <div className="container-icons p-5 cursor-pointer">
                     <img className="h-15" src={stories} alt="UAE-Stories" />
                 </div>
             </div>
