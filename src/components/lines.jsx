@@ -8,7 +8,7 @@ const Lines = ({children})=>{
         }, 1200);
     },[])
 
-    return (<div className="container-lines">
+    return (<div className="container-lines h-full">
             <div className="lines">
                     {
                         [...Array(500)].map((_,idx)=>{
@@ -38,7 +38,7 @@ const Lines = ({children})=>{
                 <div style={{animationDelay : "0.5s"}} className={`square-left-9 ${start? "bubble-first" : "bubble"}`} ></div>
                 <div style={{animationDelay : "0.6s"}} className={`square-left-10 ${start? "bubble-first" : "bubble"}`} ></div>
                 <div style={{animationDelay : "0.3s"}} className={`square-left-11 ${start? "bubble-first" : "bubble"}`} ></div>
-                <div className="content-lines">
+                <div className="content-lines h-full">
                 {children}
 
             </div>

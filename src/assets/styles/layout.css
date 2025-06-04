@@ -4,7 +4,7 @@ nav{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 2000;
 
 }
 .content-nav{
@@ -171,9 +171,12 @@ nav{
     font-size: var(--font-size-l);
 }
 .heading h2{
-    font-size: var(--font-size-xxl);
+    font-size: var(--font-size-3xl);
     color: var(--yellow-2);
     font-weight: 600;
+    width: 45%;
+    margin: auto;
+    line-height: 3rem;
 }
 .container-icons{
     background-color: var(--light);
@@ -184,4 +187,25 @@ nav{
 }
 .container-icons img{
     object-fit: contain;
+}
+
+/* Footer */
+.final-footer{
+    background-color: var(--light);
+    color: var(--dark-1);
+}
+.first-footer{
+    margin-top: -50px;
+    position: relative;
+}
+.first-footer p{
+    width: 50%;
+    margin: auto;
+    font-size: var(--font-size-xs);
+}
+.pages a{
+    transition: 0.3s;
+}
+.pages a:hover{
+    color: var(--yellow-2);
 }
