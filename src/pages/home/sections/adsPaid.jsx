@@ -110,7 +110,7 @@ const AdsPaid = ()=>{
         <div className="content-ads">
 
             <div className="child-content px-10 flex flex-col justify-end gap-5">
-                <p className=""> We help your brand grow with data-driven strategies, creative storytelling, and high-impact execution on platforms like</p>
+                <p className="">At Ariz Global, we create data-driven, ROI-focused campaigns that blend creative storytelling with precision targeting to help your brand grow. From Meta Ads, Facebook & Instagram, to Google Ads. With clear analytics, scalable plans, and a focus on real conversions, not just clicks, we bring measurable value and lasting impact to your brand.</p>
                 <div className="flex gap-3">
                     {icons.map((e,idx)=>{
                         return(<div key={`Icons_${e.name}_${idx}`}>{e.icon}</div>)

@@ -6,7 +6,7 @@ const Steps = ()=>{
     const targetRef = useRef(null)
     return(<div className="py-20 px-10 flex flex-col gap-5">
         <Heading title={"Experience Design with Ariz’s Subscription Model"} subTitle={"How Ariz Subscription Works"} />
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
             <div className="flex flex-col gap-5">
                 <div className="card-steps p-4">
                     <div className="flex justify-between">
@@ -33,7 +33,7 @@ const Steps = ()=>{
                     <h3>Discovery</h3>
                     <p>We start by deeply understanding your business, goals, and audience to uncover real opportunities for digital growth, clarity, alignment, and impact.</p>
                 </div>
-                <div className="card-steps p-4">
+                <div className="card-steps p-4 ">
                     <div className="flex justify-between">
                         <div className="number">02</div>
                         <div>
@@ -76,7 +76,7 @@ const Steps = ()=>{
                     <p>Our team designs and develops high-impact campaigns, content, and visuals that capture attention and drive engagement.</p>
                 </div>
             </div>
-            <div className="container-center h-full " >
+            <div className="container-center h-full min-h-48 " >
                 <Lines children={<div className="content-slider h-full flex justify-center items-center">
                     <div className="cta text-center">One Subscription For All Your Design Needs</div>
                 </div>} />
