@@ -1,4 +1,4 @@
-import img from "../../../assets/images/Majid.avif"
+import img from "../../../assets/images/majid.avif"
 import shape from "../../../assets/images/shape-2.png"
 import news from "../../../assets/images/gulf-news.png"
 import stories from "../../../assets/images/uae-stories.png"
