@@ -28,6 +28,9 @@ nav{
     display: none;
     
 }
+nav a.active{
+    color: var(--yellow-2);
+}
 .line-menu-1, .line-menu-2, .line-menu-3{
     background: var(--light);
     width: 30px;
@@ -264,6 +267,12 @@ p{
     font-size: var(--font-size-3xl );
     font-weight: 700;
     text-align: center;
+}
+.not-clickable{
+    color: rgb(128, 128, 128);
+}
+.intro-heading a{
+    color: var(--yellow-2);
 }
 @media (max-width:1200px) {
     .heading h3{

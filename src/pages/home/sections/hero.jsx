@@ -37,14 +37,14 @@ const Hero = ()=>{
                 </svg>
     const seo = <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 61 61" fill="none">
                 <g clipPath="url(#clip0_406_14280)">
-                <path d="M39.0951 53.0744C47.1665 53.0744 53.7096 46.5312 53.7096 38.4598C53.7096 30.3884 47.1665 23.8452 39.0951 23.8452C31.0236 23.8452 24.4805 30.3884 24.4805 38.4598C24.4805 46.5312 31.0236 53.0744 39.0951 53.0744Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                <path d="M49.166 49.1654L59.7641 59.7635" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M27.3177 53.375C22.1651 53.375 17.1282 51.8471 12.844 48.9844C8.55972 46.1218 5.22055 42.053 3.24873 37.2926C1.27691 32.5322 0.760995 27.294 1.76622 22.2404C2.77145 17.1868 5.25267 12.5448 8.89612 8.90132C12.5396 5.25787 17.1816 2.77665 22.2352 1.77142C27.2888 0.766198 32.527 1.28212 37.2874 3.25394C42.0478 5.22576 46.1166 8.56492 48.9792 12.8492C51.8419 17.1334 53.3698 22.1703 53.3698 27.3229" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M27.3184 1.27084V23.3516" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
-                <path d="M21.2671 40.5617C16.3413 40.8125 11.4751 41.7527 6.81055 43.355" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6.81055 11.2909C11.5792 13.1181 18.9818 14.2969 27.317 14.2969C35.6523 14.2969 43.0548 13.1181 47.8235 11.2909" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                <path d="M42.3274 20.0307C40.435 9.19172 34.4309 1.27084 27.3168 1.27084C18.6839 1.27084 11.6855 12.9348 11.6855 27.3229C11.6855 41.7111 18.6839 53.375 27.3168 53.375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M23.8285 27.3229H1.03711" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M39.0951 53.0744C47.1665 53.0744 53.7096 46.5312 53.7096 38.4598C53.7096 30.3884 47.1665 23.8452 39.0951 23.8452C31.0236 23.8452 24.4805 30.3884 24.4805 38.4598C24.4805 46.5312 31.0236 53.0744 39.0951 53.0744Z" stroke="white" strokeWidth="2" strokeMiterlimit="10"/>
+                <path d="M49.166 49.1654L59.7641 59.7635" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M27.3177 53.375C22.1651 53.375 17.1282 51.8471 12.844 48.9844C8.55972 46.1218 5.22055 42.053 3.24873 37.2926C1.27691 32.5322 0.760995 27.294 1.76622 22.2404C2.77145 17.1868 5.25267 12.5448 8.89612 8.90132C12.5396 5.25787 17.1816 2.77665 22.2352 1.77142C27.2888 0.766198 32.527 1.28212 37.2874 3.25394C42.0478 5.22576 46.1166 8.56492 48.9792 12.8492C51.8419 17.1334 53.3698 22.1703 53.3698 27.3229" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M27.3184 1.27084V23.3516" stroke="white" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round"/>
+                <path d="M21.2671 40.5617C16.3413 40.8125 11.4751 41.7527 6.81055 43.355" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M6.81055 11.2909C11.5792 13.1181 18.9818 14.2969 27.317 14.2969C35.6523 14.2969 43.0548 13.1181 47.8235 11.2909" stroke="white" strokeWidth="2" strokeMiterlimit="10"/>
+                <path d="M42.3274 20.0307C40.435 9.19172 34.4309 1.27084 27.3168 1.27084C18.6839 1.27084 11.6855 12.9348 11.6855 27.3229C11.6855 41.7111 18.6839 53.375 27.3168 53.375" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M23.8285 27.3229H1.03711" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </g>
                 <defs>
                 <clipPath id="clip0_406_14280">

@@ -5,9 +5,6 @@
 
 }
 .vision-content{
-    position: absolute;
-    inset: 0;
-    z-index: 1;
     background : url("../images/man-star.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -39,10 +36,59 @@
     border-radius: 10px;
     border: 1px solid rgba(128, 128, 128, 0.399);
 }
+/* Contact */
+.contact h2{
+    font-size: var(--font-size-xxl);
+    color: var(--yellow-2);
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+.contact iframe{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.contact form{
+    background: var(--dark-2);
+    border-radius: 10px;
+}
+.card-info-contact{
+    background: var(--dark-2);
+    border-radius: 10px;
+}
+form input{
+    border: 1px solid rgba(128, 128, 128, 0.656);
+    border-radius: 10px;
+    height: 45px;
+    padding-left: 10px;
+}
+form textarea{
+    border: 1px solid rgba(128, 128, 128, 0.656);
+    border-radius: 10px;
+    padding:10px;
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
     }
+}
+@media (max-width: 768px) {
+    .container-vision{
+        height: fit-content;
+    }
+    .vision-content{
+        background: unset ;
+    }
+    .contact h2{
+        font-size: var(--font-size-xl);
+        line-height: 1.8rem;
+    }
+}
+@media (max-width : 500px) {
+    .card-info-contact svg{
+        width: 40px;
+    }
+    
 }
 @media (max-width: 400px) { 
     .vision-content{

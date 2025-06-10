@@ -11,13 +11,13 @@ const Navbar = ()=>{
         link : "/about"
     },{
         name : "Services",
-        link : "/"
+        link : "/services"
     },{
-        name : "News",
-        link : "/"
+        name : "Blogs",
+        link : "/blogs"
     },{
         name : "Contact",
-        link : "/"
+        link : "/contact"
     }]
     const [ isOpenMenu , setIsOpenMenu ] = useState(false)
 
