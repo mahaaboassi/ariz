@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Lines = ({children})=>{
+const Lines = ({children,isWithGlow})=>{
     const [ start, setStart ] =  useState(true)
     useEffect(()=>{
         setTimeout(() => {
@@ -8,7 +8,7 @@ const Lines = ({children})=>{
         }, 1200);
     },[])
 
-    return (<div className="container-lines h-full">
+    return (<div className={`${isWithGlow? "container-lines-with-glow": "container-lines"}  h-full`}>
             <div className="lines">
                     {
                         [...Array(500)].map((_,idx)=>{

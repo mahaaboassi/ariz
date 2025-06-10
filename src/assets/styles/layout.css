@@ -1,5 +1,4 @@
 nav{
-    /* background-color : white ; */
     position: fixed;
     top: 0;
     left: 0;
@@ -21,11 +20,13 @@ nav{
     font-size: var(--font-size-s);
     font-weight: 500;
 }
+
 .container-menu-lines{
     width: fit-content;
     height: 15px;
     position: relative;
     display: none;
+    
 }
 .line-menu-1, .line-menu-2, .line-menu-3{
     background: var(--light);
@@ -62,6 +63,12 @@ nav{
 .container-lines{
     position: relative;
     overflow: hidden;
+}
+.container-lines-with-glow{
+    position: relative;
+    overflow: hidden;
+    background: url("../images/glow.png");
+    background-repeat: no-repeat;
 }
 .content-lines{
     position: relative;
@@ -224,8 +231,11 @@ nav{
 }
 .container-icons img{
     object-fit: contain;
+    transition: 0.3s;
 }
-
+.container-icons:hover img{
+    transform : scale(1.1)
+}
 /* Footer */
 .final-footer{
     background-color: var(--light);
@@ -249,6 +259,12 @@ nav{
 p{
     font-size: var(--font-size-xs);
 }
+/* Intro Heading */
+.intro-heading h1{
+    font-size: var(--font-size-3xl );
+    font-weight: 700;
+    text-align: center;
+}
 @media (max-width:1200px) {
     .heading h3{
         font-size: var(--font-size-s);
@@ -258,13 +274,48 @@ p{
         width: 85%;
         line-height: 2.3rem;
     } 
+    .intro-heading h1{
+        font-size: var(--font-size-xxl );
+    }
 }
 @media (max-width:1020px) {
 
 }
 @media (max-width:900px) {
-    nav ul{
-        display: none !important;
+    .content-nav ul{
+        display: none ;
+    }
+    .content-nav ul.open{
+        display: flex ;
+        position: fixed;
+        left : -50px;
+        top: -30px;
+        right: -20px;
+        bottom: -20px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+        background-color: #0b081eef;
+        z-index: -2;
+
+    }
+    .content-nav ul li{
+        opacity: 0;
+    }
+    .content-nav ul.open li{
+        animation: appearLi 0.4s forwards linear;
+    }
+    @keyframes appearLi {
+        from{
+            transform: scale(0.5);
+            opacity: 0;
+        }to{
+            transform: scale(1);
+            opacity: 1;
+        }
     }
     .container-menu-lines{
         display: flex;
@@ -277,7 +328,13 @@ p{
     
 }
 @media (max-width:768px) {
-    
+    .metrics h4{
+        font-size: var(--font-size-xl) !important;   
+    }
+    .metrics p{
+        text-align: center;
+        font-size: var(--font-size-xxs);
+    }
 }
 @media (max-width:600px) {
     .heading h3{
@@ -287,7 +344,11 @@ p{
         font-size: 1.6rem;
         width: 85%;
         line-height: 2rem;
+    }
+    .intro-heading h1{
+        font-size: 1.7rem;
     } 
+
 }
 @media (max-width:500px) {
     .heading h2{
@@ -298,10 +359,27 @@ p{
     p{
         font-size: var(--font-size-xxs);
     }
+    .intro-heading h1{
+        font-size: 1.3rem;
+    } 
+    .container-lines-with-glow{
+        background: url("../images/glow-small.png");
+        background-repeat: no-repeat;
+    }
 }
 @media (max-width:450px) {
     
 }
 @media (max-width:400px) {
-    
+    .metrics h4{
+        font-size: var(--font-size-l) !important;   
+    }
+    .metrics p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 350px) {
+    .intro-heading h1{
+        font-size: 1.2rem;
+    } 
 }

@@ -1,0 +1,51 @@
+/* About Page */
+.container-vision{
+    position: relative;
+    height: 670px;
+
+}
+.vision-content{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background : url("../images/man-star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container-vision img{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.card-about{
+    background: var(--dark-2);
+    border-radius: 10px;
+}
+.card-about h2{
+    font-size: var(--font-size-l);
+    font-weight: 600;
+}
+.metrics h4{
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    color: var(--yellow-2);
+}
+/* Subscribe Component */
+.subscribe-container{
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.399);
+}
+@media (max-width : 1200px) {
+    .vision-content{
+        background-size: cover;
+    }
+}
+@media (max-width: 400px) { 
+    .vision-content{
+        background-position-x: 20%;
+    }
+}

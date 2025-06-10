@@ -3,7 +3,7 @@ import { content, digital, graphic, paid, search, web, writer } from "../../../d
 import shape from "../../../assets/images/shape.png"
 const Services = ()=>{
 
-    return(<div className="px-10 services ">
+    return(<div className="px-4 sm:px-10 services ">
        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-5">
             <div>
                 <h2 className="pb-4">Committed to Transform the Future and Profitability</h2>

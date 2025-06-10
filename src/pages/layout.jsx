@@ -6,7 +6,7 @@ const Layout = ()=>{
     return(<div>
         <Navbar/>
         <Outlet/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>)
 }
 export default Layout

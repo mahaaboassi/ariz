@@ -10,7 +10,7 @@ import Steps from "./sections/steps"
 const Home = ()=>{
     
     return(<div>
-       <Lines children={<Hero/>}/>
+       <Lines isWithGlow={true} children={<Hero/>}/>
        <Services/>
        <Founder/>
        <Showcase/>

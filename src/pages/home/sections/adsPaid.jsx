@@ -78,11 +78,12 @@ const AdsPaid = ()=>{
     <div className="container-ads">
          <div className="container-swiper-ads">
             <Swiper
+                
                 loop={true}
                 modules={[Autoplay]}
                 freeMode={true}
                 speed={5000}
-                slidesPerView={8}
+                slidesPerView={2}
                 allowTouchMove={false}
                 autoplay={{
                     delay: 0,
@@ -109,8 +110,8 @@ const AdsPaid = ()=>{
         </div>
         <div className="content-ads">
 
-            <div className="child-content px-10 flex flex-col justify-end gap-5">
-                <p className="">At Ariz Global, we create data-driven, ROI-focused campaigns that blend creative storytelling with precision targeting to help your brand grow. From Meta Ads, Facebook & Instagram, to Google Ads. With clear analytics, scalable plans, and a focus on real conversions, not just clicks, we bring measurable value and lasting impact to your brand.</p>
+            <div className="child-content px-4 sm:px-10 flex flex-col justify-end gap-5">
+                <p className="">At Ariz Global, we create campaigns with precision targeting to help your brand grow. From meta ads to Google Ads, we have clear analytics, scalable plans, and a focus on real conversions, not just clicks. We bring value and lasting impact to your brand.</p>
                 <div className="flex gap-3">
                     {icons.map((e,idx)=>{
                         return(<div key={`Icons_${e.name}_${idx}`}>{e.icon}</div>)

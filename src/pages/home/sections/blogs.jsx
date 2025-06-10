@@ -29,11 +29,11 @@ const Blogs = ()=>{
        <div className="container-img-blog">
             <img src={img} alt={"shape-img"} />
         </div>
-        <div className="px-10">
+        <div className="px-4 sm:px-10">
             <Swiper
                 loop={true}
                 modules={[Autoplay]}
-                slidesPerView={3}
+                slidesPerView={1}
                 allowTouchMove={true}
                 autoplay={{
                     delay: 3000,

@@ -3,9 +3,11 @@ import shape from "../../../assets/images/shape-2.png"
 import news from "../../../assets/images/gulf-news.png"
 import stories from "../../../assets/images/uae-stories.png"
 import Heading from "../../../components/heading"
+import { Link } from "react-router-dom"
+import { gulfNewsLink, uaeStoriesLink } from "../../../data/data"
 
 const Founder = ()=>{
-    return(<div className="px-10 py-20 flex flex-col gap-5 founder">
+    return(<div className="px-4 sm:px-10 py-20 flex flex-col gap-5 founder">
         <Heading subTitle={"Driven Leadership, Proven Results"} title={"Meet the Visionary Behind Ariz Global"} />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div style={{zIndex:"-2"}} className="relative">
@@ -30,12 +32,17 @@ const Founder = ()=>{
                 <p>Featured By Trusted News Sources</p>
             </div>
             <div className="grid grid-cols-2 gap-5">
-                <div className="container-icons p-5 cursor-pointer">
-                    <img className="h-10" src={news} alt="Gulf-News" />
-                </div>
-                <div className="container-icons p-5 cursor-pointer">
-                    <img className="h-15" src={stories} alt="UAE-Stories" />
-                </div>
+                <Link target="_blank" to={gulfNewsLink}>
+                    <div className="container-icons h-full p-5 cursor-pointer">
+                        <img className="h-10" src={news} alt="Gulf-News" />
+                    </div>
+                </Link>
+                <Link target="_blank" to={uaeStoriesLink}>
+                    <div className="container-icons p-5 cursor-pointer">
+                        <img className="h-15" src={stories} alt="UAE-Stories" />
+                    </div>
+                </Link>
+                
             </div>
         </div>
     </div>)

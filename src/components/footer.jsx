@@ -75,12 +75,12 @@ const Footer = ()=>{
         
     }]
     return(<footer >
-        <div className="px-10 py-5">
+        <div className="px-4 sm:px-10 py-5">
             <div className="flex justify-center">
                 <img src={img} alt="logo" />
             </div>
             <div className="flex first-footer flex-col gap-5 ">
-                <p className="text-center">Ariz Global was founded with the mission of delivering specialized marketing solutions. Our team boasts extensive expertise in professional public relations services and digital marketing, coupled with a global network of connections.</p>
+                <p className="text-center">Ariz Global is a results-driven digital marketing agency specializing in creative branding, content strategy, and growth marketing. With deep expertise in public relations, paid media, and social storytelling, we help businesses—from startups to global enterprises—elevate their presence, drive traffic, and generate leads.</p>
                 <div className="flex gap-5 justify-center items-center icons">
                     {icons.map((e,idx)=>(<Link key={`Icons_${e.name}_${idx}`} aria-label={e.name} to={e.link} >
                         <div >
@@ -94,7 +94,7 @@ const Footer = ()=>{
                 </div>
             </div>
         </div>
-        <div className="flex justify-between final-footer px-10 py-4">
+        <div className="flex justify-between final-footer px-4 sm:px-10 py-4">
             <div>© Copyright 2024 by Ariz Global</div>
             <div className="flex gap-2">
                 <div>Privacy Policy</div>

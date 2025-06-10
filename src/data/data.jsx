@@ -293,3 +293,7 @@ export const writer = <svg xmlns="http://www.w3.org/2000/svg" width="160" height
 </clipPath>
 </defs>
 </svg>
+
+
+export const uaeStoriesLink = "https://uaestories.com/how-majid-ahmad-is-redefining-business/"
+export const gulfNewsLink = "https://gulfnews.com/gn-focus/the-future-of-business-growth-in-dubai-beyond-just-marketing-1.500066860"

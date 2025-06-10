@@ -463,9 +463,14 @@
         height: 570px;
 
     }
+    .container-swiper-ads{
+        height: 400px;
+    }
 }
 @media (max-width:400px) {
-
+    .container-swiper-ads{
+        height: 350px;
+    }
 }
 @media (max-width:350px) {
     .hero-section h1{
