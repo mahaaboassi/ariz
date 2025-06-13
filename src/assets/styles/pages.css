@@ -25,6 +25,24 @@
     font-size: var(--font-size-l);
     font-weight: 600;
 }
+.card-about li{
+    font-size: var(--font-size-xxs);
+    margin-top: 5px;
+    position: relative;
+    padding-left: 15px;
+}
+.card-about li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(var(--yellow-2),var(--yellow-1));
+    border-radius: 50%;
+    top : 50%;
+    transform: translateY(-50%);
+
+}
 .metrics h4{
     font-size: var(--font-size-xxl);
     font-weight: 600;
@@ -67,10 +85,45 @@ form textarea{
     border-radius: 10px;
     padding:10px;
 }
+/* Sub Services */
+.sub-services{
+
+}
+.sub-services img{
+    border-radius: 10px;
+}
+.card-tools{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-card{
+    position: relative;
+}
+.card-tools h4{
+    color: var(--light);
+    font-weight: 600;
+    font-size: var(--font-size-s);
+    width: 220px;
+    background: var(--dark-1);
+    border: 1px solid rgba(128, 128, 128, 0.656);
+    border-radius: 10px;
+    height: 100px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
     }
+}
+@media (max-width : 900px) {
+
+    
 }
 @media (max-width: 768px) {
     .container-vision{
@@ -88,6 +141,7 @@ form textarea{
     .card-info-contact svg{
         width: 40px;
     }
+
     
 }
 @media (max-width: 400px) { 
