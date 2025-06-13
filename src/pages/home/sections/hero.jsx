@@ -103,7 +103,7 @@ const Hero = ()=>{
     useEffect(()=>{
         setInterval(()=>{setIndex(prev => prev == words.length -1 ? 0 : prev+1)},4000)
     },[index])
-    return (<div className="hero-section mt-32 flex flex-col gap-10">
+    return (<div className="hero-section mt-32 flex flex-col gap-6 md:gap-10">
         <h1>Ariz Global – Digital Marketing Experts
             <br/>in Dubai, UAE</h1>
         <div className="flex justify-center">

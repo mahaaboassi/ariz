@@ -93,21 +93,21 @@ const Footer = ()=>{
                 </p>
                 <p> © 2025 by Ariz Global</p>
             </div>
-            <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-5 lg:gap-5  xl:gap-10">
-                <div className="flex flex-col gap-2 sm:gap-5">
+            <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-5 lg:gap-5  xl:gap-10 ">
+                <div className="flex flex-col gap-2 sm:gap-5 pages">
                     <h5>Pages</h5>
                     {pages.map((e,idx)=>(<Link key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
-                <div className="flex flex-col gap-2 sm:gap-5">
+                <div className="flex flex-col gap-2 sm:gap-5 pages">
                     <h5>Support</h5>
                     {support.map((e,idx)=>(<Link key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
-                <div className="flex flex-col justify-between gap-2">
-                    <div className="flex flex-col gap-2">
+                <div className="flex flex-col justify-between gap-2 ">
+                    <div className="flex flex-col gap-2 ">
                         <h5>Newsletter</h5>
                         <div className="input-footer">
                             <div className="input-container">

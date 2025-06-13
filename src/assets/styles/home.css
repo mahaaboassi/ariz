@@ -472,9 +472,15 @@
     .container-swiper-ads{
         height: 350px;
     }
+    .square-1{
+        transform: scale(0.7);
+    }
 }
 @media (max-width:350px) {
     .hero-section h1{
         font-size: 1rem;
     } 
+    .square-1{
+        transform: scale(0.65);
+    }
 }
