@@ -38,7 +38,7 @@ const Founder = ()=>{
                     </div>
                 </Link>
                 <Link target="_blank" to={uaeStoriesLink}>
-                    <div className="container-icons p-5 cursor-pointer">
+                    <div style={{border:"2px solid rgba(149, 149, 149, 0.15)", background:"unset"}}  className="container-icons p-5 cursor-pointer">
                         <img className="h-15" src={stories} alt="UAE-Stories" />
                     </div>
                 </Link>

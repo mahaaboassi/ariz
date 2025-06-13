@@ -283,7 +283,7 @@ nav a.active{
 }
 .container-icons{
     background-color: var(--light);
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
