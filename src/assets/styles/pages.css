@@ -116,6 +116,30 @@ form textarea{
     justify-content: center;
     align-items: center;
 }
+.move-box-up-down{
+    animation: moveBoxUpDown 3s infinite linear;
+}
+@keyframes moveBoxUpDown {
+    0%{
+        transform: translateY(-10px);
+    }50%{
+        transform: translateY(0);
+    }100%{
+        transform: translateY(-10px);
+    }
+}
+.move-box-left-right{
+    animation: moveBoxLeftRight 3s infinite linear;
+}
+@keyframes moveBoxLeftRight {
+    0%{
+        transform: translateX(-10px);
+    }50%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(-10px);
+    }
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
@@ -136,6 +160,9 @@ form textarea{
         font-size: var(--font-size-xl);
         line-height: 1.8rem;
     }
+    .image-as-svg svg{
+        height: 300px;
+    }
 }
 @media (max-width : 500px) {
     .card-info-contact svg{
@@ -144,8 +171,19 @@ form textarea{
 
     
 }
+@media (max-width : 450px) {
+    .image-as-svg svg{
+        height: 250px;
+    }
+    
+}
 @media (max-width: 400px) { 
     .vision-content{
         background-position-x: 20%;
     }
+}
+@media (max-width : 350px) {
+    .image-as-svg svg{
+        height: 200px;
+    }    
 }
