@@ -116,6 +116,37 @@ form textarea{
     justify-content: center;
     align-items: center;
 }
+/* className="icon-absolute icon-absolute-1" */
+.icon-absolute {
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon-absolute svg{
+    height: 50px !important;
+}
+.icon-absolute-1{
+    top: 10px;
+    animation: moveBoxLeftRight 3s infinite linear;
+}
+.icon-absolute-2{
+    bottom: 50px;
+    animation: moveBoxUpDown 3s infinite linear;
+}
+.icon-absolute-3{
+    top: 50px;
+    right: 0;
+    animation: moveBoxLeftRight 3s infinite linear;
+}
+.icon-absolute-4{
+    bottom: 100px;
+    right: 0;
+    animation: moveBoxUpDown 3s infinite linear;
+}
 .move-box-up-down{
     animation: moveBoxUpDown 3s infinite linear;
 }
@@ -162,6 +193,30 @@ form textarea{
     }
     .image-as-svg svg{
         height: 300px;
+    }
+    .icon-absolute{
+        width: 60px;
+    }
+    .card-about svg{
+        width: 40px;
+    }
+    .icon-absolute svg{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .icon-absolute-1{
+        top: 5px;
+    }
+    .icon-absolute-2{
+        bottom: 10px;
+    }
+    .icon-absolute-3{
+        top: 10px;
+        right: 0;
+    }
+    .icon-absolute-4{
+        bottom: 20px;
+        right: 0;
     }
 }
 @media (max-width : 500px) {
