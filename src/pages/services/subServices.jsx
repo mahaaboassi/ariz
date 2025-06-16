@@ -17,7 +17,10 @@ import {Autoplay } from 'swiper/modules';
 const SubServices = ()=>{
     const { link } = useParams()
     const [ currentServices, setCurrentServices ] = useState({})
-    useEffect(()=>{setCurrentServices(services.find((e)=> e.link == `/services/${link}`))},[link])
+    useEffect(()=>{
+        window.scrollTo({ top: 0, behavior: "smooth" })
+        setCurrentServices(services.find((e)=> e.link == `/services/${link}`))}
+        ,[link])
     return("name" in currentServices && <div className="sub-services flex flex-col gap-10">
         <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
             <HeadingForDynamicPages basicTitle={currentServices.name}  firstTitle={"Home"} link={"/"} secondTitle={"services"} />

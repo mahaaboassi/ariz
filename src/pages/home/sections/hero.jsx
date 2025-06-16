@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
+import { calendlyLink } from "../../../data/data";
 
 const Hero = ()=>{
     const mic  = <svg xmlns="http://www.w3.org/2000/svg" width="35" height="48" viewBox="0 0 45 68" fill="none">
@@ -154,7 +156,7 @@ const Hero = ()=>{
                             <div className="logo-seo">{tiktok}</div>
                             <div className="logo-graphic">{facebook}</div>
                             <div className="logo-coding">{instagram}</div>
-                            <button>Book A Meeting</button>
+                            <Link target="_blank" to={calendlyLink}><button>Book A Meeting</button></Link>
                     </div>
                 </div>
             </div>

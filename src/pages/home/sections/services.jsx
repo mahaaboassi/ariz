@@ -1,6 +1,7 @@
 import Lines from "../../../components/lines"
 import { content, digital, graphic, paid, search, web, writer } from "../../../data/data"
 import shape from "../../../assets/images/shape.png"
+import { Link } from "react-router-dom"
 const Services = ()=>{
 
     return(<div className="px-4 sm:px-10 services ">
@@ -20,6 +21,16 @@ const Services = ()=>{
                         <div className="flex justify-end h-42">{digital}</div>
                         <h3>Social Media Strategy </h3>
                         <p>Enhanced brand visibility and improved audience engagement across top platforms.</p>
+                        <Link  to={"/services/social-media-strategy"}>
+                            <div className="flex gap-2 items-center cta-card">
+                                <div>Explore</div>
+                                <div className="continer-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 29 46" fill="none">
+                                        <path d="M0 40.595L17.9244 23L0 5.405L5.51822 0L29 23L5.51822 46L0 40.595Z" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="card ">
@@ -27,6 +38,16 @@ const Services = ()=>{
                         <div className="flex justify-center h-42">{paid}</div>
                         <h3>PPC & Paid Advertising</h3>
                         <p>Targeted traffic generation and higher return on ad spend through strategic campaigns.</p>
+                        <Link  to={"/services/PPC-and-paid-advertising"}>
+                            <div className="flex gap-2 items-center cta-card">
+                                <div>Explore</div>
+                                <div className="continer-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 29 46" fill="none">
+                                        <path d="M0 40.595L17.9244 23L0 5.405L5.51822 0L29 23L5.51822 46L0 40.595Z" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </Link>
                     </div>} />
                 </div>
             </div>
@@ -38,6 +59,16 @@ const Services = ()=>{
                         <div className="flex justify-center h-42">{graphic}</div>
                         <h3>Branding & Graphic Design</h3>
                         <p>Impactful brand identity and professional visual assets that boost recognition.</p>
+                        <Link  to={"/services/branding-and-graphic-design"}>
+                            <div className="flex gap-2 items-center cta-card">
+                                <div>Explore</div>
+                                <div className="continer-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 29 46" fill="none">
+                                        <path d="M0 40.595L17.9244 23L0 5.405L5.51822 0L29 23L5.51822 46L0 40.595Z" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </Link>
                     </div>} />
                 </div>
                 <div className="card relative p-10 flex flex-col gap-2">
@@ -46,6 +77,16 @@ const Services = ()=>{
                         <div className="flex justify-center h-42">{writer}</div>
                         <h3>Content Marketing </h3>
                         <p>SEO-driven content that improves search engine rankings and attracts qualified leads.</p>
+                        <Link  to={"/services/content-marketing"}>
+                            <div className="flex gap-2 items-center cta-card">
+                                <div>Explore</div>
+                                <div className="continer-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 29 46" fill="none">
+                                        <path d="M0 40.595L17.9244 23L0 5.405L5.51822 0L29 23L5.51822 46L0 40.595Z" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -55,6 +96,16 @@ const Services = ()=>{
                         <div className="flex justify-center h-42">{web}</div>
                         <h3>Web Design & Development </h3>
                         <p>Responsive, SEO-optimized websites designed for improved performance and user experience.</p>
+                        <Link  to={"/services/web-design-and-development"}>
+                            <div className="flex gap-2 items-center cta-card">
+                                <div>Explore</div>
+                                <div className="continer-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 29 46" fill="none">
+                                        <path d="M0 40.595L17.9244 23L0 5.405L5.51822 0L29 23L5.51822 46L0 40.595Z" fill="white"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </Link>
                     </div>} />
                 </div>
                 <div className="card relative  ">
@@ -63,6 +114,16 @@ const Services = ()=>{
                             <div className="flex justify-end h-42">{search}</div>
                             <h3>Search Engine Optimization </h3>
                             <p>Improved search rankings through on-page optimization and advanced keywords.</p>
+                            <Link  to={"/services/search-engine-optimization"}>
+                                <div className="flex gap-2 items-center cta-card">
+                                    <div>Explore</div>
+                                    <div className="continer-arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 29 46" fill="none">
+                                            <path d="M0 40.595L17.9244 23L0 5.405L5.51822 0L29 23L5.51822 46L0 40.595Z" fill="white"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
                     
                 </div>

@@ -5,6 +5,11 @@ import Home from './pages/home/page'
 import About from './pages/about/page'
 import Contact from './pages/contact/page'
 import SubServices from './pages/services/subServices'
+import Blogs from './pages/blog/blog'
+import Terms from './pages/support/terms'
+import Privacy from './pages/support/privacy'
+import FAQs from './pages/support/faqs'
+import DetailsBlog from './pages/blog/detailsBlog'
 
 function App() {
 
@@ -14,6 +19,11 @@ function App() {
                     <Route path='' element={<Home/>} />
                     <Route path='about' element={<About/>} />
                     <Route path='contact' element={<Contact/>} />
+                    <Route path='blog' element={<Blogs/>} />
+                    <Route path='blog/:link' element={<DetailsBlog/>} />
+                    <Route path="terms" element={<Terms/>} />
+                    <Route path="policy" element={<Privacy/>} />
+                    <Route path="FAQs" element={<FAQs/>} />
                     <Route path="services/:link" element={<SubServices/>} />
                 </Route>
             </Routes>

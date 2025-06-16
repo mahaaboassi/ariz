@@ -12,6 +12,8 @@ import ads_4 from "../../../assets/images/ads_4.png"
 import ads_5 from "../../../assets/images/ads_5.png"
 import ads_6 from "../../../assets/images/ads_6.png"
 import ads_7 from "../../../assets/images/ads_7.png"
+import { Link } from "react-router-dom";
+import { calendlyLink } from "../../../data/data";
 
 
 const AdsPaid = ()=>{
@@ -117,7 +119,9 @@ const AdsPaid = ()=>{
                         return(<div key={`Icons_${e.name}_${idx}`}>{e.icon}</div>)
                     })}
                 </div>
-                <div><button>Schedule The Meeting</button></div>
+                <div>
+                    <Link target="_blank" to={calendlyLink}><button>Schedule The Meeting</button></Link>
+                </div>
             </div>
         </div>
     </div>

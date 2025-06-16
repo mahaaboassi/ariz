@@ -124,6 +124,8 @@
     background-color: var(--dark-1);
     border: 2px solid rgba(128, 128, 128, 0.181);
     border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
 }
 .card h3{
     color : var(--yellow-2);
@@ -136,9 +138,36 @@
 .container-image{
     position: absolute;
     top: 0;
-    left: 0;
+    left: -10px;
+    bottom: 0;
     right: 0;
     z-index: 1;
+
+}
+.card:hover{
+    border-top: 2px solid var(--light);
+}
+.cta-card:hover{
+    color: var(--yellow-2);
+}
+.cta-card svg{
+    transition: 0.2s;
+}
+.cta-card:hover svg{
+    margin-left: 3px;
+}
+.cta-card:hover path{
+    fill: var(--yellow-2);
+}
+.cta-card{
+    color: var(--light);
+    font-size: var(--font-size-xs);
+    cursor: pointer;
+
+}
+
+.cta-card path{
+    fill: var(--light);
 
 }
 .container-image img{
@@ -325,6 +354,7 @@
     overflow: hidden;
     position: relative;
     border: 2px solid rgba(128, 128, 128, 0.181);
+    cursor: pointer;
     
 }
 .blog h3{
@@ -334,6 +364,11 @@
     font-size: var(--font-size-s);
     font-weight: 600;
     background: linear-gradient(to top, var(--dark-1) 60%, transparent)
+}
+.blog h3 span{
+    font-size: var(--font-size-xxs);
+    display: flex;
+    font-weight: 500 !important;
 }
 .footer-line{
     height: 2px;
@@ -395,6 +430,10 @@
     }
     .card{
         height: 300px;
+    }
+    .blog img{
+        height: 300px;
+        object-fit: cover;
     }
 
 }

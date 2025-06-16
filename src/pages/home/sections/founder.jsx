@@ -4,7 +4,7 @@ import news from "../../../assets/images/gulf-news.png"
 import stories from "../../../assets/images/uae-stories.png"
 import Heading from "../../../components/heading"
 import { Link } from "react-router-dom"
-import { gulfNewsLink, uaeStoriesLink } from "../../../data/data"
+import { calendlyLink, gulfNewsLink, uaeStoriesLink } from "../../../data/data"
 
 const Founder = ()=>{
     return(<div className="px-4 sm:px-10 py-20 flex flex-col gap-5 founder">
@@ -22,7 +22,7 @@ const Founder = ()=>{
                     <h4>Majid Ahmad – Founder & Marketing Strategist</h4>
                     <p>Leading with Passion, Delivering with Purpose</p>
                     <p>With 10+ years of hands-on experience in digital marketing, Majid Ahmad is the strategic mind behind Ariz Global’s impact across Dubai and the GCC. Recognized for his forward-thinking leadership and data-driven approach, Majid empowers brands through result-oriented marketing strategies. His reputation for integrity, insight, and innovation has made him a trusted advisor to both startups and established businesses navigating the digital landscape.</p>
-                    <button className="!w-full">Book A Meeting</button>
+                    <Link target="_blank" to={calendlyLink}><button className="!w-full">Book A Meeting</button></Link>
                 </div>
             </div>
         </div>

@@ -1,9 +1,11 @@
+import { useEffect } from "react"
 import HeadingForDynamicPages from "../../components/headingForDynamicPages"
 import Lines from "../../components/lines"
 import Subscribe from "../../components/subscribe"
 import { contactInfo } from "../../data/data"
 
 const Contact = ()=>{
+    useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
     return(<div className="contact">
         <Lines isWithGlow={true} children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
             <HeadingForDynamicPages basicTitle={"Keep on Touch"}  firstTitle={"Home"} link={"/"} secondTitle={"Contact"} />

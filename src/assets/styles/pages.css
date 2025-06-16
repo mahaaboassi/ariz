@@ -171,9 +171,112 @@ form textarea{
         transform: translateX(-10px);
     }
 }
+/* Blogs */
+.category-container{
+    flex-wrap: wrap;
+    font-size: var(--font-size-s);
+    font-weight: 600;
+
+}
+.category{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.category:hover{
+    color: var(--yellow-2);
+}
+.category.active{
+    color: var(--yellow-2);
+    position: relative;
+}
+.category.active::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--yellow-2);
+    height: 2px;
+}
+/* Support */
+.support h2{
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--yellow-2);
+    margin-bottom: 3px;
+}
+.support ul{
+    margin-bottom: 3px;
+}
+.support li{
+    font-size: var(--font-size-xxs);
+    margin-top: 5px;
+    position: relative;
+    padding-left: 15px;
+}
+.support li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(var(--yellow-2),var(--yellow-1));
+    border-radius: 50%;
+    top : 50%;
+    transform: translateY(-50%);
+
+}
+/* Blog details */
+
+.details-blog img{
+    border-radius: 10px;
+}
+.details-blog h1{
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+}
+.details-blog p{
+    margin-bottom: 5px;
+}
+.details-blog h2{
+    color: var(--yellow-2);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.details-blog h3{
+    background: linear-gradient(var(--yellow-1),var(--yellow-2));
+    padding: 10px;
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.details-blog h5{
+    font-size: var(--font-size-l);
+    font-weight: 600;
+}
+.details-blog h6{
+    font-size: var(--font-size-xs);
+     transition: 0.3s;
+}
+.card-blog{
+    background-color: var(--dark-1);
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.656);
+   
+}
+.card-blog:hover h6{
+    color: var(--yellow-2);
+}
+.card-blog span{
+    font-size: var(--font-size-xxs);
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
+    }
+    .details-blog h1{
+        font-size: var(--font-size-xl);
     }
 }
 @media (max-width : 900px) {

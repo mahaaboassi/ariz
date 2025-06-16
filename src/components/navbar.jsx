@@ -15,7 +15,7 @@ const Navbar = ()=>{
         link : "/services"
     },{
         name : "Blogs",
-        link : "/blogs"
+        link : "/blog"
     },{
         name : "Contact",
         link : "/contact"

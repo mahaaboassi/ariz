@@ -1,3 +1,162 @@
+// Images
+import blog_1 from "../assets/images/blog-7.png"
+import blog_2 from "../assets/images/blog-10.png"
+import blog_3 from "../assets/images/blog-8.png"
+
+export const calendlyLink ="https://calendly.com/majid-arizglobal/30min"
+export const blogsData = [{
+        title : "Top 5 Digital Marketing Trends to Watch in 2025 ",
+        link : "Top-5-Digital-Marketing-Trends",
+        img : blog_3,
+        date : "Feb 21 , 2025",
+        firstDes :<div>
+             <p>With the digital world changing faster than we can keep up, businesses must stay ahead of the digital marketing landscape. The year 2025 promises a more experience-driven approach to marketing, where customer expectations are higher than ever, and personalization isn’t a luxury but a necessity.</p>
+            <p>Here are the top 5 digital marketing trends you should keep an eye on in 2025:</p>
+        </div>,
+        description : <div className="flex flex-col gap-5">
+            <div>
+                <h2>AI-Powered Personalization</h2>
+                <p>In 2025, artificial intelligence will take personalization to an entirely new level. We’re moving beyond basic email greetings to dynamic, behavior-driven content that adapts in real-time. AI is now capable of analyzing user behavior, preferences, and interactions across multiple channels, then using that data to customize everything from website experiences and product recommendations to social media ads.</p>
+                <p>Expect AI to guide not just what you show your audience, but when, where, and how it’s delivered for maximum impact.</p>
+            </div>
+            <div>
+                <h2> Short-Form Video Content </h2>
+                <p>If there’s one thing that’s become clear over the past few years, it’s that short videos are dominating consumer attention. Platforms like TikTok, Instagram Reels, and YouTube Shorts have completely transformed how audiences consume content, and in 2025, this trend will only intensify. Authenticity will beat high production value, think behind-the-scenes clips, team highlights, quick how-to guides, and relatable storytelling.</p>
+                <p>People want content that’s fast, engaging, and easy to digest. The key is to be real, human, and consistent.</p>
+            </div>
+            <div>
+                <h2>Voice Search Optimization</h2>
+                <p>With the widespread use of smart speakers, mobile assistants, and AI-powered search tools, voice search is becoming a standard part of how people find information. In 2025, optimizing your content for voice search won’t be optional; it’ll be essential. People speak differently than they type, often using longer, more conversational queries like, “What’s the best digital agency near me that does paid ads?”</p>
+                <p>To stay visible, marketers will need to adapt their SEO strategies. Voice search also plays a big role in local SEO, so businesses that rely on location-based customers will benefit greatly from early adoption.</p>
+            </div>
+            <div>
+                <h2>First-Party Data</h2>
+                <p>As privacy regulations tighten and third-party cookies are phased out, marketers in 2025 are shifting their focus to first-party data information collected directly from customers through owned channels like websites, email, apps, and surveys. First-party data not only ensures compliance with new data privacy laws but also gives brands more control over the accuracy and quality of their insights.</p>
+                <p>Brands that build trust and offer real value in exchange for data will come out on top.</p>
+            </div>
+            <div>
+                <h2>Purpose-Driven Branding</h2>
+                <p>In 2025, it’s no longer enough just to offer a great product or service; consumers want to know what your brand stands for. Whether it's sustainability, diversity, ethical sourcing, or community impact, purpose-driven branding is becoming a major differentiator in purchasing decisions. People are choosing brands that align with their values and make a positive impact on the world.</p>
+                <p>Transparency and storytelling will help foster trust and long-term brand loyalty. Purpose isn’t just a trend; it’s a business strategy.</p>
+            </div>
+            <div>
+                <h3>Conclusion</h3>
+                <p>Digital marketing in 2025 is all about connection through personalization, video, voice, trust, and purpose. Brands that embrace these shifts will not only meet consumer expectations but exceed them, creating deeper engagement and more meaningful relationships.</p>
+                <p>Want to future-proof your marketing strategy?</p>
+                <p> At Ariz Global, we help brands stay ahead of the curve with creative, data-driven campaigns that deliver real results. Let’s talk.</p>
+            </div>
+        </div>
+    },{
+        title : "How Your Website Can Grow Your Business in 2025",
+        link : "How-Your-Website-Can-Grow-Your-Business",
+        img : blog_2,
+        firstDes : <div>
+            <p>In today’s digital-first world, your website is so much more than just an online business card; it’s the heart of your brand and one of your most powerful tools for growth.</p>
+            <p>Whether you’re running a startup, offering professional services, or managing an e-commerce store, a well-designed website can help you attract the right audience, turn them into customers, and keep them coming back.</p>
+            <p>Here’s how your website can fuel business growth in 2025 and beyond:</p>
+        </div>,
+        date : "Mar 14 , 2025",
+        description : <div className="flex flex-col gap-5">
+            <div>
+                <h2> Your Website Builds Instant Trust</h2>
+                <p>Let’s face it, first impressions are everything, especially online. Most people will check out your website before they ever contact you. That means your site is your first chance to show them you’re worth their time. In 2025, users expect fast-loading pages, mobile-friendly design, and clear messaging. If your site looks outdated or confusing, you could be losing potential customers in seconds. </p>
+                <p>A modern, user-focused website helps you earn trust and stand out no matter how big or small your business is.</p>
+            </div>
+            <div>
+                <h2>It Works 24/7 to Generate Leads</h2>
+                <p>Your website doesn’t sleep, and that’s a good thing. While you’re off the clock, your site is still working to attract visitors, share your message, and collect leads or sales. With tools like contact forms, live chat, booking systems, and downloadable resources, you can engage potential customers anytime. </p>
+                <p>Pair that with solid content and a smart funnel, and your website becomes a lead-generation machine, no cold calls required.</p>
+            </div>
+            <div>
+                <h2>It Drives Organic Traffic with SEO</h2>
+                <p>Search engine optimization (SEO) is still one of the most cost-effective ways to grow your business, and your website is the star of the show. When your site ranks well on Google for the right keywords, it brings in consistent, high-intent traffic from people already searching for what you offer. In 2025, local SEO, voice search, and user experience are bigger than ever. </p>
+                <p>Having helpful content, fast load times, and a clear structure isn’t just nice, it’s necessary.</p>
+            </div>
+            <div>
+                <h2>It Turns Visitors Into Customers</h2>
+                <p>Good design isn’t just about looking pretty, it’s about getting results. Your website should guide users toward taking action, whether that’s booking a call, making a purchase, or signing up for a service. A conversion-focused website doesn’t just attract visitors it turns them into paying customers.</p>
+            </div>
+            <div>
+                <h2>It Grows With You</h2>
+                <p>One of the biggest perks of a strong website? It scales. As your business grows, your website can grow with it, adding new services, team members, product pages, or integrations without needing a complete overhaul. You can connect it with CRMs, email platforms, payment gateways, and even AI chatbots to improve customer experience and automate your workflows. </p>
+                <p>Your website becomes more than just a digital presence; it becomes a core part of your operations.</p>
+            </div>
+            <div>
+                <h3>Conclusion</h3>
+                <p>When built right, it becomes your most valuable digital asset: bringing in traffic, building trust, and turning visitors into long-term customers.</p>
+                <p>Not seeing those results from your current site? It might be time for a change.</p>
+                <p> At Ariz Global, we design performance-driven websites that don’t just look great - they work. Let’s build a site that works as hard as you do.</p>
+            </div>
+        </div>
+    },{
+        title : "Why Branding Is So Much More Than Just a Logo for your company? ",
+        link : "Why-is-branding-more-than-just-a-logo-for-your-company",
+        img : blog_1,
+        firstDes : <div>
+            <p>When you think of branding, chances are a logo pops into your head, maybe some colors, a cool font, or a sleek website. And while those things are important, they’re just the surface. Real branding goes much deeper.</p>
+            <p>
+                Branding is the feeling people get when they interact with your business. It’s the tone in your emails, the way your team treats customers, the message behind your mission. It’s what makes people remember you  and more importantly, choose you.
+            </p>
+            <p>Here’s why your brand is way more than just a logo and why it’s one of the smartest investments you can make for your business.</p>
+        </div>,
+        date : "Feb 19 , 2025",
+        description : <div className="flex flex-col gap-5">
+            <div>
+                <h2>Branding Shapes How People See You</h2>
+                <p>Your brand is your reputation, the story people tell about you when you’re not in the room. Yes, a good logo helps grab attention. But what really sticks is the vibe you give off. Are you fun and friendly? High-end and polished? Bold and innovative?</p>
+                <p>Branding helps you shape that perception instead of leaving it to chance. It’s how you guide the narrative.</p>
+            </div>
+            <div>
+                <h2>It Builds Trust</h2>
+                <p>We’ve all heard it before, people do business with those they know, like, and trust. Branding helps you build that trust and not just with pretty visuals. It’s about showing up consistently  same tone, same quality, same values across everything you do. From your website and social media to how you respond to a customer email, branding ties it all together.</p>
+                <p>When your brand feels dependable and genuine, people are more likely to believe in what you offer  and stick around.</p>
+            </div>
+            <div>
+                <h2>It Creates Emotional Connection</h2>
+                <p>Think about the brands you love. Not just the ones you buy from, the ones that mean something to you. That connection doesn’t come from a logo, it comes from a feeling. Maybe it’s how the brand made you feel seen. Or the values they stand for. Or the way they made your life easier.</p>
+                <p>Strong branding taps into emotion. It builds loyalty, community, and turns customers into fans.</p>
+            </div>
+            <div>
+                <h2>Branding Makes You Stand Out</h2>
+                <p>Let’s be honest, no matter what industry you're in, you’ve got competition. And in a sea of sameness, a logo alone won’t make you memorable. Your brand is what sets you apart. It’s your voice, your message, your story, your approach. It’s the personality behind your product  and the reason someone picks you over the next option in their feed.</p>
+                <p>Done right, branding turns what you do into why people choose you.</p>
+            </div>
+            <div>
+                <h2>It Gives You Direction as You Grow</h2>
+                <p>Branding isn’t just about looking good, it’s also about staying true to who you are as you scale. A strong brand gives you a clear sense of purpose. It helps you make smart product decisions and keep your message consistent across every stage of growth.</p>
+                <p>Your brand becomes your North Star  guiding decisions big and small.</p>
+            </div>
+            <div>
+                <h3>Conclusion</h3>
+                <p>Branding is the soul of your business. It’s what people remember when the ad is over. It’s how they feel after a conversation with your team. It’s the lasting impression that keeps them coming back and telling others.</p>
+                <p>At Ariz Global, we don’t just design logos  we help businesses build brands with heart, strategy, and soul. If you’re ready to go beyond the visuals and create something unforgettable, let’s talk.</p>
+            </div>
+        </div>
+    }]
+
+
+export const FAGs = [{
+    question :"What services does Ariz Global offer?",
+    answer : " We offer Website Development, Paid Advertising (Google, Meta, LinkedIn, TikTok), Branding & Strategy, SEO, and Content Creation. Our goal is to help businesses grow through strategic digital solutions."
+},{
+    question :"What types of websites do you build?",
+    answer : "From business websites and landing pages to eCommerce stores, we build fast, mobile-friendly, and custom-designed sites tailored to your goals using the latest technology. We also offer ongoing support and maintenance."
+},{
+    question :"How does your paid advertising service work?",
+    answer : "We create and manage ad campaigns on platforms like Google, Facebook, Instagram, TikTok, and LinkedIn. We handle everything - strategy, creatives, targeting, and optimization, to ensure high ROI."
+},{
+    question :"What’s included in your branding services?",
+    answer : "Our branding includes logo design, brand strategy, visual identity, tone of voice, and brand guidelines. We help you build a brand that connects emotionally and stands out."
+},{
+    question :"How much do your services cost?",
+    answer : "Costs vary depending on the project scope. We offer custom quotes and flexible packages to match your goals and budget. Contact us for a free consultation."
+},{
+    question :"How long does a typical project take? ",
+    answer : "Project timelines vary. A standard website takes 3 - 6 weeks from scratch to finish, while ad campaigns and branding projects can range from a few days to several weeks. We always share a clear timeline at the start."
+},{
+    question :"How do I get started with Ariz Global?",
+    answer : "Just reach out or schedule a meeting with our manager. We’ll understand your business, offer tailored recommendations, and walk you through the next steps."
+}]
 export const logo = <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
 <path d="M31.5 63C14.1242 63 0 48.8758 0 31.5C0 14.1242 14.1242 0 31.5 0C48.8758 0 63 14.1242 63 31.5C63 48.8758 48.8758 63 31.5 63ZM31.5 2.03226C15.2419 2.03226 2.03226 15.2419 2.03226 31.5C2.03226 47.7581 15.2419 60.9677 31.5 60.9677C47.7581 60.9677 60.9677 47.7581 60.9677 31.5C60.9677 15.2419 47.7581 2.03226 31.5 2.03226Z" fill="#C3996B"/>
 <path d="M58.6311 31.6016C58.5295 31.5 58.6311 31.5 58.6311 31.5V31.6016Z" fill="#C3996B"/>

@@ -10,7 +10,7 @@ const Footer = ()=>{
         link : "/about"
     },{
         name : "blogs",
-        link : "/"
+        link : "/blog"
     },{
         name : "Contact",
         link : "/contact"
@@ -29,14 +29,14 @@ const Footer = ()=>{
         link : ""
     }]
     const support = [{
-        name : "FAQ",
-        link : "/faqs"
+        name : "FAQs",
+        link : "/FAQs"
     },{
         name : "Privacy policy",
-        link : "/privacy"
+        link : "/policy"
     },{
-        name : "Terms & Conditions",
-        link : "/Terms"
+        name : "Terms of Services",
+        link : "/terms"
     }]
     const icons = [{
         name : "Instagram",
@@ -96,13 +96,13 @@ const Footer = ()=>{
             <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-5 lg:gap-5  xl:gap-10 ">
                 <div className="flex flex-col gap-2 sm:gap-5 pages">
                     <h5>Pages</h5>
-                    {pages.map((e,idx)=>(<Link key={`Pages_Footer_${e.name}_${idx}`} >
+                    {pages.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
                 <div className="flex flex-col gap-2 sm:gap-5 pages">
                     <h5>Support</h5>
-                    {support.map((e,idx)=>(<Link key={`Pages_Footer_${e.name}_${idx}`} >
+                    {support.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
