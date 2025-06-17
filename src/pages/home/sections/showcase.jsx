@@ -8,8 +8,8 @@ import show_5 from "../../../assets/images/show_5.png"
 import show_6 from "../../../assets/images/ariz-2.png"
 import show_7 from "../../../assets/images/foreshore-1.png"
 import show_8 from "../../../assets/images/ariz-3.png"
-import website_foreshore from "../../../assets/images/website-foreshore.png"
-import website_tumbi from "../../../assets/images/website-tumbi.png"
+import website_foreshore from "../../../assets/images/Frame 618.png"
+import website_tumbi from "../../../assets/images/Frame 619.png"
 
 const Showcase = ()=>{
     return(<div className="showcase flex flex-col gap-5 px-4 sm:px-10">
