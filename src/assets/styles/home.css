@@ -273,7 +273,7 @@
     filter: grayscale(0);
     cursor: pointer;
 }
-#img-website{
+#img-website,#img-scroll{
   height: auto;
   width: 100%;
   transition: transform 8s linear ;
@@ -281,6 +281,9 @@
 }
 #img-website:hover{
     transform: translateY(-70%);
+}
+#img-scroll:hover{
+ transform: translateY(-34%);
 }
 /* Steps */
 .container-center{

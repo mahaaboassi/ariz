@@ -3,7 +3,7 @@ import Heading from "../../../components/heading"
 import show_1 from "../../../assets/images/show_1.png"
 import show_2 from "../../../assets/images/ariz-1.png"
 import show_3 from "../../../assets/images/show_3.png"
-import show_4 from "../../../assets/images/show_4.png"
+import show_4 from "../../../assets/images/show_2.png"
 import show_5 from "../../../assets/images/show_5.png"
 import show_6 from "../../../assets/images/ariz-2.png"
 import show_7 from "../../../assets/images/foreshore-1.png"
@@ -18,7 +18,7 @@ const Showcase = ()=>{
             <div className="container-img rounded"><img className="w-full object-cover rounded" src={show_1} alt="show" /></div>
             <div className="container-img"><img className="w-full rounded " id="img-website" src={website_foreshore} alt="show" /></div>
             <div className="container-img"><img className="w-full object-cover rounded" src={show_8} alt="show" /></div>
-            <div className="container-img"><img className="w-full object-cover rounded" src={show_4} alt="show" /></div>
+            <div className="container-img"><img className="w-full rounded" id="img-scroll" src={show_4} alt="show" /></div>
             <div className="container-img"><img className="w-full object-cover rounded" src={show_3} alt="show" /></div>
             <div className="container-img"><img className="w-full object-cover rounded" src={show_7} alt="show" /></div>
 
