@@ -21,9 +21,11 @@ const Showcase = ()=>{
             <div className="container-img"><img className="w-full object-cover rounded" src={show_4} alt="show" /></div>
             <div className="container-img"><img className="w-full object-cover rounded" src={show_3} alt="show" /></div>
             <div className="container-img"><img className="w-full object-cover rounded" src={show_7} alt="show" /></div>
-            <div className="container-img"><img className="w-full object-cover rounded" src={show_2} alt="show" /></div>
-            <div className="container-img "><img className="w-full object-cover rounded" src={show_5} alt="show" /></div>
+
+            <div className="container-img "><img className="w-full object-cover rounded" src={show_2} alt="show" /></div>
+            
             <div className="container-img"><img id="img-website" className="w-full rounded" src={website_tumbi} alt="show" /></div>
+            <div className="container-img md:hidden lg:flex"><img className="w-full object-cover rounded" src={show_5} alt="show" /></div>
             <div className="container-img md:hidden lg:flex"><img className="w-full object-cover rounded" src={show_6} alt="show" /></div>
         </div>
 
