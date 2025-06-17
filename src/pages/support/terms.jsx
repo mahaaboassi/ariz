@@ -14,7 +14,7 @@ const Terms = ()=>{
                 <p>
                     Welcome to Ariz Global. These Terms of Service ("Terms") govern your use of our website and the services we provide. By accessing or using our services, you agree to be bound by these Terms.
                 </p>
-                <p>If you do not agree with these Terms, please do not use our website or services.</p>
+                {/* <p>If you do not agree with these Terms, we ask you to kindly refrain from using our services websites.</p> */}
             </div>
             <div>
                 <h2>1. About Us</h2>

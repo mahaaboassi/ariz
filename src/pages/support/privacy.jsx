@@ -82,7 +82,7 @@ const Privacy = ()=>{
             </div>
             <div>
                 <h2>10. Contact Us</h2>
-                <p>If you have any questions about these Terms, feel free to reach out:</p>
+                <p>If you have any questions about these Privacy Policy, feel free to reach out:</p>
                 <p> Email: info@arizglobal.com</p>
             </div>
             
