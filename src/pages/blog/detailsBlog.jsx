@@ -7,13 +7,13 @@ const FillDetails = ({currentBlog})=>{
     const navigate = useNavigate()
     return<div className="w-full flex flex-col gap-5">
         <div className="flex flex-col gap-6 w-full">
-            <h5>Other Blogs</h5>
+            <h5>Latest Blogs</h5>
             <div className="">
                 {blogsData.map((e,idx)=>{
                     if(currentBlog.title != e.title){
                         return <div onClick={()=>navigate(`/blog/${e.link}`)} className="flex p-4 cursor-pointer card-blog items-center gap-5 mb-5" key={`Other_Blogs_${e.title}_${idx}`}>
                                     <div>
-                                        <img className="w-40 h-24 object-cover" src={e.img} alt={e.title} /> 
+                                        <img className="w-40 h-20 object-cover" src={e.img} alt={e.title} /> 
                                     </div>
                                     <div className="w-full">
                                         <h6>{e.title}</h6>

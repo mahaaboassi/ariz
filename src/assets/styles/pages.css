@@ -271,6 +271,24 @@ form textarea{
 .card-blog span{
     font-size: var(--font-size-xxs);
 }
+.with-circle li{
+    font-size: var(--font-size-xxs);
+    margin-top: 5px;
+    position: relative;
+    padding-left: 15px;
+}
+.with-circle li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(var(--yellow-2),var(--yellow-1));
+    border-radius: 50%;
+    top : 50%;
+    transform: translateY(-50%);
+
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;

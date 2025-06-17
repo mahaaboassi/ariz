@@ -2,6 +2,9 @@
 import blog_1 from "../assets/images/blog-7.png"
 import blog_2 from "../assets/images/blog-10.png"
 import blog_3 from "../assets/images/blog-8.png"
+import blog_4 from "../assets/images/blog-11.png"
+import blog_5 from "../assets/images/blog-12.png"
+import blog_6 from "../assets/images/blog-14.png"
 
 export const calendlyLink ="https://calendly.com/majid-arizglobal/30min"
 export const blogsData = [{
@@ -99,7 +102,7 @@ export const blogsData = [{
             </p>
             <p>Here’s why your brand is way more than just a logo and why it’s one of the smartest investments you can make for your business.</p>
         </div>,
-        date : "Feb 19 , 2025",
+        date : "Feb 5 , 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>Branding Shapes How People See You</h2>
@@ -130,6 +133,176 @@ export const blogsData = [{
                 <h3>Conclusion</h3>
                 <p>Branding is the soul of your business. It’s what people remember when the ad is over. It’s how they feel after a conversation with your team. It’s the lasting impression that keeps them coming back and telling others.</p>
                 <p>At Ariz Global, we don’t just design logos  we help businesses build brands with heart, strategy, and soul. If you’re ready to go beyond the visuals and create something unforgettable, let’s talk.</p>
+            </div>
+        </div>
+    },{
+        title : "What Is Digital Marketing? A Beginner’s Guide for Small Business Owners",
+        link : "What-Is-Digital-Marketing-A-Beginner’s-Guide-for-Small-Business-Owners",
+        img : blog_4,
+        firstDes : <div>
+            <p>If you're running a small business, you've heard people talk about digital marketing. But what does it really mean? And more importantly, how can it actually help you grow?</p>
+            <p>Let’s break it down in a simple way that you can use.</p>
+        </div>,
+        date : "Mar 20 , 2025",
+        description : <div className="flex flex-col gap-5">
+            <div>
+                <h2>So, What Is Digital Marketing?</h2>
+                <p>Digital marketing is just marketing, but online.</p>
+                <p>Instead of handing out flyers or paying for a billboard, you’re using tools like Google, Instagram, email, and your website to connect with people. You're showing up where your customers are already spending time: on their phones, laptops, and tablets.</p>
+                <p>Think of it as meeting your audience where they hang out through screens.</p>
+            </div>
+            <div>
+                <h2>Why Should Small Businesses Care?</h2>
+                <p>Because your customers are online. All. The. Time.</p>
+                <p>When someone needs a product, a service, or even a quick answer, what’s the first thing they do? They search on Google. Or scroll through social media. If your business isn’t showing up there, someone else’s is.</p>
+                <p>The best part? You don’t need a massive budget or a full-time marketing team to make an impact. Digital marketing helps smaller businesses compete and win in today’s online world.</p>
+            </div>
+            <div>
+                <h2>It Creates Emotional Connection</h2>
+                <p>Think about the brands you love. Not just the ones you buy from, the ones that mean something to you. That connection doesn’t come from a logo, it comes from a feeling. Maybe it’s how the brand made you feel seen. Or the values they stand for. Or the way they made your life easier.</p>
+                <p>Strong branding taps into emotion. It builds loyalty, community, and turns customers into fans.</p>
+            </div>
+            <div>
+                <h2>Main Types of Digital Marketing </h2>
+                <p>Here are the core pieces, explained without the jargon:</p>
+                <ul className="flex flex-col gap-2 ">
+                    <li> 
+                        <div><strong>1. Social Media Marketing</strong></div>
+                        <div>Think Instagram, Facebook, LinkedIn, TikTok, wherever your audience hangs out. It’s a place to connect, share, build trust, and even run ads if you’re ready to scale.</div>
+                    </li>
+                    <li> 
+                        <div><strong>2. SEO (Search Engine Optimization)</strong></div>
+                        <div>This is how your website shows up on Google without paying for ads. It’s about creating useful content and using the right words, keywords, so people can find you when they search.</div>
+                    </li>
+                    <li> 
+                        <div><strong>3. Paid Ads (PPC)</strong></div>
+                        <div>Want quick visibility? Platforms like Google Ads and Facebook Ads let you pay to show up in front of your ideal audience. It’s great for testing offers and driving fast traffic or leads.</div>
+                    </li>
+                    <li> 
+                        <div><strong>4. Email Marketing</strong></div>
+                        <div>Don’t underestimate email. It’s still one of the most powerful ways to keep in touch with your customers, send updates, and encourage repeat business.</div>
+                    </li>
+                    <li> 
+                        <div><strong>5. Content Marketing</strong></div>
+                        <div>This includes blogs, videos, reels, guides, and anything you create to educate or help your audience. Great content builds trust and keeps people coming back.</div>
+                    </li>
+                    <li> 
+                        <div><strong>6. Website Marketing</strong></div>
+                        <div>Your website is your online home base. It should clearly say who you are, what you do, and how to get in touch. It also supports all your other marketing efforts.</div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>What Does a Simple Digital Marketing Plan Look Like?</h2>
+                <p>You don’t need to do everything at once. Here’s a basic starter plan:</p>
+                <ul className="with-circle">
+                    <li>Launch a clear, professional website that explains your offer</li>
+                    <li>Set up a Google Business Profile to boost local visibility</li>
+                    <li>Pick one social media platform and start posting regularly</li>
+                    <li>Collect emails</li>
+                    <li>Write helpful content blogs or posts that answer common questions</li>
+                    <li>Try a small paid ad campaign to test interest or drive traffic</li>
+                </ul>
+                <div className="p-4"><strong>Start small. Build as you go.</strong></div>
+            </div>
+            <div>
+                <h3>Conclusion</h3>
+                <p>Digital marketing can feel overwhelming, especially with new trends popping up every week. But here’s the truth: you don’t need to master everything. You just need to start somewhere, keep it simple, and stay consistent.</p>
+                <p>At Ariz Global, we help small businesses like yours build websites, run ads, and create digital strategies that work.</p>
+                <p>Let’s make digital marketing feel a little less intimidating.</p>
+            </div>
+        </div>
+    },{
+        title : "Personal vs. Business Branding: What’s the Difference and Which One Do You Need?",
+        link : "Personal-vs-Business-Branding-What’s-the-Difference-and-Which-One-Do-You-Need",
+        img : blog_5,
+        firstDes : <div>
+            <p>When you’re starting to build your presence online, one of the first big questions many entrepreneurs and small business owners face is: Should I focus on building a personal brand or a business brand? It’s a smart question, and the answer depends on your goals, your industry, and how you see your business growing over time.</p>
+        </div>,
+        date : "Apr 20 , 2025",
+        description : <div className="flex flex-col gap-5">
+            <div>
+                <h2>What Is a Personal Brand, Exactly</h2>
+                <p>A personal brand is built around you, your name, your story, your face, and your voice. You’re not just representing a service or product; you are the brand. This approach is ideal for coaches, consultants, creatives, influencers, or any kind of expert who wants to be the recognizable face behind what they offer. People connect with personal brands because they feel human, relatable, and trustworthy. Think of people who have built massive followings around who they are, not just what they sell.</p>
+            </div>
+            <div>
+                <h2>What’s a Business Brand Then?</h2>
+                <p>A business brand is built around a company name, logo, and visual identity that’s separate from any one person. It’s the brand people recognize, not necessarily the individual behind it. This route is great for startups, product-based businesses, agencies, or any company you eventually want to scale, hire for, or even sell one day. Brands like Apple, Airbnb, or even Ariz Global are strong examples that the personality comes from the brand voice, not a single person.</p>
+            </div>
+            <div>
+                <h2>Quick Comparison: Personal vs. Business Brand</h2>
+                <p>There are some clear differences between the two. A personal brand can feel more human and authentic, and it often builds trust faster. It’s usually easier to get started because you don’t need much more than your story and a phone. But it can also be harder to scale, delegate, or take a step back, since the business is tied so closely to you. A business brand, while requiring more work upfront, offers more flexibility. It’s easier to grow a team under it, easier to sell, and you don’t always have to be “on.” That said, it can feel a bit more distant if you don’t put in the effort to give it personality.</p>
+                <p>So, how do you decide? Ask yourself a few key questions. Do people want to work directly with you? Then, a personal brand might make sense. Are you planning to grow a team or eventually exit the business? Then, building a business brand might be a better long-term strategy. If you’re offering a service, either path could work depending on your style. But if you're selling a product, business branding is usually the better fit. Also, think about whether you're comfortable being the face of your brand for the long haul. Some people love it, others don’t.</p>
+            </div>
+            <div>
+                <h2>Can You Combine Both?</h2>
+                <p>Here’s the good news: you don’t necessarily have to choose just one. Many successful entrepreneurs build both. You can lead with your personal story to build trust, while also growing a business brand that’s structured and scalable. This gives you the best of both worlds  connection and credibility.</p>
+            </div>
+            <div>
+                <h3>Conclusion</h3>
+                <p>At the end of the day, there’s no one-size-fits-all answer. The most important thing is to be intentional with how you show up. Whether you lean into your identity or build a company-driven brand, make sure it aligns with where you are now and where you want to go next.</p>
+                <p>At Ariz Global, we help entrepreneurs and small businesses build personal and business brands that connect, convert, and grow. Whether you're starting from scratch or ready to elevate your current brand, we’ll help you build something that feels true to you and powerful in the market.</p>
+                <p>Let’s make it happen, together.</p>
+            </div>
+        </div>
+    },{
+        title : "Why Smart SEO Is Essential for Sustainable Business Growth in 2025",
+        link : "Why-Smart-SEO-Is-Essential-for-Sustainable-Business-Growth-in-2025",
+        img : blog_6,
+        firstDes : <div>
+            <p>In today’s digital world, having a stunning website or amazing product just isn’t enough. If people can’t find you online, it’s like you don’t exist, no matter how great your offer is.</p>
+            <p>That’s where SEO (Search Engine Optimization) comes in.</p>
+            <p>Whether you’re a local business, a service provider, or running an online store, SEO is one of the smartest, most cost-effective ways to attract the right people, build trust, and grow consistently without relying on paid ads 24/7.</p>
+            <p>Let’s break down why SEO matters more than ever in 2025 and how it can help take your business to the next level.</p>
+        </div>,
+        date : "Apr 20 , 2025",
+        description : <div className="flex flex-col gap-5">
+            <div>
+                <h2>SEO Brings You Organic, High-Intent Traffic</h2>
+                <p>When someone types a search into Google, they’re not just browsing; they’re actively looking for something. A product, a service, an answer. That’s high-intent. With SEO, your business shows up right when people need you. You’re not interrupting them, they’re coming to you.</p>
+                <p>And the best part? Unlike ads, SEO doesn’t stop working when your budget does. Once your pages rank, they can bring in traffic 24/7, totally free.</p>
+            </div>
+            <div>
+                <h2>Your Customers Are Searching. Are You Showing Up?</h2>
+                <p>Most online journeys start with a Google search. If your business isn’t showing up near the top, someone else’s is, and they’re getting the clicks, the calls, and the sales. Good SEO helps you show up for what people are searching for:</p>
+                <ul className="with-circle">
+                    <li>The products or services you offer</li>
+                    <li>Questions about your industry</li>
+                    <li>Problems you help solve</li>
+                    <li>Even your own brand name</li>
+                </ul>
+                <p>The better your SEO, the easier it is for customers to find you and trust you.</p>
+            </div>
+            <div>
+                <h2>SEO Builds Trust and Credibility</h2>
+                <p>People trust what they find on Google. So if your website is ranking high, it sends a message: this business knows what they’re doing. When your site is well-optimized, full of valuable content, and getting mentioned (linked to) by other credible sites, you start to build real authority in your industry and in your customers’ eyes.</p>
+            </div>
+            <div>
+                <h2>SEO Improves User Experience</h2>
+                <p>Good SEO isn’t just about keywords, it’s about creating a smooth, helpful, and enjoyable experience for your visitors. That means your site should:</p>
+                <ul className="with-circle">
+                    <li>Load quickly</li>
+                    <li>Be mobile-friendly</li>
+                    <li>Be easy to navigate</li>
+                    <li>Offer clear, useful content</li>
+                </ul>
+                <p>When your website works well for people, it works well for Google and vice versa. That leads to higher rankings, better engagement, and more conversions.</p>
+            </div>
+            <div>
+                <h2>Local SEO = More Customers in Your Area</h2>
+                <p>If you’re a local business, this one’s huge. Local SEO helps you show up when someone searches “near me” or looks for services in your city or neighborhood. Think: “best coffee shop in Dubai” or “digital agency near me.”</p>
+                <p>With the right local SEO setup, including Google Business Profile, reviews, and location-specific content, you’ll be the one they find first. And that means more foot traffic, more calls, and more local leads.</p>
+            </div>
+            <div>
+                <h2>Your Competitors Are Doing It</h2>
+                <p>Here’s the reality: if you’re not working on your SEO, your competitors probably are. And every time someone clicks on their site instead of yours, that’s not just a missed visit it’s a missed customer. Staying ahead means staying visible. And in 2025, visibility = SEO.</p>
+            </div>
+            <div>
+                <h3>Conclusion</h3>
+                <p>SEO Isn’t Optional Anymore, It’s Essential. In today’s digital-first world, SEO isn’t a luxury or an afterthought; it’s a must. It helps people find you, trust you, and choose you all without throwing money at ads every month. It’s how small businesses compete, scale, and win online.</p>
+                <p>And the best time to start? Yesterday. The next best time? Right now.</p>
+                <p>At Ariz Global, we help businesses like yours climb the search rankings with SEO strategies that are smart, personalized, and designed for long-term growth.</p>
+                <p>If you're ready to stop guessing and start getting found, let’s talk.</p>
             </div>
         </div>
     }]
