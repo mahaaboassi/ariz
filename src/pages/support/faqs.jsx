@@ -24,7 +24,7 @@ const FAQs = ()=>{
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
                 <HeadingForDynamicPages basicTitle={"Frequently Asked Questions"}  firstTitle={"Home"} link={"/"} secondTitle={"FAQs"}  />
             </div>} />
-            <div className="flex flex-col gap-5 px-4 sm:px-10 mb-16">
+            <div className="flex flex-col gap-5 px-4 sm:px-10 mb-16 md:w-3/4 m-auto">
                     {FAGs.map((e,idx)=>(<Accordion 
                                     key={`FAQs_${e.question}_${idx}`}
                                     question={e.question} answer={e.answer}  

@@ -16,13 +16,13 @@
     transition: opacity 0.2s ease,height 0.3s ease; 
     overflow: hidden;
 }
-.icon{
+.icon-accordion{
     font-weight: 600;
     position: relative;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    /* background: linear-gradient(to Right , var(--yellow-1), var(--yellow-2)); */
+    background: linear-gradient(to Right , var(--yellow-1), var(--yellow-2));
 }
 .content-active{
     opacity: 1;
