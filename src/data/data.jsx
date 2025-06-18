@@ -11,7 +11,8 @@ export const blogsData = [{
         title : "Top 5 Digital Marketing Trends to Watch in 2025 ",
         link : "Top-5-Digital-Marketing-Trends",
         img : blog_3,
-        date : "Feb 21 , 2025",
+        cat_id : 1,
+        date : "May 21 , 2025",
         firstDes :<div>
              <p>With the digital world changing faster than we can keep up, businesses must stay ahead of the digital marketing landscape. The year 2025 promises a more experience-driven approach to marketing, where customer expectations are higher than ever, and personalization isn’t a luxury but a necessity.</p>
             <p>Here are the top 5 digital marketing trends you should keep an eye on in 2025:</p>
@@ -53,12 +54,13 @@ export const blogsData = [{
         title : "How Your Website Can Grow Your Business in 2025",
         link : "How-Your-Website-Can-Grow-Your-Business",
         img : blog_2,
+        cat_id : 3,
         firstDes : <div>
             <p>In today’s digital-first world, your website is so much more than just an online business card; it’s the heart of your brand and one of your most powerful tools for growth.</p>
             <p>Whether you’re running a startup, offering professional services, or managing an e-commerce store, a well-designed website can help you attract the right audience, turn them into customers, and keep them coming back.</p>
             <p>Here’s how your website can fuel business growth in 2025 and beyond:</p>
         </div>,
-        date : "Mar 14 , 2025",
+        date : "Apr 26 , 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2> Your Website Builds Instant Trust</h2>
@@ -93,6 +95,7 @@ export const blogsData = [{
         </div>
     },{
         title : "Why Branding Is So Much More Than Just a Logo for your company? ",
+        cat_id : 2,
         link : "Why-is-branding-more-than-just-a-logo-for-your-company",
         img : blog_1,
         firstDes : <div>
@@ -102,7 +105,7 @@ export const blogsData = [{
             </p>
             <p>Here’s why your brand is way more than just a logo and why it’s one of the smartest investments you can make for your business.</p>
         </div>,
-        date : "Feb 5 , 2025",
+        date : "Apr 14 , 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>Branding Shapes How People See You</h2>
@@ -137,13 +140,14 @@ export const blogsData = [{
         </div>
     },{
         title : "What Is Digital Marketing? A Beginner’s Guide for Small Business Owners",
+        cat_id : 1,
         link : "What-Is-Digital-Marketing-A-Beginner’s-Guide-for-Small-Business-Owners",
         img : blog_4,
         firstDes : <div>
             <p>If you're running a small business, you've heard people talk about digital marketing. But what does it really mean? And more importantly, how can it actually help you grow?</p>
             <p>Let’s break it down in a simple way that you can use.</p>
         </div>,
-        date : "Mar 20 , 2025",
+        date : "Apr 5 , 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>So, What Is Digital Marketing?</h2>
@@ -214,12 +218,13 @@ export const blogsData = [{
         </div>
     },{
         title : "Personal vs. Business Branding: What’s the Difference and Which One Do You Need?",
+        cat_id : 2,
         link : "Personal-vs-Business-Branding-What’s-the-Difference-and-Which-One-Do-You-Need",
         img : blog_5,
         firstDes : <div>
             <p>When you’re starting to build your presence online, one of the first big questions many entrepreneurs and small business owners face is: Should I focus on building a personal brand or a business brand? It’s a smart question, and the answer depends on your goals, your industry, and how you see your business growing over time.</p>
         </div>,
-        date : "Apr 20 , 2025",
+        date : "Feb 15 , 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>What Is a Personal Brand, Exactly</h2>
@@ -247,6 +252,7 @@ export const blogsData = [{
         </div>
     },{
         title : "Why Smart SEO Is Essential for Sustainable Business Growth in 2025",
+        cat_id : 4,
         link : "Why-Smart-SEO-Is-Essential-for-Sustainable-Business-Growth-in-2025",
         img : blog_6,
         firstDes : <div>
@@ -255,7 +261,7 @@ export const blogsData = [{
             <p>Whether you’re a local business, a service provider, or running an online store, SEO is one of the smartest, most cost-effective ways to attract the right people, build trust, and grow consistently without relying on paid ads 24/7.</p>
             <p>Let’s break down why SEO matters more than ever in 2025 and how it can help take your business to the next level.</p>
         </div>,
-        date : "Apr 20 , 2025",
+        date : "Jun 20 , 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>SEO Brings You Organic, High-Intent Traffic</h2>
@@ -1557,7 +1563,7 @@ export const services = [{
                 </svg>,
                 title : "Content Strategy & Branding Consistency",
                 sub_title : "We plan your content ensuring every post aligns with your brand identity.",
-                options : ["Monthly content calendar","Trending topics and hashtag research","Monthly content calendar"]
+                options : ["Monthly content calendar","Trending topics and hashtag research","Custom captions tailored to your brand voice"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="53" height="50" viewBox="0 0 53 50" fill="none">
                         <g clipPath="url(#clip0_671_940)">
@@ -2205,7 +2211,7 @@ export const services = [{
                         </svg>,
                 title : "Server Configuration & App Deployment",
                 sub_title : "We provide full-stack app deployment with server setups and backend integration.",
-                options : ["Node.js, Express, MongoDB, MySQL setup","React/Next.js app deployment","PM2 & auto-restart monitoring tools"]
+                options : ["Node.js, Express, MongoDB setup","React/Next.js app deployment","PM2 & auto-restart monitoring tools"]
             }]
         },
         section_2 : {

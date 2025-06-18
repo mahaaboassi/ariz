@@ -19,10 +19,19 @@ const Blogs = ()=>{
         category : "Web Development",
     }, {
         id: 4,
-        category: "Design & Creativity",
+        category: "SEO Services",
     },]
     const navigate = useNavigate()
     const [ currentCategory, setCurrentCategory ] = useState(0)
+    const [ blogs, setBlogs] = useState([])
+    useEffect(()=>{
+        if(currentCategory == 0){
+            setBlogs(blogsData)
+        }else {
+            const temp = blogsData.filter((e)=>e.cat_id == currentCategory)
+            setBlogs(temp)
+        }
+    },[currentCategory])
     useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
     return(<div className="flex flex-col gap-10">
         <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
@@ -31,9 +40,9 @@ const Blogs = ()=>{
         </div>} />
         <div className="px-4 sm:px-10">
             <div className="flex gap-4 category-container ">
-                <div className={`category ${currentCategory === 0 ? "active" : ""}`}>All</div>
+                <div onClick={()=>setCurrentCategory(0)} className={`category ${currentCategory === 0 ? "active" : ""}`}>All</div>
                 {
-                    categories.map((e,idx)=>(<div className={`category ${currentCategory === e.id ? "active" : ""}`} key={`category_${e.category}_${idx}`}>
+                    categories.map((e,idx)=>(<div onClick={()=>setCurrentCategory(e.id)} className={`category ${currentCategory === e.id ? "active" : ""}`} key={`category_${e.category}_${idx}`}>
                         {e.category}
                     </div>))
                 }
@@ -41,7 +50,7 @@ const Blogs = ()=>{
         </div>
         <div className="px-4 sm:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
                 {
-                    blogsData.map((e,idx)=>(<div onClick={()=>navigate(`/blog/${e.link}`)} className="blog" key={`Blog_${e.title}_${idx}`}>
+                    blogs.map((e,idx)=>(<div onClick={()=>navigate(`/blog/${e.link}`)} className="blog" key={`Blog_${e.title}_${idx}`}>
                             <img className="w-full" src={e.img} alt={`Image_${idx}`} />
                             <h3 className="w-full">{e.title}
 
