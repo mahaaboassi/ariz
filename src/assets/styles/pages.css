@@ -8,6 +8,9 @@
     background : url("../images/man-star.png");
     background-size: contain;
     background-repeat: no-repeat;
+     background-size: 80%;
+     background-position-y: -50px;
+
 }
 .container-vision img{
     position: absolute;
@@ -91,6 +94,7 @@ form textarea{
 }
 .sub-services img{
     border-radius: 10px;
+    width: 60vw;
 }
 .card-tools{
 
@@ -121,13 +125,15 @@ form textarea{
     background-color: white;
     position: absolute;
     border-radius: 10px;
-    width: 80px;
+    width: 180px;
+    height: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 .icon-absolute svg{
-    height: 50px !important;
+    width:  80px !important;
 }
 .icon-absolute-1{
     top: 10px;
@@ -292,13 +298,26 @@ form textarea{
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
+        background-position-y: unset;
+        /* background-size: 70%; */
     }
     .details-blog h1{
         font-size: var(--font-size-xl);
     }
+    .sub-services img{
+        border-radius: 10px;
+        width: 70vw;
+    }
 }
-@media (max-width : 900px) {
-
+@media (max-width : 1000px) {
+    .icon-absolute {
+        width: 130px;
+        height: 60px;
+    }
+    .icon-absolute svg{
+        width: 60px !important;
+        height: 60px !important;
+    }
     
 }
 @media (max-width: 768px) {
@@ -315,15 +334,20 @@ form textarea{
     .image-as-svg svg{
         height: 300px;
     }
-    .icon-absolute{
-        width: 60px;
-    }
+
     .card-about svg{
         width: 40px;
     }
+    .sub-services img{
+        width: 85vw;
+    }
+    .icon-absolute{
+        width: 80px;
+        height: 50px;
+    }
     .icon-absolute svg{
-        width: 40px !important;
-        height: 40px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
     .icon-absolute-1{
         top: 5px;
@@ -344,12 +368,31 @@ form textarea{
     .card-info-contact svg{
         width: 40px;
     }
+    .icon-absolute{
+        width: 60px;
+        height: 40px;
+    }
+    .icon-absolute svg{
+        width: 40px !important;
+        height: 40px !important;
+    }
 
     
 }
 @media (max-width : 450px) {
     .image-as-svg svg{
         height: 250px;
+    }
+    .sub-services img{
+        width: 85vw;
+    }
+    .icon-absolute{
+        width: 60px;
+        height: 40px;
+    }
+    .icon-absolute svg{
+        width: 30px !important;
+        height: 30px !important;
     }
     
 }
