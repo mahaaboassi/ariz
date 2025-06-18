@@ -6,6 +6,7 @@ import blog_4 from "../assets/images/blog-11.png"
 import blog_5 from "../assets/images/blog-12.png"
 import blog_6 from "../assets/images/blog-14.png"
 
+
 export const calendlyLink ="https://calendly.com/majid-arizglobal/30min"
 export const blogsData = [{
         title : "Top 5 Digital Marketing Trends to Watch in 2025 ",
@@ -1678,7 +1679,13 @@ export const services = [{
                 name : "Linkedin",
             }]
         },
-        img : sociaMediaMarketing
+        img : sociaMediaMarketing,
+        meta : {
+            title : "Social Media Strategy | Ariz Global",
+            description : "Ariz Global creates tailored social media strategies that engage audiences, boost brand presence, and drive conversions through organic content and targeted paid campaigns.",
+            keywords : "social media marketing, social media strategy, brand engagement, paid social ads, organic content creation, social media campaigns, brand awareness, audience targeting, content management, digital marketing agency",
+            link : `${hostCanonical}/services/social-media-strategy`
+        },
     },{
         name : "PPC & Paid Advertising",
         link : "/services/PPC-and-paid-advertising",
@@ -1806,7 +1813,13 @@ export const services = [{
                 name : "Linkedin",
             }]
         },
-        img : PPc
+        img : PPc,
+        meta : {
+            title : "PPC & Paid Advertising | Ariz Global",
+            description : "Ariz Global creates tailored social media strategies that engage audiences, boost brand presence, and drive conversions through organic content and targeted paid campaigns.",
+            keywords : "social media marketing, social media strategy, brand engagement, paid social ads, organic content creation, social media campaigns, brand awareness, audience targeting, content management, digital marketing agency",
+            link : `${hostCanonical}/services/PPC-and-paid-advertising`
+        },
     },{
         name : "Branding & Graphic Design",
         link : "/services/branding-and-graphic-design",

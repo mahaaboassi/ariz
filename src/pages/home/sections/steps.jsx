@@ -31,7 +31,7 @@ const Steps = ()=>{
                         </div>
                     </div>
                     <h3>Discovery</h3>
-                    <p>We start by deeply understanding your business, goals, and audience to uncover real opportunities for digital growth, clarity, alignment, and impact.</p>
+                    <p>We start by deeply understanding your business, goals, and audience to uncover real opportunities for digital growth, alignment, and impact.</p>
                 </div>
                 <div className="card-steps p-4 ">
                     <div className="flex justify-between">
