@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 
 const ServicesPopup = ({closeServices,view,returnValue})=>{
     const data = [{
-        name : "Social Media Strategy",
-        link : "/services/social-media-strategy"
+        name : "Social Media Management",
+        link : "/services/social-media-management"
     },{
         name : "PPC & Paid Advertising",
-        link : "/services/PPC-and-paid-advertising"
+        link : "/services/ppc-and-paid-advertising"
     },{
         name : "Branding & Graphic Design",
         link : "/services/branding-and-graphic-design"

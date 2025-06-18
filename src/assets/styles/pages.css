@@ -110,7 +110,7 @@ form textarea{
     background: var(--dark-1);
     border: 1px solid rgba(128, 128, 128, 0.656);
     border-radius: 10px;
-    height: 100px;
+    height: 120px;
     margin-top: -50px;
     display: flex;
     justify-content: center;

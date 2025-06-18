@@ -14,7 +14,7 @@ const Terms = ()=>{
 
         <div className="flex flex-col gap-10">
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
-                <HeadingForDynamicPages basicTitle={"Terms Of Service"}  firstTitle={"Home"} link={"/"} secondTitle={"Terms"}  />
+                <HeadingForDynamicPages basicTitle={"Terms & Conditions"}  firstTitle={"Home"} link={"/"} secondTitle={"Terms"}  />
             </div>} />
             <div className="px-4 sm:px-10  flex flex-col gap-5 support mb-16">
                 <div>

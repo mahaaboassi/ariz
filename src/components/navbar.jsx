@@ -28,7 +28,7 @@ const Navbar = ()=>{
             setIsOpenMenu(false)
             setOpenServices(false)
         }} view={openServices} closeServices={closeServices} />}
-        <div className="content-nav px-8 sm:py-3">
+        <div className="content-nav px-8 md:px-10 sm:py-3">
             <div><Link to={"/"}>{logo}</Link> </div>
             <div>
                 <div onClick={()=>setIsOpenMenu(!isOpenMenu)} className={`container-menu-lines px-3 ${isOpenMenu?"close-icon-menu":""}`}>
@@ -36,8 +36,7 @@ const Navbar = ()=>{
                     <div className="line-menu-2"></div>
                     <div className="line-menu-3"></div>
                 </div>
-                <ul className={`gap-3 ${isOpenMenu?"open":""}`}>
-                    
+                <ul className={`gap-8 ${isOpenMenu?"open":""}`}>
                     {data.map((e,idx)=>{
                         if(e.name == "Services"){
                             return <li

@@ -22,6 +22,12 @@ const SubServices = ()=>{
         setCurrentServices(services.find((e)=> e.link == `/services/${link}`))}
         ,[link])
     return("name" in currentServices && <article>
+
+        <title>{currentServices.meta.title}</title>
+        <meta name="description" content={currentServices.meta.description} />
+        <meta name="keywords" content={currentServices.meta.keywords} />
+        <link rel="canonical" href={currentServices.meta.link} />
+
         <div className="sub-services flex flex-col gap-10">
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
                 <HeadingForDynamicPages basicTitle={currentServices.name}  firstTitle={"Home"} link={"/"} secondTitle={"services"} />
@@ -124,7 +130,7 @@ const SubServices = ()=>{
                         slidesPerView={1}
                         allowTouchMove={true}
                         autoplay={{
-                            delay: 2500,
+                            delay: 1500,
                             disableOnInteraction: false,
                             pauseOnMouseEnter: false,
                         }}

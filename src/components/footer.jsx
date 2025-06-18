@@ -35,7 +35,7 @@ const Footer = ()=>{
         name : "Privacy policy",
         link : "/policy"
     },{
-        name : "Terms of Services",
+        name : "Terms & Conditions",
         link : "/terms"
     }]
     const icons = [{

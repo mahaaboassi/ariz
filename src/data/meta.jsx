@@ -1,4 +1,4 @@
-const hostCanonical = "https://arizglobal.com"
+export const hostCanonical = "https://arizglobal.com"
 
 export const MetaData = {
     home : {
@@ -20,7 +20,7 @@ export const MetaData = {
         link : `${hostCanonical}/contact`
     },
     blog : {
-        title : "Insights & Trends in Digital Marketing | Ariz Global",
+        title : "Marketing Insights | Ariz Global",
         description : "Explore the latest articles, expert tips, and industry trends in digital marketing, branding, SEO, and web development from Ariz Global’s thought leaders.",
         keywords : "digital marketing blog, branding insights, SEO tips, web development trends, marketing strategies, Ariz Global blog, luxury brand marketing, online marketing articles",
         link : `${hostCanonical}/blog`
@@ -32,8 +32,8 @@ export const MetaData = {
         link : `${hostCanonical}/FAQs`
     },
     terms : {
-        title : "Terms of Service | Ariz Global",
-        description : "Read the terms of service governing the use of Ariz Global’s website and digital marketing services.",
+        title : "Terms & Conditions | Ariz Global",
+        description : "Read the Terms & Conditions governing the use of Ariz Global’s website and digital marketing services.",
         keywords : "terms and conditions, user agreement, service terms, Ariz Global policies, website terms, marketing service agreement",
         link : `${hostCanonical}/terms`
     },

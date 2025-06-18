@@ -19,7 +19,7 @@ const Services = ()=>{
                     <div className="col-second-line"></div>
                     <div className="content-card p-5 md:p-10 flex flex-col gap-2">
                         <div className="flex justify-end h-42">{digital}</div>
-                        <h3>Social Media Strategy </h3>
+                        <h3>Social Media Management</h3>
                         <p>Enhanced brand visibility and improved audience engagement across top platforms.</p>
                         <Link  to={"/services/social-media-strategy"}>
                             <div className="flex gap-2 items-center cta-card">

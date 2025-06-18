@@ -1,15 +1,15 @@
 const Metrics = ()=>{
     const data = [{
-        num : "+1000",
+        num : "1000+",
         des : "Projects Done"
     },{
-        num : "+375",
-        des : "Statisfied Customers"
+        num : "375+",
+        des : "Satisfied Customers"
     },{
         num : "20K",
         des : "Campaigns Processed "
     },{
-        num : "+20",
+        num : "20+",
         des : "Team of Professionals"
     }]
     return(<div className="grid grid-cols-4 px-4 sm:px-10 metrics pt-10">

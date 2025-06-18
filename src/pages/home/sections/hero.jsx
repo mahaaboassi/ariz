@@ -106,32 +106,33 @@ const Hero = ()=>{
         setInterval(()=>{setIndex(prev => prev == words.length -1 ? 0 : prev+1)},4000)
     },[index])
     return (<div className="hero-section mt-32 flex flex-col gap-6 md:gap-10">
-        <h1>Ariz Global – Digital Marketing Experts
-            <br/>in Dubai, UAE</h1>
-        <div className="flex justify-center">
-            <h2>We Provide  <TypeAnimation
-                                sequence={[
-                                    'Brand Identity',
-                                    1500, 
-                                    'Logo Design',
-                                    1500,
-                                    'Reels & Stories',
-                                    1500,
-                                    'Website Design',
-                                    1500,
-                                    'Content Creation',
-                                    1500,
-                                    'Google Ads',
-                                    1500,
-                                    'Facebook Ads',
-                                    1500,
-                                    'Instagram Ads',
-                                    1500,
-                                ]}
-                                wrapper="span"
-                                speed={15}
-                                repeat={Infinity}
-                                /> </h2>
+        <div>
+                <h1 className="my-5">Strategize. Optimize. Succeed</h1>
+                <div className="flex justify-center">
+                <h2>We Provide  <TypeAnimation
+                                        sequence={[
+                                        'Brand Identity',
+                                        1500, 
+                                        'Logo Design',
+                                        1500,
+                                        'Reels & Stories',
+                                        1500,
+                                        'Website Design',
+                                        1500,
+                                        'Content Creation',
+                                        1500,
+                                        'Google Ads',
+                                        1500,
+                                        'Facebook Ads',
+                                        1500,
+                                        'Instagram Ads',
+                                        1500,
+                                        ]}
+                                        wrapper="span"
+                                        speed={15}
+                                        repeat={Infinity}
+                                        /> </h2>
+                </div>
         </div>
         <div className="flex justify-center" >
             <div className="square-1 flex justify-center items-center">

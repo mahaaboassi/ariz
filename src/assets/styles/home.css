@@ -7,6 +7,7 @@
     font-size: var(--font-size-3xl );
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 .hero-section h2{
     font-size: var(--font-size-xl );
