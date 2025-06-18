@@ -120,6 +120,7 @@
     color: var(--yellow-2);
     font-size: var(--font-size-xxl);
     font-weight: 500;
+    line-height: 2.5rem;
 }
 .card{
     background-color: var(--dark-1);
@@ -127,6 +128,7 @@
     border-radius: 10px;
     overflow: hidden;
     transition: 0.3s;
+    cursor: pointer;
 }
 .card h3{
     color : var(--yellow-2);
@@ -183,6 +185,7 @@
 .row-line{
     height: 2px;
     background-color: var(--light);
+    opacity: 0.6;
     position: absolute;
     top: 20px;
     width: 60%;
@@ -192,6 +195,7 @@
 .row-second-line{
     height: 2px;
     background-color: var(--light);
+    opacity: 0.2;
     position: absolute;
     top: 90px;
     width: 40%;
@@ -201,6 +205,7 @@
 .col-line{
     width: 2px;
     background-color: var(--light);
+    opacity: 0.6;
     position: absolute;
     top: 0;
     height:  60%;
@@ -210,6 +215,7 @@
 .col-second-line{
     width: 2px;
     background-color: var(--light);
+    opacity: 0.2;
     position: absolute;
     top: 0;
     height: 40%;
