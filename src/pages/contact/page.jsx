@@ -4,6 +4,7 @@ import Lines from "../../components/lines"
 import Subscribe from "../../components/subscribe"
 import { contactInfo } from "../../data/data"
 import { MetaData } from "../../data/meta"
+import { Link } from "react-router-dom"
 
 const Contact = ()=>{
     useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
@@ -40,10 +41,14 @@ const Contact = ()=>{
                             <h2>Let’s Create the Future of Your Brand — Together</h2>
                             <p>Let’s connect and explore how we can transform your ideas into measurable results. Your future starts with a conversation.</p>
                             
-                            {contactInfo.map((e,idx)=>(<div className="flex items-center p-4 card-info-contact" key={`Contact_Info_${e.name}_${idx}`}>
-                                <div className="w-20">{e.icon}</div>
-                                <div className="w-full">{e.value}</div>
-                            </div>))}
+                            {contactInfo.map((e,idx)=>(<Link to={e.link} target="_blank" >
+                                <div className="flex items-center p-4 card-info-contact" key={`Contact_Info_${e.name}_${idx}`}>
+                                    <div className="w-20">
+                                        <img alt={e.name} src={e.icon} />
+                                    </div>
+                                    <div className="w-full">{e.value}</div>
+                                </div>
+                            </Link>))}
                         
                         </div>
                     </div>

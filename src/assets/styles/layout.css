@@ -434,6 +434,58 @@ p{
 .intro-heading a{
     color: var(--yellow-2);
 }
+/* Icons Contact Fixed */
+.icons-fixed{
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    
+}
+.icons-fixed .conatiner-icon{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(var(--yellow-1),var(--yellow-2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.value-icon{
+    color: white;
+    background-color: var(--dark-1);
+    position: fixed;
+    right: 0px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.656);
+    animation: openContact 0.3s forwards linear;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+     z-index: -100;
+     font-size: var(--font-size-xs);
+   
+}
+@keyframes openContact {
+    from{
+        width: 0px;
+
+    }to{
+        width: 220px;
+    }
+}
+.value-icon a{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out 0.2s;
+    white-space: nowrap;
+}
+.value-icon a.show {
+    opacity: 1;
+}
 
 @media (max-width:1200px) {
     .heading h3{
@@ -555,6 +607,30 @@ p{
     .container-lines-with-glow{
         background: url("../images/glow-small.png");
         background-repeat: no-repeat;
+    }
+    .icons-fixed .conatiner-icon{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .icons-fixed .conatiner-icon img{
+        width: 15px;
+    }
+    .value-icon{
+        height: 30px;
+        border-radius: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.656);
+        animation: openContact 0.3s forwards linear;
+        font-size: var(--font-size-xs);
+    
+    }
+    @keyframes openContact {
+        from{
+            width: 0px;
+
+        }to{
+            width: 180px;
+        }
     }
 }
 @media (max-width:450px) {
