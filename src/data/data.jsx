@@ -172,27 +172,27 @@ export const blogsData = [{
                 <p>Here are the core pieces, explained without the jargon:</p>
                 <ul className="flex flex-col gap-2 ">
                     <li> 
-                        <div><strong>1. Social Media Marketing</strong></div>
+                        <div className="mb-1"><strong>1. Social Media Marketing</strong></div>
                         <div>Think Instagram, Facebook, LinkedIn, TikTok, wherever your audience hangs out. It’s a place to connect, share, build trust, and even run ads if you’re ready to scale.</div>
                     </li>
                     <li> 
-                        <div><strong>2. SEO (Search Engine Optimization)</strong></div>
+                        <div className="mb-1"><strong>2. SEO (Search Engine Optimization)</strong></div>
                         <div>This is how your website shows up on Google without paying for ads. It’s about creating useful content and using the right words, keywords, so people can find you when they search.</div>
                     </li>
                     <li> 
-                        <div><strong>3. Paid Ads (PPC)</strong></div>
+                        <div className="mb-1"><strong>3. Paid Ads (PPC)</strong></div>
                         <div>Want quick visibility? Platforms like Google Ads and Facebook Ads let you pay to show up in front of your ideal audience. It’s great for testing offers and driving fast traffic or leads.</div>
                     </li>
                     <li> 
-                        <div><strong>4. Email Marketing</strong></div>
+                        <div className="mb-1"><strong>4. Email Marketing</strong></div>
                         <div>Don’t underestimate email. It’s still one of the most powerful ways to keep in touch with your customers, send updates, and encourage repeat business.</div>
                     </li>
                     <li> 
-                        <div><strong>5. Content Marketing</strong></div>
+                        <div className="mb-1"><strong>5. Content Marketing</strong></div>
                         <div>This includes blogs, videos, reels, guides, and anything you create to educate or help your audience. Great content builds trust and keeps people coming back.</div>
                     </li>
                     <li> 
-                        <div><strong>6. Website Marketing</strong></div>
+                        <div className="mb-1"><strong>6. Website Marketing</strong></div>
                         <div>Your website is your online home base. It should clearly say who you are, what you do, and how to get in touch. It also supports all your other marketing efforts.</div>
                     </li>
                 </ul>
@@ -278,7 +278,7 @@ export const blogsData = [{
                     <li>Problems you help solve</li>
                     <li>Even your own brand name</li>
                 </ul>
-                <p>The better your SEO, the easier it is for customers to find you and trust you.</p>
+                <p className="mt-2">The better your SEO, the easier it is for customers to find you and trust you.</p>
             </div>
             <div>
                 <h2>SEO Builds Trust and Credibility</h2>
@@ -293,7 +293,7 @@ export const blogsData = [{
                     <li>Be easy to navigate</li>
                     <li>Offer clear, useful content</li>
                 </ul>
-                <p>When your website works well for people, it works well for Google and vice versa. That leads to higher rankings, better engagement, and more conversions.</p>
+                <p className="mt-2">When your website works well for people, it works well for Google and vice versa. That leads to higher rankings, better engagement, and more conversions.</p>
             </div>
             <div>
                 <h2>Local SEO = More Customers in Your Area</h2>
