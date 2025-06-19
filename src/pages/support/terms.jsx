@@ -20,7 +20,7 @@ const Terms = ()=>{
                 <div>
                     <p className="pb-2">Effective Date : <strong> June 16, 2025</strong></p>
                     <p>
-                        Welcome to Ariz Global. These Terms of Service ("Terms") govern your use of our website and the services we provide. By accessing or using our services, you agree to be bound by these Terms.
+                        Welcome to Ariz Global. These Terms of Service ("Terms") govern your use of our website and the services we provide. By accessing or using our services, you agree to be bound by these terms.
                     </p>
                     {/* <p>If you do not agree with these Terms, we ask you to kindly refrain from using our services websites.</p> */}
                 </div>
@@ -35,11 +35,11 @@ const Terms = ()=>{
                 </div>
                 <div>
                     <h2>3. Client Responsibilities</h2>
-                    <p>To ensure successful delivery, clients are responsible for:</p>
+                    <p>To ensure successful delivery, clients are responsible for</p>
                     <ul>
-                        <li>Providing accurate and timely information</li>
-                        <li>Approving designs/content within agreed timelines</li>
-                        <li>Making payments on time as per the project agreement</li>
+                        <li>Providing accurate and timely information.</li>
+                        <li>Approving designs/content within agreed timelines.</li>
+                        <li>Making payments on time as per the project agreement.</li>
                     </ul>
                     <p>Failure to do so may delay or pause the project.</p>
                 </div>
@@ -52,22 +52,22 @@ const Terms = ()=>{
                     <h2>5. Intellectual Property</h2>
                     <p>Unless otherwise stated:</p>
                     <ul>
-                        <li>All original content, designs, and code remain the property of Ariz Global until full payment is received</li>
-                        <li>Upon final payment, ownership of approved deliverables transfers to the client</li>
-                        <li>We may showcase completed projects in our portfolio unless requested otherwise</li>
+                        <li>All original content, designs, and code remain the property of Ariz Global until full payment is received.</li>
+                        <li>Upon final payment, ownership of approved deliverables transfers to the client.</li>
+                        <li>We may showcase completed projects in our portfolio unless requested otherwise.</li>
                     </ul>
                 </div>
                 <div>
                     <h2>6. Revisions & Approvals</h2>
-                    <p>We offer a defined number of revisions per service (as stated in the proposal). Additional revisions will be billed separately. Approvals must be submitted in writing email.</p>
+                    <p>We offer a defined number of revisions per service (as stated in the proposal). Additional revisions will be billed separately. Approvals must be submitted in writing via email.</p>
                 </div>
                 <div>
                     <h2>7. Cancellations & Refunds</h2>
                     <p>If a client decides to cancel a project:</p>
                     <ul>
-                        <li>Work completed up to the cancellation date is billable</li>
-                        <li>No refunds will be issued for services already delivered</li>
-                        <li>Refunds for prepaid services will be considered case-by-case</li>
+                        <li>Work completed up to the cancellation date is billable.</li>
+                        <li>No refunds will be issued for services already delivered.</li>
+                        <li>Refunds for prepaid services will be considered case-by-case.</li>
                     </ul>
                 </div>
                 <div>
@@ -76,11 +76,11 @@ const Terms = ()=>{
                 </div>
                 <div>
                     <h2>9. Changes to These Terms</h2>
-                    <p>We may update these Terms at any time. All changes will be posted here with a new effective date. Your continued use of our services means you accept the updated Terms.</p>
+                    <p>We may update these terms at any time. All changes will be posted here with a new effective date. Your continued use of our services means you accept the updated Terms.</p>
                 </div>
                 <div>
                     <h2>10. Contact Us</h2>
-                    <p>If you have any questions about these Terms, feel free to reach out:</p>
+                    <p>If you have any questions about these terms, feel free to reach out:</p>
                     <p> Email: info@arizglobal.com</p>
                 </div>
                 

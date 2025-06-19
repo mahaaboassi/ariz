@@ -501,7 +501,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-     color: var(--dark-1);
+    color: var(--dark-1);
 }
 .popup h2{
     font-size: var(--font-size-l);
@@ -629,6 +629,14 @@ button:disabled{
     .content-popup{
         width: 80%;
         margin: 0 10px;
+    }
+    .icons-fixed{
+        position: fixed;
+        z-index: 10000;
+        top: 85%;
+        transform: translateY(-50%);
+        right: 10px;
+        
     }
 }
 @media (max-width:600px) {

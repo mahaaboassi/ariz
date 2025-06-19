@@ -15,7 +15,7 @@ import location from "../assets/images/location.png"
 export const calendlyLink ="https://calendly.com/majid-arizglobal/30min"
 export const blogsData = [{
         title : "Top 5 Digital Marketing Trends to Watch in 2025 ",
-        link : "Top-5-Digital-Marketing-Trends",
+        link : "top-5-digital-marketing-trends",
         img : blog_3,
         cat_id : 1,
         date : "May 21, 2025",
@@ -58,7 +58,7 @@ export const blogsData = [{
         </div>
     },{
         title : "How Your Website Can Grow Your Business in 2025",
-        link : "How-Your-Website-Can-Grow-Your-Business",
+        link : "how-your-website-can-grow-your-business",
         img : blog_2,
         cat_id : 3,
         firstDes : <div>
@@ -102,7 +102,7 @@ export const blogsData = [{
     },{
         title : "Why Branding Is So Much More Than Just a Logo for Your Company? ",
         cat_id : 2,
-        link : "Why-is-branding-more-than-just-a-logo-for-your-company",
+        link : "why-is-branding-more-than-just-a-logo-for-your-company",
         img : blog_1,
         firstDes : <div>
             <p>When you think of branding, chances are a logo pops into your head, maybe some colors, a cool font, or a sleek website. And while those things are important, they’re just the surface. Real branding goes much deeper.</p>
@@ -147,7 +147,7 @@ export const blogsData = [{
     },{
         title : "What Is Digital Marketing? A Beginner’s Guide for Small Business Owners",
         cat_id : 1,
-        link : "What-Is-Digital-Marketing-A-Beginner’s-Guide-for-Small-Business-Owners",
+        link : "what-is-digital-marketing-a-beginner’s-guide-for-small-business-owners",
         img : blog_4,
         firstDes : <div>
             <p>If you're running a small business, you've heard people talk about digital marketing. But what does it really mean? And more importantly, how can it actually help you grow?</p>
@@ -156,10 +156,10 @@ export const blogsData = [{
         date : "Apr 5, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
-                <h2>So, What is digital marketing?</h2>
+                <h2>So, what is digital marketing?</h2>
                 <p>Digital marketing is just marketing, but online.</p>
                 <p>Instead of handing out flyers or paying for a billboard, you’re using tools like Google, Instagram, email, and your website to connect with people. You're showing up where your customers are already spending time: on their phones, laptops, and tablets.</p>
-                <p>Think of it as meeting your audience where they hang out- through screens.</p>
+                <p>Think of it as meeting your audience where they hang out-through screens.</p>
             </div>
             <div>
                 <h2>Why Should Small Businesses Care?</h2>
@@ -201,12 +201,12 @@ export const blogsData = [{
                 <h2>What Does a Simple Digital Marketing Plan Look Like?</h2>
                 <p>You don’t need to do everything at once. Here’s a basic starter plan:</p>
                 <ul className="with-circle">
-                    <li>Launch a clear, professional website that explains your offer</li>
-                    <li>Set up a Google Business Profile to boost local visibility</li>
-                    <li>Pick one social media platform and start posting regularly</li>
+                    <li>Launch a clear, professional website that explains your offer.</li>
+                    <li>Set up a Google Business Profile to boost local visibility.</li>
+                    <li>Pick one social media platform and start posting regularly.</li>
                     <li>Collect emails</li>
-                    <li>Write helpful content blogs or posts that answer common questions</li>
-                    <li>Try a small paid ad campaign to test interest or drive traffic</li>
+                    <li>Write helpful content blogs or posts that answer common questions.</li>
+                    <li>Try a small paid ad campaign to test interest or drive traffic.</li>
                 </ul>
                 <div className="p-4"><strong>Start small. Build as you go.</strong></div>
             </div>
@@ -220,15 +220,15 @@ export const blogsData = [{
     },{
         title : "Personal vs. Business Branding: What’s the Difference, and Which One Do You Need?",
         cat_id : 2,
-        link : "Personal-vs-Business-Branding-What’s-the-Difference-and-Which-One-Do-You-Need",
+        link : "personal-vs-business-branding-what’s-the-difference-and-which-one-do-you-need",
         img : blog_5,
         firstDes : <div>
-            <p>When you’re starting to build your presence online, one of the first big questions many entrepreneurs and small business owners face is: Should I focus on building a personal brand or a business brand? It’s a smart question, and the answer depends on your goals, your industry, and how you see your business growing over time.</p>
+            <p>When you’re starting to build your presence online, one of the first big questions many entrepreneurs and small business owners face is, Should I focus on building a personal brand or a business brand? It’s a smart question, and the answer depends on your goals, your industry, and how you see your business growing over time.</p>
         </div>,
         date : "Feb 15, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
-                <h2>What Is a Personal Brand, Exactly</h2>
+                <h2>What Is a Personal Brand, Exactly?</h2>
                 <p>A personal brand is built around you, your name, your story, your face, and your voice. You’re not just representing a service or product; you are the brand. This approach is ideal for coaches, consultants, creatives, influencers, or any kind of expert who wants to be the recognizable face behind what they offer. People connect with personal brands because they feel human, relatable, and trustworthy. Think of people who have built massive followings around who they are, not just what they sell.</p>
             </div>
             <div>
@@ -238,11 +238,11 @@ export const blogsData = [{
             <div>
                 <h2>Quick Comparison: Personal vs. Business Brand</h2>
                 <p>There are some clear differences between the two. A personal brand can feel more human and authentic, and it often builds trust faster. It’s usually easier to get started because you don’t need much more than your story and a phone. But it can also be harder to scale, delegate, or take a step back, since the business is tied so closely to you. A business brand, while requiring more work upfront, offers more flexibility. It’s easier to grow a team under it, easier to sell, and you don’t always have to be “on.” That said, it can feel a bit more distant if you don’t put in the effort to give it personality.</p>
-                <p>So, how do you decide? Ask yourself a few key questions. Do people want to work directly with you? Then, a personal brand might make sense. Are you planning to grow a team or eventually exit the business? Then, building a business brand might be a better long-term strategy. If you’re offering a service, either path could work depending on your style. But if you're selling a product, business branding is usually the better fit. Also, think about whether you're comfortable being the face of your brand for the long haul. Some people love it, others don’t.</p>
+                <p>So, how do you decide? Ask yourself a few key questions. Do people want to work directly with you? Then, a personal brand might make sense. Are you planning to grow a team or eventually exit the business? Then, building a business brand might be a better long-term strategy. If you’re offering a service, either path could work depending on your style. But if you're selling a product, business branding is usually the better fit. Also, think about whether you're comfortable being the face of your brand for the long haul. Some people love it; others don’t.</p>
             </div>
             <div>
                 <h2>Can You Combine Both?</h2>
-                <p>Here’s the good news: you don’t necessarily have to choose just one. Many successful entrepreneurs build both. You can lead with your personal story to build trust, while also growing a business brand that’s structured and scalable. This gives you the best of both worlds  connection and credibility.</p>
+                <p>Here’s the good news: you don’t necessarily have to choose just one. Many successful entrepreneurs build both. You can lead with your personal story to build trust while also growing a business brand that’s structured and scalable. This gives you the best of both worlds:  connection and credibility.</p>
             </div>
             <div>
                 <h3>Conclusion</h3>
@@ -254,7 +254,7 @@ export const blogsData = [{
     },{
         title : "Why Smart SEO Is Essential for Sustainable Business Growth in 2025",
         cat_id : 4,
-        link : "Why-Smart-SEO-Is-Essential-for-Sustainable-Business-Growth-in-2025",
+        link : "why-smart-Sseo-is-essential-for-sustainable-business-growth-in-2025",
         img : blog_6,
         firstDes : <div>
             <p>In today’s digital world, having a stunning website or amazing product just isn’t enough. If people can’t find you online, it’s like you don’t exist, no matter how great your offer is.</p>
@@ -266,7 +266,7 @@ export const blogsData = [{
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>SEO Brings You Organic, High-Intent Traffic</h2>
-                <p>When someone types a search into Google, they’re not just browsing; they’re actively looking for something. A product, a service, an answer. That’s high-intent. With SEO, your business shows up right when people need you. You’re not interrupting them, they’re coming to you.</p>
+                <p>When someone types a search into Google, they’re not just browsing; they’re actively looking for something. A product, a service, an answer. That’s high-intent. With SEO, your business shows up right when people need you. You’re not interrupting them; they’re coming to you.</p>
                 <p>And the best part? Unlike ads, SEO doesn’t stop working when your budget does. Once your pages rank, they can bring in traffic 24/7, totally free.</p>
             </div>
             <div>
@@ -286,12 +286,12 @@ export const blogsData = [{
             </div>
             <div>
                 <h2>SEO Improves User Experience</h2>
-                <p>Good SEO isn’t just about keywords, it’s about creating a smooth, helpful, and enjoyable experience for your visitors. That means your site should:</p>
+                <p>Good SEO isn’t just about keywords; it’s about creating a smooth, helpful, and enjoyable experience for your visitors. That means your site should:</p>
                 <ul className="with-circle">
-                    <li>Load quickly</li>
-                    <li>Be mobile-friendly</li>
-                    <li>Be easy to navigate</li>
-                    <li>Offer clear, useful content</li>
+                    <li>Load quickly.</li>
+                    <li>Be mobile-friendly.</li>
+                    <li>Be easy to navigate.</li>
+                    <li>Offer clear, useful content.</li>
                 </ul>
                 <p className="mt-2">When your website works well for people, it works well for Google and vice versa. That leads to higher rankings, better engagement, and more conversions.</p>
             </div>
@@ -302,7 +302,7 @@ export const blogsData = [{
             </div>
             <div>
                 <h2>Your Competitors Are Doing It</h2>
-                <p>Here’s the reality: if you’re not working on your SEO, your competitors probably are. And every time someone clicks on their site instead of yours, that’s not just a missed visit it’s a missed customer. Staying ahead means staying visible. And in 2025, visibility = SEO.</p>
+                <p>Here’s the reality: if you’re not working on your SEO, your competitors probably are. And every time someone clicks on their site instead of yours, that’s not just a missed visit; it’s a missed customer. Staying ahead means staying visible. And in 2025, visibility = SEO.</p>
             </div>
             <div>
                 <h3>Conclusion</h3>
@@ -315,15 +315,16 @@ export const blogsData = [{
     }]
 
 
+
 export const FAGs = [{
     question :"What services does Ariz Global offer?",
-    answer : " We offer Website Development, Paid Advertising (Google, Meta, LinkedIn, TikTok), Branding & Strategy, SEO, and Content Creation. Our goal is to help businesses grow through strategic digital solutions."
+    answer : " We offer website development, paid advertising (Google, Meta, LinkedIn, TikTok), branding & strategy, SEO, and content Creation. Our goal is to help businesses grow through strategic digital solutions."
 },{
     question :"What types of websites do you build?",
-    answer : "From business websites and landing pages to eCommerce stores, we build fast, mobile-friendly, and custom-designed sites tailored to your goals using the latest technology. We also offer ongoing support and maintenance."
+    answer : "From business websites and landing pages to e-commerce stores, we build fast, mobile-friendly, and custom-designed sites tailored to your goals using the latest technology. We also offer ongoing support and maintenance."
 },{
     question :"How does your paid advertising service work?",
-    answer : "We create and manage ad campaigns on platforms like Google, Facebook, Instagram, TikTok, and LinkedIn. We handle everything - strategy, creatives, targeting, and optimization, to ensure high ROI."
+    answer : "We create and manage ad campaigns on platforms like Google, Facebook, Instagram, TikTok, and LinkedIn. We handle everything - strategy, creatives, targeting, and optimization- to ensure high ROI."
 },{
     question :"What’s included in your branding services?",
     answer : "Our branding includes logo design, brand strategy, visual identity, tone of voice, and brand guidelines. We help you build a brand that connects emotionally and stands out."
@@ -332,7 +333,7 @@ export const FAGs = [{
     answer : "Costs vary depending on the project scope. We offer custom quotes and flexible packages to match your goals and budget. Contact us for a free consultation."
 },{
     question :"How long does a typical project take? ",
-    answer : "Project timelines vary. A standard website takes 3 - 6 weeks from scratch to finish, while ad campaigns and branding projects can range from a few days to several weeks. We always share a clear timeline at the start."
+    answer : "Project timelines vary. A standard website takes 3-6 weeks from scratch to finish, while ad campaigns and branding projects can range from a few days to several weeks. We always share a clear timeline at the start."
 },{
     question :"How do I get started with Ariz Global?",
     answer : "Just reach out or schedule a meeting with our manager. We’ll understand your business, offer tailored recommendations, and walk you through the next steps."

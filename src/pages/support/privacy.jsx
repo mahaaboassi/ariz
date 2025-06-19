@@ -28,20 +28,20 @@ const Privacy = ()=>{
                         <h2>1. Information We Collect</h2>
                         <p>We may collect the following types of information:</p>
                         <ul>
-                            <li>Personal Information (Name, Email, Phone) when you contact us, request a quote, or subscribe to our newsletter.</li>
-                            <li>Usage Data (IP address, browser type, pages visited, time on site) collected automatically through cookies or analytics tools.</li>
-                            <li>Business Information (Company name, industry, service interests) provided when filling out project or contact forms.</li>
+                            <li>Personal information (name, email, phone) when you contact us, request a quote, or subscribe to our newsletter.</li>
+                            <li>Usage data (IP address, browser type, pages visited, time on site) collected automatically through cookies or analytics tools.</li>
+                            <li>Business information (company name, industry, service interests) provided when filling out project or contact forms.</li>
                         </ul>
                     </div>
                     <div>
                         <h2>2. How We Use Your Information</h2>
                         <p>We use the information we collect to:</p>
                         <ul>
-                            <li>Respond to inquiries or requests</li>
-                            <li>Deliver our marketing and web development services</li>
-                            <li>Improve our website’s performance and user experience</li>
-                            <li>Send updates, blog content, or marketing emails (only if you’ve subscribed)</li>
-                            <li>Comply with legal obligations</li>
+                            <li>Respond to inquiries or requests.</li>
+                            <li>Deliver our marketing and web development services.</li>
+                            <li>Improve our website’s performance and user experience.</li>
+                            <li>Send updates, blog content, or marketing emails (only if you’ve subscribed).</li>
+                            <li>Comply with legal obligations.</li>
                         </ul>
                     </div>
                     <div>
@@ -51,11 +51,11 @@ const Privacy = ()=>{
                     </div>
                     <div>
                         <h2>4. Data Sharing</h2>
-                        <p>We do not sell, rent, or trade your personal information. However, we may share data with trusted third-party providers who help us operate our website, such as:</p>
+                        <p>We do not sell, rent, or trade your personal information. However, we may share data with trusted third-party providers who help us operate our website, such as</p>
                         <ul>
-                            <li>Hosting services</li>
-                            <li>Email marketing platforms</li>
-                            <li>Analytics providers</li>
+                            <li>Hosting services.</li>
+                            <li>Email marketing platforms.</li>
+                            <li>Analytics providers.</li>
                         </ul>
                         <p>All third parties are bound by confidentiality and data protection obligations.</p>
                     </div>
@@ -69,10 +69,10 @@ const Privacy = ()=>{
                         <h2>6. Your Rights</h2>
                         <p>You have the right to:</p>
                         <ul>
-                            <li>Access or update your personal data</li>
-                            <li>Request deletion of your data</li>
-                            <li>Withdraw consent from marketing communications</li>
-                            <li>File a complaint with a data protection authority if you believe your rights are violated</li>
+                            <li>Access or update your personal data.</li>
+                            <li>Request deletion of your data.</li>
+                            <li>Withdraw consent from marketing communications.</li>
+                            <li>File a complaint with a data protection authority if you believe your rights are violated.</li>
                         </ul>
                         <p>To exercise your rights, contact us directly.</p>
                     </div>
@@ -90,7 +90,7 @@ const Privacy = ()=>{
                     </div>
                     <div>
                         <h2>10. Contact Us</h2>
-                        <p>If you have any questions about these Privacy Policy, feel free to reach out:</p>
+                        <p>If you have any questions about this Privacy Policy, feel free to reach out:</p>
                         <p> Email: info@arizglobal.com</p>
                     </div>
                     

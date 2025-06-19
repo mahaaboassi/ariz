@@ -134,7 +134,7 @@ const Footer = ()=>{
                     </div>
                 </div>`
         temp.userEmail = value.email
-        temp.adminEmail = "maha.assi@arizglobal.com" 
+        temp.adminEmail = "info@arizglobal.com" 
         temp.subject = "New Subscriber Joined  from Ariz Global Website"
         const res = await fetch("https://api.arizglobal.com/api/mail", {
             method: "POST",

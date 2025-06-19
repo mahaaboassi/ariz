@@ -33,11 +33,7 @@ const Contact = ()=>{
     const [ loading, setLoading ] = useState(false)
     const [ code, setCode ] = useState("")
     const onSubmit = async(value)=>{
-        
-        console.log(value,code);
         setLoading(true)
-        
-        
         const temp = {}
         temp.body = `<div style="margin:auto;width: 500px;color:#0B081D; border-radius:12px;background-color: white;border: 1px solid #0B081D;font-family: Arial, sans-serif;">
                     <!-- Header -->
@@ -89,7 +85,7 @@ const Contact = ()=>{
                     </div>
                 </div>`
         temp.userEmail = value.email
-        temp.adminEmail = "maha.assi@arizglobal.com" 
+        temp.adminEmail = "info@arizglobal.com" 
         temp.subject = "New Inquiry Received from Ariz Global Website"
         const res = await fetch("https://api.arizglobal.com/api/mail", {
             method: "POST",
