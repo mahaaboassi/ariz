@@ -23,7 +23,7 @@ function App() {
                     <Route path='blog/:link' element={<DetailsBlog/>} />
                     <Route path="terms" element={<Terms/>} />
                     <Route path="policy" element={<Privacy/>} />
-                    <Route path="FAQs" element={<FAQs/>} />
+                    <Route path="faqs" element={<FAQs/>} />
                     <Route path="services/:link" element={<SubServices/>} />
                 </Route>
             </Routes>

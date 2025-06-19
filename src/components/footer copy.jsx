@@ -41,7 +41,7 @@ const Footer = ()=>{
     }]
     const support = [{
         name : "FAQs",
-        link : "/FAQs"
+        link : "/faqs"
     },{
         name : "Privacy policy",
         link : "/policy"
