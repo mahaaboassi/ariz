@@ -18,7 +18,7 @@ export const blogsData = [{
         link : "Top-5-Digital-Marketing-Trends",
         img : blog_3,
         cat_id : 1,
-        date : "May 21 , 2025",
+        date : "May 21, 2025",
         firstDes :<div>
              <p>With the digital world changing faster than we can keep up, businesses must stay ahead of the digital marketing landscape. The year 2025 promises a more experience-driven approach to marketing, where customer expectations are higher than ever, and personalization isn’t a luxury but a necessity.</p>
             <p>Here are the top 5 digital marketing trends you should keep an eye on in 2025:</p>
@@ -66,7 +66,7 @@ export const blogsData = [{
             <p>Whether you’re running a startup, offering professional services, or managing an e-commerce store, a well-designed website can help you attract the right audience, turn them into customers, and keep them coming back.</p>
             <p>Here’s how your website can fuel business growth in 2025 and beyond:</p>
         </div>,
-        date : "Apr 26 , 2025",
+        date : "Apr 26, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2> Your Website Builds Instant Trust</h2>
@@ -100,7 +100,7 @@ export const blogsData = [{
             </div>
         </div>
     },{
-        title : "Why Branding Is So Much More Than Just a Logo for your company? ",
+        title : "Why Branding Is So Much More Than Just a Logo for Your Company? ",
         cat_id : 2,
         link : "Why-is-branding-more-than-just-a-logo-for-your-company",
         img : blog_1,
@@ -111,7 +111,7 @@ export const blogsData = [{
             </p>
             <p>Here’s why your brand is way more than just a logo and why it’s one of the smartest investments you can make for your business.</p>
         </div>,
-        date : "Apr 14 , 2025",
+        date : "Apr 14, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>Branding Shapes How People See You</h2>
@@ -153,7 +153,7 @@ export const blogsData = [{
             <p>If you're running a small business, you've heard people talk about digital marketing. But what does it really mean? And more importantly, how can it actually help you grow?</p>
             <p>Let’s break it down in a simple way that you can use.</p>
         </div>,
-        date : "Apr 5 , 2025",
+        date : "Apr 5, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>So, What Is Digital Marketing?</h2>
@@ -230,7 +230,7 @@ export const blogsData = [{
         firstDes : <div>
             <p>When you’re starting to build your presence online, one of the first big questions many entrepreneurs and small business owners face is: Should I focus on building a personal brand or a business brand? It’s a smart question, and the answer depends on your goals, your industry, and how you see your business growing over time.</p>
         </div>,
-        date : "Feb 15 , 2025",
+        date : "Feb 15, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>What Is a Personal Brand, Exactly</h2>
@@ -267,7 +267,7 @@ export const blogsData = [{
             <p>Whether you’re a local business, a service provider, or running an online store, SEO is one of the smartest, most cost-effective ways to attract the right people, build trust, and grow consistently without relying on paid ads 24/7.</p>
             <p>Let’s break down why SEO matters more than ever in 2025 and how it can help take your business to the next level.</p>
         </div>,
-        date : "Jun 20 , 2025",
+        date : "Jun 20, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>SEO Brings You Organic, High-Intent Traffic</h2>
@@ -693,7 +693,7 @@ export const contactInfo = [{
     icon : landline
 },,{
     name  : "Location",
-    value : "609, Bayan building, Dubai Investment Park, Dubai, UAE",
+    value : "609, Bayan Building, Dubai Investment Park, Dubai, UAE",
     link : 'https://maps.app.goo.gl/dxPpWYSHKmVpW3k6A',
     icon : location
 }, ]
@@ -1550,7 +1550,7 @@ export const services = [{
         name : "Social Media Management",
         link : "/services/social-media-management",
         section_1 : {
-            sub_title : "What We Deliver?",
+            sub_title : "What We Deliver",
             title : "Driving Growth Through Strategic Social Media",
             description : <div>
                 <p>At Ariz Global, we deliver social media strategies that captivate, convert, and connect. From planning to execution, we craft dynamic campaigns tailored to your brand, ensuring a consistent presence across all major platforms. Our team combines organic content creation with precision-targeted paid ads to boost engagement, drive traffic, and increase conversions.</p>
@@ -1568,7 +1568,7 @@ export const services = [{
                 </defs>
                 </svg>,
                 title : "Content Strategy & Branding Consistency",
-                sub_title : "We plan your content ensuring every post aligns with your brand identity.",
+                sub_title : "We plan your content, ensuring every post aligns with your brand identity.",
                 options : ["Monthly content calendar","Trending topics and hashtag research","Custom captions tailored to your brand voice"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="53" height="50" viewBox="0 0 53 50" fill="none">
@@ -1611,7 +1611,7 @@ export const services = [{
                         </svg>,
                 title : "Analytics & Performance Reporting",
                 sub_title : "We track what matters and continuously improve your results.",
-                options : ["Insights on reach, engagement, growth","ROI tracking for paid campaigns","Strategy adjustments based on data"]
+                options : ["Insights on reach, engagement,and growth","ROI tracking for paid campaigns","Strategy adjustments based on data"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="43" height="50" viewBox="0 0 43 50" fill="none">
                         <g clipPath="url(#clip0_671_954)">
@@ -1639,7 +1639,7 @@ export const services = [{
                         </svg>,
                 title : "Content Creation & Trend Spotting",
                 sub_title : "We create scroll-stopping visuals that speak your brand’s language.",
-                options : ["In-house/partner photographers/videographers","High-quality Posts, Reels and Shorts","Industry trend tracking"]
+                options : ["In-house/partner photographers/videographers","High-quality posts, reels and shorts","Industry trend tracking"]
             }]
         },
         section_2 : {
@@ -1674,7 +1674,7 @@ export const services = [{
                             <path d="M96.9726 43.7518V56.8809C94.7336 56.6593 91.8356 56.137 88.6178 54.9262C84.4211 53.3474 81.2958 51.1869 79.2534 49.5131V76.0562L79.2033 75.9731C79.2379 76.4994 79.2534 77.0336 79.2534 77.5757C79.2534 90.7602 68.8099 101.487 55.9655 101.487C43.1212 101.487 32.6777 90.7562 32.6777 77.5757C32.6777 64.3951 43.1212 53.66 55.9655 53.66C57.2218 53.66 58.455 53.7629 59.6612 53.9607V66.9038C58.5013 66.4765 57.2604 66.247 55.9655 66.247C49.8844 66.247 44.9324 71.3277 44.9324 77.5757C44.9324 83.8237 49.8844 88.9044 55.9655 88.9044C62.0466 88.9044 66.9986 83.8197 66.9986 77.5757C66.9986 77.3422 66.9948 77.1088 66.9794 76.8753V25.2927H79.762C79.8083 26.4046 79.8545 27.5244 79.8969 28.6363C79.9817 30.8245 80.7409 32.9256 82.0627 34.6469C83.6157 36.6689 85.9048 39.0193 89.1265 40.8949C92.1401 42.6478 94.9687 43.3997 96.9726 43.7558V43.7518Z" fill="#00F7EF"/>
                             <path d="M99.7695 49.4894V62.6185C97.5305 62.3969 94.6325 61.8746 91.4147 60.6637C87.218 59.0849 84.0927 56.9244 82.0502 55.2507V81.7938L82.0001 81.7107C82.0348 82.2369 82.0502 82.7711 82.0502 83.3132C82.0502 96.4977 71.6067 107.225 58.7624 107.225C45.9181 107.225 35.4746 96.4938 35.4746 83.3132C35.4746 70.1327 45.9181 59.3975 58.7624 59.3975C60.0187 59.3975 61.2519 59.5004 62.4581 59.6983V72.6414C61.2981 72.214 60.0572 71.9845 58.7624 71.9845C52.6813 71.9845 47.7293 77.0652 47.7293 83.3132C47.7293 89.5612 52.6813 94.6419 58.7624 94.6419C64.8435 94.6419 69.7955 89.5573 69.7955 83.3132C69.7955 83.0798 69.7917 82.8463 69.7763 82.6129V31.0303H82.5589C82.6051 32.1422 82.6514 33.262 82.6938 34.3739C82.7786 36.5621 83.5377 38.6632 84.8595 40.3845C86.4126 42.4065 88.7017 44.7569 91.9234 46.6325C94.937 48.3854 97.7656 49.1372 99.7695 49.4933V49.4894Z" fill="white"/>
                             </svg>,
-                name : "Tiktok",
+                name : "TikTok",
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 134 139" fill="none">
                         <path d="M133.997 69.4648C133.997 104.171 108.94 132.863 76.3917 137.52C73.3473 137.955 70.2335 138.181 67.0734 138.181C63.424 138.181 59.8439 137.88 56.3525 137.302C24.4902 132.036 0.150391 103.665 0.150391 69.4609C0.150391 31.5099 30.1128 0.744751 67.0734 0.744751C104.034 0.744751 133.997 31.5099 133.997 69.4609V69.4648Z" fill="#007EBB"/>
@@ -1702,7 +1702,7 @@ export const services = [{
         name : "PPC & Paid Advertising",
         link : "/services/ppc-and-paid-advertising",
         section_1 : {
-            sub_title : "What We Deliver?",
+            sub_title : "What We Deliver",
             title : "Custom Strategies. Full-Funnel Results",
             description : <div>
                 <p>As a certified Google Partner with Meta and Google Ads-accredited professionals on our team, Ariz Global delivers tailored paid advertising solutions that align seamlessly with your business goals. Our PPC expertise spans multiple platforms, including Google Ads, Search, Display, Shopping, Video, and Bing Ads. We also run targeted social media campaigns across Meta, LinkedIn, and Instagram, ensuring your brand reaches the right audience on the right platforms. Our strategic audits help fine-tune your ad approach, while advanced conversion tracking and reporting provide clear insight into real ROI.</p>
@@ -1718,7 +1718,7 @@ export const services = [{
                     </svg>,
                 title : "Google Ads Management",
                 sub_title : "We get your brand in front of the right people - right at the top of Google.",
-                options : ["Google Search & Display Ads","Remarketing / Retargeting Campaigns","Shopping Ads for E-commerce"]
+                options : ["Google Search & Display Ads","Remarketing/ Retargeting Campaigns","Shopping Ads for E-commerce"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 100 100" fill="none">
                     <g clipPath="url(#clip0_646_922)">
@@ -1742,7 +1742,7 @@ export const services = [{
                         </svg>,
                 title : "LinkedIn Ads Management",
                 sub_title : "We help reach professionals, decision-makers, and companies.",
-                options : ["Sponsored content & text ads","Audience targeting by industry, or company","Message ads (In-Mail campaigns)"]
+                options : ["Sponsored content & text ads","Audience targeting by industry or company","Message ads (In-Mail campaigns)"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="30" height="42" viewBox="0 0 65 77" fill="none">
                 <path d="M64.2948 18.4591V31.5882C62.0558 31.3666 59.1579 30.8443 55.94 29.6335C51.7434 28.0547 48.618 25.8942 46.5756 24.2204V50.7635L46.5255 50.6804C46.5602 51.2067 46.5756 51.7409 46.5756 52.283C46.5756 65.4675 36.1321 76.1947 23.2878 76.1947C10.4435 76.1947 0 65.4635 0 52.283C0 39.1024 10.4435 28.3672 23.2878 28.3672C24.5441 28.3672 25.7773 28.4701 26.9835 28.668V41.6111C25.8235 41.1838 24.5826 40.9543 23.2878 40.9543C17.2067 40.9543 12.2547 46.035 12.2547 52.283C12.2547 58.531 17.2067 63.6117 23.2878 63.6117C29.3689 63.6117 34.3209 58.527 34.3209 52.283C34.3209 52.0495 34.3171 51.816 34.3016 51.5826V0H47.0843C47.1305 1.1119 47.1768 2.23171 47.2192 3.34361C47.304 5.53179 48.0631 7.63292 49.3849 9.35419C50.938 11.3762 53.2271 13.7266 56.4488 15.6022C59.4623 17.3551 62.2909 18.1069 64.2948 18.463V18.4591Z" fill="#C3996B"/>
@@ -1815,14 +1815,14 @@ export const services = [{
                             <path d="M96.9726 43.7518V56.8809C94.7336 56.6593 91.8356 56.137 88.6178 54.9262C84.4211 53.3474 81.2958 51.1869 79.2534 49.5131V76.0562L79.2033 75.9731C79.2379 76.4994 79.2534 77.0336 79.2534 77.5757C79.2534 90.7602 68.8099 101.487 55.9655 101.487C43.1212 101.487 32.6777 90.7562 32.6777 77.5757C32.6777 64.3951 43.1212 53.66 55.9655 53.66C57.2218 53.66 58.455 53.7629 59.6612 53.9607V66.9038C58.5013 66.4765 57.2604 66.247 55.9655 66.247C49.8844 66.247 44.9324 71.3277 44.9324 77.5757C44.9324 83.8237 49.8844 88.9044 55.9655 88.9044C62.0466 88.9044 66.9986 83.8197 66.9986 77.5757C66.9986 77.3422 66.9948 77.1088 66.9794 76.8753V25.2927H79.762C79.8083 26.4046 79.8545 27.5244 79.8969 28.6363C79.9817 30.8245 80.7409 32.9256 82.0627 34.6469C83.6157 36.6689 85.9048 39.0193 89.1265 40.8949C92.1401 42.6478 94.9687 43.3997 96.9726 43.7558V43.7518Z" fill="#00F7EF"/>
                             <path d="M99.7695 49.4894V62.6185C97.5305 62.3969 94.6325 61.8746 91.4147 60.6637C87.218 59.0849 84.0927 56.9244 82.0502 55.2507V81.7938L82.0001 81.7107C82.0348 82.2369 82.0502 82.7711 82.0502 83.3132C82.0502 96.4977 71.6067 107.225 58.7624 107.225C45.9181 107.225 35.4746 96.4938 35.4746 83.3132C35.4746 70.1327 45.9181 59.3975 58.7624 59.3975C60.0187 59.3975 61.2519 59.5004 62.4581 59.6983V72.6414C61.2981 72.214 60.0572 71.9845 58.7624 71.9845C52.6813 71.9845 47.7293 77.0652 47.7293 83.3132C47.7293 89.5612 52.6813 94.6419 58.7624 94.6419C64.8435 94.6419 69.7955 89.5573 69.7955 83.3132C69.7955 83.0798 69.7917 82.8463 69.7763 82.6129V31.0303H82.5589C82.6051 32.1422 82.6514 33.262 82.6938 34.3739C82.7786 36.5621 83.5377 38.6632 84.8595 40.3845C86.4126 42.4065 88.7017 44.7569 91.9234 46.6325C94.937 48.3854 97.7656 49.1372 99.7695 49.4933V49.4894Z" fill="white"/>
                             </svg>,
-                name : "Tiktok Ads",
+                name : "TikTok Ads",
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 134 139" fill="none">
                         <path d="M133.997 69.4648C133.997 104.171 108.94 132.863 76.3917 137.52C73.3473 137.955 70.2335 138.181 67.0734 138.181C63.424 138.181 59.8439 137.88 56.3525 137.302C24.4902 132.036 0.150391 103.665 0.150391 69.4609C0.150391 31.5099 30.1128 0.744751 67.0734 0.744751C104.034 0.744751 133.997 31.5099 133.997 69.4609V69.4648Z" fill="#007EBB"/>
                         <path d="M32.7135 46.2574C30.9293 44.5559 30.0391 42.4508 30.0391 39.9461C30.0391 37.4413 30.9293 35.2413 32.7135 33.5398C34.4978 31.8383 36.7946 30.9875 39.6116 30.9875C42.4286 30.9875 44.633 31.8383 46.4134 33.5398C48.1976 35.2413 49.0878 37.378 49.0878 39.9461C49.0878 42.5141 48.1976 44.5559 46.4134 46.2574C44.6291 47.9588 42.3631 48.8096 39.6116 48.8096C36.8601 48.8096 34.4978 47.9588 32.7135 46.2574ZM47.5849 56.0152V108.156H31.542V56.0152H47.5849Z" fill="#FEFFFC"/>
                         <path d="M101 61.1632C104.495 65.0608 106.245 70.4145 106.245 77.2283V107.238H91.0037V79.3453C91.0037 75.9107 90.1366 73.2397 88.4025 71.3364C86.6683 69.4332 84.3369 68.4835 81.4081 68.4835C78.4793 68.4835 76.1478 69.4371 74.4136 71.3364C72.6795 73.2397 71.8124 75.9107 71.8124 79.3453V107.238H56.4824V55.8728H71.8124V62.6866C73.3654 60.4153 75.458 58.6228 78.0901 57.3012C80.7183 55.9836 83.6779 55.3228 86.9651 55.3228C92.8227 55.3228 97.501 57.2735 100.996 61.1671L101 61.1632Z" fill="#FEFFFC"/>
                         </svg>,
-                name : "Linkedin",
+                name : "LinkedIn",
             }]
         },
         img : PPc,
@@ -1836,7 +1836,7 @@ export const services = [{
         name : "Branding & Graphic Design",
         link : "/services/branding-and-graphic-design",
         section_1 : {
-            sub_title : "What We Deliver?",
+            sub_title : "What We Deliver",
             title : "Designs That Speak Your Brand's Language",
             description : <div>
                 <p>At Ariz Global, we deliver visually compelling, purpose-driven graphic design that goes beyond aesthetics. From full brand identity systems and logo design to high-impact marketing collateral, our work is built to connect, captivate, and convert. Every design we craft is strategically aligned with your brand voice and business goals, ensuring consistency across platforms, whether in print, digital, or packaging. </p>
@@ -1883,7 +1883,7 @@ export const services = [{
                         </svg>,
                 title : "Social Media Branding",
                 sub_title : "We help you get noticed with scroll-stopping visuals.",
-                options : ["Instagram, LinkedIn, Facebook post designs","Highlight covers & story templates","Carousel designs & reels thumbnails","Monthly social templates & content themes"]
+                options : ["Instagram, LinkedIn, and Facebook post designs","Highlight covers & story templates","Carousel designs & reels thumbnails","Monthly social templates & content themes"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="59" height="51" viewBox="0 0 59 51" fill="none">
                         <g clipPath="url(#clip0_672_979)">
@@ -1910,7 +1910,7 @@ export const services = [{
                         </defs>
                         </svg>,
                 title : "Website & App UI Design",
-                sub_title : "We design on-brand interfaces for web and apps.",
+                sub_title : "We design on-brand interfaces for the web and apps.",
                 options : ["Figma or Adobe XD UI Layouts","Web Homepages & Landing Pages","Mobile & Desktop Interface Design","Icon Sets & Custom Illustrations"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="52" height="51" viewBox="0 0 52 51" fill="none">
@@ -2003,7 +2003,7 @@ export const services = [{
         name : "Content Marketing",
         link : "/services/content-marketing",
         section_1 : {
-            sub_title : "What We Deliver?",
+            sub_title : "What We Deliver",
             title : "Turning Ideas Into Engaging, Goal-Driven Content",
             description : <div>
                 <p>At Ariz Global, we deliver content marketing solutions that go beyond writing, are rooted in strategy, are backed by research, and are designed for impact. From insightful blog articles and SEO-driven web content to engaging emails, PR campaigns, and multimedia assets, we create tailored content that resonates with your target audience. Our team works closely with you to uncover opportunities, plan cross-channel content strategies, and ensure every piece we produce strengthens your brand voice and drives business goals. </p>
@@ -2044,7 +2044,7 @@ export const services = [{
                         </svg>,
                 title : "Content for Ads (Copy + Creatives)",
                 sub_title : "We create ad content that converts — from hook to headline.",
-                options : ["Meta & Google ad contents","Ad banners and visuals","Retargeting content"]
+                options : ["Meta & Google ad content","Ad banners and visuals","Retargeting content"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="41" height="48" viewBox="0 0 41 48" fill="none">
                         <g clipPath="url(#clip0_677_1024)">
@@ -2138,10 +2138,10 @@ export const services = [{
         name : "Web Design & Development",
         link : "/services/web-design-and-development",
         section_1 : {
-            sub_title : "What We Deliver?",
+            sub_title : "What We Deliver",
             title : "Tailored Web Solutions Designed to Elevate",
             description : <div>
-                <p>As a Dubai-based web design agency, Ariz Global combines aesthetic sophistication with functional precision. We go beyond surface-level visuals to build websites that are strategically designed for lead generation, sales, or brand awareness, mobile-first and responsive, delivering seamless UX across devices, SEO-optimized to ensure visibility in search engines, custom-coded or CMS-based depending on your goals and performance-tested for speed, navigation, and accessibility.</p>
+                <p>As a Dubai-based web design agency, Ariz Global combines aesthetic sophistication with functional precision. We go beyond surface-level visuals to build websites that are strategically designed for lead generation, sales, or brand awareness; mobile-first and responsive, delivering seamless UX across devices; SEO-optimized to ensure visibility in search engines; custom-coded or CMS-based depending on your goals; and performance-tested for speed, navigation, and accessibility.</p>
                 <p>Our in-house team of designers, developers, and strategists works closely with you to align your website with your brand identity and business objectives.</p>
             </div>,
             services  : [{
@@ -2157,7 +2157,7 @@ export const services = [{
                         </svg>,
                 title : "Custom Web Design & Development",
                 sub_title : "We build websites from scratch tailored to your brand and business goals.",
-                options : ["Responsive (mobile-first) design","Clean, user-friendly UI/UX","Built with HTML, CSS, JS, React, Next.js"]
+                options : ["Responsive (mobile-first) design","Clean, user-friendly UI/UX","Built with HTML, CSS, JS, React, and Next.js"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 43" fill="none">
                         <g clipPath="url(#clip0_654_942)">
@@ -2171,7 +2171,7 @@ export const services = [{
                         </svg>,
                 title : "Webs Maintenance & Support",
                 sub_title : "We keep your website updated, secure, and running smoothly.",
-                options : ["Integrate latest technology","Bug fixes and performance optimization","Uptime monitoring"]
+                options : ["Integrate the latest technology","Bug fixes and performance optimization","Uptime monitoring"]
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48" fill="none">
                         <path d="M4.5 16.5H43.5" stroke="#C3996B" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
@@ -2391,7 +2391,7 @@ export const services = [{
         name : "Search Engine Optimization",
         link : "/services/search-engine-optimization",
         section_1 : {
-            sub_title : "What We Deliver?",
+            sub_title : "What We Deliver",
             title : "End-to-End SEO, Engineered for Results",
             description : <div>
                 <p>Our work is tailored, strategic, and conversion-focused. Our team of SEO specialists, content strategists, and technical experts collaborate to ensure your site performs across Google and beyond. From startups looking for their first rankings to established brands needing smarter visibility, we’ve delivered results across sectors. Whether you're launching a new site, improving an existing one, or recovering from a traffic drop, we tailor our SEO plans to your unique goals and industry landscape.</p>
@@ -2547,7 +2547,7 @@ export const services = [{
                         </clipPath>
                         </defs>
                         </svg>,
-                name : "Google analytics",
+                name : "Google Analytics",
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
                         <path d="M100 50C100 75.2534 81.2801 96.1304 56.9631 99.5192C54.6886 99.8359 52.3623 100 50.0014 100C47.2749 100 44.6002 99.7812 41.9918 99.3608C18.1816 95.5286 0 74.8877 0 50C0 22.3857 22.3851 0 49.9986 0C77.6121 0 99.9971 22.3857 99.9971 50H100Z" fill="white"/>
@@ -2575,7 +2575,7 @@ export const services = [{
                         </clipPath>
                         </defs>
                         </svg>,
-                name : "GTmetric",
+                name : "GTmetrix",
             },{
                 icon : <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
                         <path d="M100 50C100 75.2534 81.2801 96.1304 56.9631 99.5192C54.6886 99.8359 52.3623 100 50.0014 100C47.2749 100 44.6002 99.7812 41.9918 99.3608C18.1816 95.5286 0 74.8877 0 50C0 22.3857 22.3851 0 49.9986 0C77.6121 0 99.9971 22.3857 99.9971 50H100Z" fill="white"/>

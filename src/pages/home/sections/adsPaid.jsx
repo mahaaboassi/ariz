@@ -119,14 +119,14 @@ const AdsPaid = ()=>{
         <div className="content-ads">
 
             <div className="child-content px-4 sm:px-10 flex flex-col justify-end gap-5">
-                <p className="">At Ariz Global, we create campaigns with precision targeting to help your brand grow. From meta ads to Google Ads, we have clear analytics, scalable plans, and a focus on real conversions, not just clicks. We bring value and lasting impact to your brand.</p>
+                <p className="">At Ariz Global, we create campaigns with precision targeting to help your brand grow. From Meta Ads to Google Ads, we have clear analytics, scalable plans, and a focus on real conversions, not just clicks. We bring value and lasting impact to your brand.</p>
                 <div className="flex gap-3">
                     {icons.map((e,idx)=>{
                         return(<div key={`Icons_${e.name}_${idx}`}>{e.icon}</div>)
                     })}
                 </div>
                 <div>
-                    <Link target="_blank" to={calendlyLink}><button>Schedule The Meeting</button></Link>
+                    <Link target="_blank" to={calendlyLink}><button>Schedule the Meeting</button></Link>
                 </div>
             </div>
         </div>

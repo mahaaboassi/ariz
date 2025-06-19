@@ -7,7 +7,7 @@ const Services = ()=>{
     return(<div className="px-4 sm:px-10 services ">
        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-5">
             <div className="lg:w-3/4">
-                <h2 className="pb-4">Committed to Transform the Future and Profitability</h2>
+                <h2 className="pb-4">Committed to Transforming the Future and Profitability</h2>
                 <p>At ARIZ Global, we specialize in building credible, results-driven digital marketing strategies tailored to your brand. Our mission is to enhance your online presence, drive qualified traffic, and increase your ROI through integrated solutions across SEO, paid advertising, social media marketing, and more. Whether you're a startup or an established business, we provide the tools to help you scale.</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -95,7 +95,8 @@ const Services = ()=>{
                     <Lines children={<div className="p-4 xl:p-10 flex flex-col gap-2">
                         <div className="flex justify-center h-42">{web}</div>
                         <h3>Web Design & Development </h3>
-                        <p>Responsive, SEO-optimized websites designed for improved performance and user experience.</p>
+                        {/* <p>Responsive, SEO-optimized websites designed for improved performance and user experience.</p> */}
+                        <p>We design responsive, SEO-optimized websites for improved performance and user experience.</p>
                         <Link  to={"/services/web-design-and-development"}>
                             <div className="flex gap-2 items-center cta-card">
                                 <div>Explore</div>

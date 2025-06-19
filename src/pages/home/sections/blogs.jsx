@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 const Blogs = ()=>{
     const navigate = useNavigate()
     return(<div className="py-20 blogs flex flex-col gap-5">
-        <Heading title={"Explore Ariz’s Blog for Top Design and Strategies!" } subTitle={"Driven Leadership, Proven Results"} />
+        <Heading title={"Explore Ariz’s Blog for Top Designs and Strategies!" } subTitle={"Driven Leadership, Proven Results"} />
        <div className="container-img-blog">
             <img src={img} alt={"shape-img"} />
         </div>

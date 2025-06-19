@@ -73,7 +73,7 @@ function MobileInput({register,value,returnedCountry,country_id,isOpenMenu=true,
             
         </div>
         <div className="w-fit whitespace-nowrap">
-            ( { "dial_code" in selectedCountry && selectedCountry.dial_code} )
+            ({ "dial_code" in selectedCountry && selectedCountry.dial_code})
         </div>
         <div className="w-full">
             <input  disabled={!isOpenMenu} placeholder="XX XX XX" {...register} value={number || ""} onChange={(e)=>{
