@@ -1,0 +1,54 @@
+/* Mobile number With Code */
+.mobile-input{
+    position: relative;
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.656);
+    border-radius: 10px;
+    padding: 5px;
+    height: 45px;
+}
+
+.mobile-input input{
+    border-radius: 8px;
+    padding: 0 .5rem;
+    width: 100%;
+    outline: unset;
+    border: none;
+    width: 100%;
+    background-color: inherit;
+  }
+.mobile-input input:focus{
+    border: none;
+}
+.details-country{
+ font-size: var(--font-size-xxs);
+  }
+.mobile-input input::placeholder{
+    /* color: var(--dark_4) ; */
+  }
+.menu-countries{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    max-height: 190px;
+    padding:0 10px;
+    border-radius: 7px;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 100;
+    color: var(--dark-1);
+}
+.menu-countries-popup{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    max-height: 290px;
+    border-radius: 12px;
+    padding:0 10px;
+    /* border-radius: 7px; */
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 100;
+}

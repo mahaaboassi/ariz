@@ -10,7 +10,7 @@ const Founder = ()=>{
     return(<div className="px-4 sm:px-10 py-20 flex flex-col gap-5 founder">
         <Heading subTitle={"Driven Leadership, Proven Results"} title={"Meet the Visionary Behind Ariz Global"} />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <div style={{zIndex:"-2"}} className="relative">
+            <div className="relative">
                 <div className="founder-image">
                     <img alt="Majid Ahmad" src={img} />
                 </div>

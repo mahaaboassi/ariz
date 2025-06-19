@@ -157,7 +157,7 @@ const Hero = ()=>{
                             <div className="logo-seo">{tiktok}</div>
                             <div className="logo-graphic">{facebook}</div>
                             <div className="logo-coding">{instagram}</div>
-                            <Link target="_blank" to={calendlyLink}><button>Book A Meeting</button></Link>
+                            <Link target="_blank" to={calendlyLink}><button>Book a Meeting</button></Link>
                     </div>
                 </div>
             </div>

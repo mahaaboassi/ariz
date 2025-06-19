@@ -376,19 +376,25 @@ footer .icon-footer:hover{
 }
 .input-footer .input-container input{
     color: var(--dark-1);
-    padding-left: 10px;
+    padding-left: 5px;
+    font-size: var(--font-size-xxs);
 }
-.icon-input{
+.input-footer button.icon-input{
     position: absolute;
     background-color: var(--yellow-2);
     right: 0;
-    width: 50px;
+    width: 60px;
     z-index: 1;  
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 0 10px 10px 0 ;
+}
+.icon-input .spinner{
+    width: 15px !important;
+    height: 15px !important;
 }
 
 
@@ -486,7 +492,50 @@ p{
 .value-icon a.show {
     opacity: 1;
 }
+/* Popup */
+.popup{
+    position: fixed;
+    z-index: 1100;
+    background-color: rgba(0, 0, 0, 0.562);
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: var(--dark-1);
+}
+.popup h2{
+    font-size: var(--font-size-l);
+    font-weight: 600;
+}
+.popup p{
 
+}
+.content-popup{
+    background-color: var(--light);
+    border-radius: 10px;
+    width: 50%;
+
+}
+.err-msg .content-popup{
+    background: var(--error-color);
+    color: var(--dark-1);
+    overflow: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--font-size-l);
+}
+.err-msg .content-popup svg path{
+    fill: var(--light);
+}
+button:disabled{
+    cursor: not-allowed;
+}
+.box-error{
+    border: 1px solid var(--error-color);
+    border-radius: 10px;
+    color: var(--error-color);
+    font-size: var(--font-size-xs);
+}
 @media (max-width:1200px) {
     .heading h3{
         font-size: var(--font-size-s);
@@ -576,6 +625,10 @@ p{
     .metrics p{
         text-align: center;
         font-size: var(--font-size-xxs);
+    }
+    .content-popup{
+        width: 80%;
+        margin: 0 10px;
     }
 }
 @media (max-width:600px) {
