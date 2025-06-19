@@ -375,6 +375,9 @@
     cursor: pointer;
     
 }
+.details-blog  ul li{
+    font-size: var(--font-size-xxs) !important;
+}
 .blog h3{
     position: absolute;
     bottom: 0;

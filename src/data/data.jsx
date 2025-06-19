@@ -26,12 +26,12 @@ export const blogsData = [{
         description : <div className="flex flex-col gap-5">
             <div>
                 <h2>AI-Powered Personalization</h2>
-                <p>In 2025, artificial intelligence will take personalization to an entirely new level. We’re moving beyond basic email greetings to dynamic, behavior-driven content that adapts in real-time. AI is now capable of analyzing user behavior, preferences, and interactions across multiple channels, then using that data to customize everything from website experiences and product recommendations to social media ads.</p>
+                <p>In 2025, artificial intelligence will take personalization to an entirely new level. We’re moving beyond basic email greetings to dynamic, behavior-driven content that adapts in real time. AI is now capable of analyzing user behavior, preferences, and interactions across multiple channels, then using that data to customize everything from website experiences and product recommendations to social media ads.</p>
                 <p>Expect AI to guide not just what you show your audience, but when, where, and how it’s delivered for maximum impact.</p>
             </div>
             <div>
                 <h2> Short-Form Video Content </h2>
-                <p>If there’s one thing that’s become clear over the past few years, it’s that short videos are dominating consumer attention. Platforms like TikTok, Instagram Reels, and YouTube Shorts have completely transformed how audiences consume content, and in 2025, this trend will only intensify. Authenticity will beat high production value, think behind-the-scenes clips, team highlights, quick how-to guides, and relatable storytelling.</p>
+                <p>If there’s one thing that’s become clear over the past few years, it’s that short videos are dominating consumer attention. Platforms like TikTok, Instagram Reels, and YouTube Shorts have completely transformed how audiences consume content, and in 2025, this trend will only intensify. Authenticity will beat high production value; think behind-the-scenes clips, team highlights, quick how-to guides, and relatable storytelling.</p>
                 <p>People want content that’s fast, engaging, and easy to digest. The key is to be real, human, and consistent.</p>
             </div>
             <div>
@@ -81,11 +81,11 @@ export const blogsData = [{
             <div>
                 <h2>It Drives Organic Traffic with SEO</h2>
                 <p>Search engine optimization (SEO) is still one of the most cost-effective ways to grow your business, and your website is the star of the show. When your site ranks well on Google for the right keywords, it brings in consistent, high-intent traffic from people already searching for what you offer. In 2025, local SEO, voice search, and user experience are bigger than ever. </p>
-                <p>Having helpful content, fast load times, and a clear structure isn’t just nice, it’s necessary.</p>
+                <p>Having helpful content, fast load times, and a clear structure isn’t just nice; it’s necessary.</p>
             </div>
             <div>
                 <h2>It Turns Visitors Into Customers</h2>
-                <p>Good design isn’t just about looking pretty, it’s about getting results. Your website should guide users toward taking action, whether that’s booking a call, making a purchase, or signing up for a service. A conversion-focused website doesn’t just attract visitors it turns them into paying customers.</p>
+                <p>Good design isn’t just about looking pretty; it’s about getting results. Your website should guide users toward taking action, whether that’s booking a call, making a purchase, or signing up for a service. A conversion-focused website doesn’t just attract visitors; it turns them into paying customers.</p>
             </div>
             <div>
                 <h2>It Grows With You</h2>
@@ -94,7 +94,7 @@ export const blogsData = [{
             </div>
             <div>
                 <h3>Conclusion</h3>
-                <p>When built right, it becomes your most valuable digital asset: bringing in traffic, building trust, and turning visitors into long-term customers.</p>
+                <p>When built right, it becomes your most valuable digital asset, bringing in traffic, building trust, and turning visitors into long-term customers.</p>
                 <p>Not seeing those results from your current site? It might be time for a change.</p>
                 <p> At Ariz Global, we design performance-driven websites that don’t just look great - they work. Let’s build a site that works as hard as you do.</p>
             </div>
@@ -107,7 +107,7 @@ export const blogsData = [{
         firstDes : <div>
             <p>When you think of branding, chances are a logo pops into your head, maybe some colors, a cool font, or a sleek website. And while those things are important, they’re just the surface. Real branding goes much deeper.</p>
             <p>
-                Branding is the feeling people get when they interact with your business. It’s the tone in your emails, the way your team treats customers, the message behind your mission. It’s what makes people remember you  and more importantly, choose you.
+                Branding is the feeling people get when they interact with your business. It’s the tone in your emails, the way your team treats customers, and the message behind your mission. It’s what makes people remember you  and, more importantly, choose you.
             </p>
             <p>Here’s why your brand is way more than just a logo and why it’s one of the smartest investments you can make for your business.</p>
         </div>,
@@ -120,28 +120,28 @@ export const blogsData = [{
             </div>
             <div>
                 <h2>It Builds Trust</h2>
-                <p>We’ve all heard it before, people do business with those they know, like, and trust. Branding helps you build that trust and not just with pretty visuals. It’s about showing up consistently  same tone, same quality, same values across everything you do. From your website and social media to how you respond to a customer email, branding ties it all together.</p>
+                <p>We’ve all heard it before; people do business with those they know, like, and trust. Branding helps you build that trust, and not just with pretty visuals. It’s about showing up consistently with the same tone, same quality, and same values across everything you do. From your website and social media to how you respond to a customer email, branding ties it all together.</p>
                 <p>When your brand feels dependable and genuine, people are more likely to believe in what you offer  and stick around.</p>
             </div>
             <div>
                 <h2>It Creates Emotional Connection</h2>
-                <p>Think about the brands you love. Not just the ones you buy from, the ones that mean something to you. That connection doesn’t come from a logo, it comes from a feeling. Maybe it’s how the brand made you feel seen. Or the values they stand for. Or the way they made your life easier.</p>
-                <p>Strong branding taps into emotion. It builds loyalty, community, and turns customers into fans.</p>
+                <p>Think about the brands you love. Not just the ones you buy from, but the ones that mean something to you. That connection doesn’t come from a logo; it comes from a feeling. Maybe it’s how the brand made you feel seen. Or the values they stand for. Or the way they made your life easier.</p>
+                <p>Strong branding taps into emotion. It builds loyalty and community and turns customers into fans.</p>
             </div>
             <div>
                 <h2>Branding Makes You Stand Out</h2>
-                <p>Let’s be honest, no matter what industry you're in, you’ve got competition. And in a sea of sameness, a logo alone won’t make you memorable. Your brand is what sets you apart. It’s your voice, your message, your story, your approach. It’s the personality behind your product  and the reason someone picks you over the next option in their feed.</p>
+                <p>Let’s be honest, no matter what industry you're in, you’ve got competition. And in a sea of sameness, a logo alone won’t make you memorable. Your brand is what sets you apart. It’s your voice, your message, your story, and your approach. It’s the personality behind your product  and the reason someone picks you over the next option in their feed.</p>
                 <p>Done right, branding turns what you do into why people choose you.</p>
             </div>
             <div>
                 <h2>It Gives You Direction as You Grow</h2>
-                <p>Branding isn’t just about looking good, it’s also about staying true to who you are as you scale. A strong brand gives you a clear sense of purpose. It helps you make smart product decisions and keep your message consistent across every stage of growth.</p>
-                <p>Your brand becomes your North Star  guiding decisions big and small.</p>
+                <p>Branding isn’t just about looking good; it’s also about staying true to who you are as you scale. A strong brand gives you a clear sense of purpose. It helps you make smart product decisions and keep your message consistent across every stage of growth.</p>
+                <p>Your brand becomes your North Star,  guiding decisions big and small.</p>
             </div>
             <div>
                 <h3>Conclusion</h3>
                 <p>Branding is the soul of your business. It’s what people remember when the ad is over. It’s how they feel after a conversation with your team. It’s the lasting impression that keeps them coming back and telling others.</p>
-                <p>At Ariz Global, we don’t just design logos  we help businesses build brands with heart, strategy, and soul. If you’re ready to go beyond the visuals and create something unforgettable, let’s talk.</p>
+                <p>At Ariz Global, we don’t just design logos; we help businesses build brands with heart, strategy, and soul. If you’re ready to go beyond the visuals and create something unforgettable, let’s talk.</p>
             </div>
         </div>
     },{
@@ -156,21 +156,16 @@ export const blogsData = [{
         date : "Apr 5, 2025",
         description : <div className="flex flex-col gap-5">
             <div>
-                <h2>So, What Is Digital Marketing?</h2>
+                <h2>So, What is digital marketing?</h2>
                 <p>Digital marketing is just marketing, but online.</p>
                 <p>Instead of handing out flyers or paying for a billboard, you’re using tools like Google, Instagram, email, and your website to connect with people. You're showing up where your customers are already spending time: on their phones, laptops, and tablets.</p>
-                <p>Think of it as meeting your audience where they hang out through screens.</p>
+                <p>Think of it as meeting your audience where they hang out- through screens.</p>
             </div>
             <div>
                 <h2>Why Should Small Businesses Care?</h2>
                 <p>Because your customers are online. All. The. Time.</p>
                 <p>When someone needs a product, a service, or even a quick answer, what’s the first thing they do? They search on Google. Or scroll through social media. If your business isn’t showing up there, someone else’s is.</p>
                 <p>The best part? You don’t need a massive budget or a full-time marketing team to make an impact. Digital marketing helps smaller businesses compete and win in today’s online world.</p>
-            </div>
-            <div>
-                <h2>It Creates Emotional Connection</h2>
-                <p>Think about the brands you love. Not just the ones you buy from, the ones that mean something to you. That connection doesn’t come from a logo, it comes from a feeling. Maybe it’s how the brand made you feel seen. Or the values they stand for. Or the way they made your life easier.</p>
-                <p>Strong branding taps into emotion. It builds loyalty, community, and turns customers into fans.</p>
             </div>
             <div>
                 <h2>Main Types of Digital Marketing </h2>
@@ -223,7 +218,7 @@ export const blogsData = [{
             </div>
         </div>
     },{
-        title : "Personal vs. Business Branding: What’s the Difference and Which One Do You Need?",
+        title : "Personal vs. Business Branding: What’s the Difference, and Which One Do You Need?",
         cat_id : 2,
         link : "Personal-vs-Business-Branding-What’s-the-Difference-and-Which-One-Do-You-Need",
         img : blog_5,
