@@ -234,7 +234,7 @@ const Footer = ()=>{
                 </p>
                 <p> © 2025 Ariz Global. All rights reserved.</p>
                 <div className="flex gap-2">
-                    {icons.map((e,idx)=>(<Link key={`Social_Media_${e.name}_${idx}`} to={e.link} target="_blank">
+                    {icons.map((e,idx)=>(<Link aria-label={`Go ${e.name}`} key={`Social_Media_${e.name}_${idx}`} to={e.link} target="_blank">
                     <div className="icon-footer" >
                         <div className="icon-container">{e.icon}</div>
                     </div>
@@ -250,7 +250,7 @@ const Footer = ()=>{
                 </div>
                 <div className="flex flex-col gap-2 sm:gap-3 pages">
                     <h2>Services</h2>
-                    {services.map((e,idx)=>(<Link aria-label={`View our ${e.name}`} to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
+                    {services.map((e,idx)=>(<Link  to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
