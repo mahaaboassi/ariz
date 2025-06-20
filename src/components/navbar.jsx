@@ -29,7 +29,7 @@ const Navbar = ()=>{
             setOpenServices(false)
         }} view={openServices} closeServices={closeServices} />}
         <div className="content-nav px-8 md:px-10 sm:py-3">
-            <div><Link to={"/"}>{logo}</Link> </div>
+            <div><Link aria-label="View Ariz Global" to={"/"}>{logo}</Link> </div>
             <div>
                 <div onClick={()=>setIsOpenMenu(!isOpenMenu)} className={`container-menu-lines px-3 ${isOpenMenu?"close-icon-menu":""}`}>
                     <div className="line-menu-1"></div>
