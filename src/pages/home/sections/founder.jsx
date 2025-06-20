@@ -19,7 +19,7 @@ const Founder = ()=>{
             <div className="content-founder  ">
                 <div className="img-content"><img src={shape} alt="shape" /></div>
                 <div className="content h-full flex flex-col justify-center p-5 lg:p-10 gap-5 lg:gap-10">
-                    <h4>Majid Ahmad – Founder & Marketing Strategist</h4>
+                    <h2>Majid Ahmad – Founder & Marketing Strategist</h2>
                     <p>Leading with Passion, Delivering with Purpose</p>
                     <p>With 10+ years of hands-on experience in digital marketing, Majid Ahmad is the strategic mind behind Ariz Global’s impact across Dubai and the GCC. Recognized for his forward-thinking leadership and data-driven approach, Majid empowers brands through result-oriented marketing strategies. His reputation for integrity, insight, and innovation has made him a trusted advisor to both startups and established businesses navigating the digital landscape.</p>
                     <Link target="_blank" to={calendlyLink}><button className="!w-full">Book a Meeting</button></Link>

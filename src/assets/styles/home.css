@@ -230,7 +230,7 @@
     border-radius: 10px;
     position: relative;
 }
-.founder h4{
+.founder h2{
     font-size: var(--font-size-xl);  
     color: var(--yellow-2);
     font-weight: 500;
