@@ -11,7 +11,7 @@ const Lines = ({children,isWithGlow})=>{
     return (<div className={`${isWithGlow? "container-lines-with-glow": "container-lines"}  h-full`}>
             <div className="lines">
                     {
-                        [...Array(500)].map((_,idx)=>{
+                        [...Array(200)].map((_,idx)=>{
                             const height = Math.floor(Math.random() * 60) + 800;
                             return<div  className="line" key={`Lines_${idx}`}></div>
                         })
@@ -19,7 +19,7 @@ const Lines = ({children,isWithGlow})=>{
             </div>
             <div className="lines-horizontal">
                     {
-                        [...Array(500)].map((_,idx)=>{
+                        [...Array(200)].map((_,idx)=>{
                             const height = Math.floor(Math.random() * 60) + 800;
                             return<div  className="line-horizontal" key={`Lines_Horizontal_${idx}`}></div>
                         })
