@@ -299,7 +299,7 @@ nav a.active{
 footer p{
     font-size: var(--font-size-xxs);
 }
-footer h5{
+footer h2{
     font-size: var(--font-size-l);
     color: var(--yellow-2);
     text-transform: uppercase;

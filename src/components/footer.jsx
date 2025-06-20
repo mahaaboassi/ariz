@@ -243,26 +243,26 @@ const Footer = ()=>{
             </div>
             <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-2 lg:gap-5  xl:gap-10 ">
                 <div className="flex flex-col xl:pl-20 gap-2 sm:gap-3 pages">
-                    <h5>Pages</h5>
+                    <h2>Pages</h2>
                     {pages.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
                 <div className="flex flex-col gap-2 sm:gap-3 pages">
-                    <h5>Services</h5>
+                    <h2>Services</h2>
                     {services.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
                 <div className="flex flex-col justify-between gap-2 ">
                     <div className="flex flex-col gap-2 sm:gap-3 pages">
-                        <h5>Support</h5>
+                        <h2>Support</h2>
                         {support.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                             <div>{e.name}</div>
                         </Link>))}
                     </div>
                     <div className="flex flex-col gap-2 ">
-                        <h5>Newsletter</h5>
+                        <h2>Newsletter</h2>
                         <form onSubmit={handleSubmit(onSubmit)} className="input-footer">
                             <div className="input-container !h-full">
                                 <input {...register("email")} className="!h-full w-full" placeholder="Enter Email" />

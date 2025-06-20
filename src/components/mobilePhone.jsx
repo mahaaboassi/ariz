@@ -51,7 +51,7 @@ function MobileInput({register,value,returnedCountry,country_id,isOpenMenu=true,
             {isOpenMenu && <div className="flex cursor-pointer items-center">
                 {isOpen ? <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clipPath="url(#clip0_17_4651)">
-                    <path d="M12 8L6 14L7.41 15.41L12 10.83L16.59 15.41L18 14L12 8Z" fill="#323232"/>
+                    <path d="M12 8L6 14L7.41 15.41L12 10.83L16.59 15.41L18 14L12 8Z" fill="white"/>
                     </g>
                     <defs>
                     <clipPath id="clip0_17_4651">
@@ -60,7 +60,7 @@ function MobileInput({register,value,returnedCountry,country_id,isOpenMenu=true,
                     </defs>
                     </svg>: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <g clipPath="url(#clip0_17_4652)">
-                        <path d="M16.59 8.58997L12 13.17L7.41 8.58997L6 9.99997L12 16L18 9.99997L16.59 8.58997Z" fill="#323232"/>
+                        <path d="M16.59 8.58997L12 13.17L7.41 8.58997L6 9.99997L12 16L18 9.99997L16.59 8.58997Z" fill="white"/>
                         </g>
                         <defs>
                         <clipPath id="clip0_17_4652">
