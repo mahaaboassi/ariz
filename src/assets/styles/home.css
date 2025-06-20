@@ -31,6 +31,34 @@
     position: relative;
     background-color: var(--dark-1);
 }
+.square-1:hover .logo-seo{
+    transform: translateY(-5px);
+}
+.square-1:hover .logo-graphic{
+    transform: translateY(5px);
+}
+.square-1:hover .logo-coding{
+    transform: translateX(5px);
+}
+.square-1:hover .logo-relation{
+    transform: translateX(-5px);
+}
+.square-1:hover .logo-google{
+    transform: translateX(-5px);
+}
+.square-1:hover .logo-mic{
+    transform: translateY(5px);
+}
+.square-1:hover .logo-linkedin{
+    transform: translateX(-5px);
+}
+.square-1:hover .logo-youtube{
+    transform: translateX(-5px);
+}
+.square-1:hover .logo-twitter{
+    transform: translateY(5px);
+}
+
 .logo-btn{
     position: absolute;
     right: -18px;
@@ -44,21 +72,25 @@
 .logo-mic{
     position: absolute;
     left: -20px;
+    transition: 0.4s;
 }
 .logo-google{
     position: absolute;
     left: 200px;
     top: -20px;
+    transition: 0.4s;
 }
 .logo-linkedin{
     position: absolute;
     left: 200px;
     bottom: -15px;
+    transition: 0.4s;
 }
 .logo-twitter{
     position: absolute;
     right: -20px;
     bottom: 100px;   
+    transition: 0.4s;
 }
 .square-2{
     width: 450px;
@@ -71,21 +103,26 @@
     position: absolute;
     left: -20px;
     top: 50px;
+    transition: 0.4s;
 }
 .logo-seo{
     position: absolute;
     right: -20px;
     bottom: 70px;
+    transition: 0.4s;
 }
+
 .logo-graphic{
     position: absolute;
     right: 50px;
     bottom: -22px;
+    transition: 0.4s;
 }
 .logo-coding{
     position: absolute;
     left: -20px;
     bottom: 50px; 
+    transition: 0.4s;
 }
 .logo-btn-2{
     position: absolute;
@@ -107,7 +144,8 @@
 .logo-youtube{
     position: absolute;
     top: -18px;
-    right: 50px; 
+    right: 50px;
+    transition: 0.4s; 
 }
 /* Services */
 .services{
@@ -541,6 +579,21 @@
         font-size: 1rem;
     } 
     .square-1{
-        transform: scale(0.65);
+        transform: scale(0.8);
+    }
+    .square-2 {
+        width: 262px
+    }
+}
+@media (max-width:310px) {
+
+    .square-1{
+        transform: scale(0.7);
+    }
+    .square-1 svg{
+        width: 28px;
+    }
+    .square-2{
+        transform: scale(0.9);
     }
 }
