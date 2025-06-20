@@ -1,15 +1,15 @@
 import Heading from "../../../components/heading"
 // Images
-import show_1 from "../../../assets/images/show_1.png"
-import show_2 from "../../../assets/images/ariz-1.png"
-import show_3 from "../../../assets/images/show_3.png"
-import show_4 from "../../../assets/images/show_2.png"
-import show_5 from "../../../assets/images/show_5.png"
-import show_6 from "../../../assets/images/ariz-2.png"
-import show_7 from "../../../assets/images/foreshore-1.png"
-import show_8 from "../../../assets/images/ariz-3.png"
-import website_foreshore from "../../../assets/images/Frame 618.png"
-import website_tumbi from "../../../assets/images/Frame 619.png"
+import show_1 from "../../../assets/images/show_1.webp"
+import show_2 from "../../../assets/images/ariz-1.webp"
+import show_3 from "../../../assets/images/show_3.webp"
+import show_4 from "../../../assets/images/show_2.webp"
+import show_5 from "../../../assets/images/show_5.webp"
+import show_6 from "../../../assets/images/ariz-2.webp"
+import show_7 from "../../../assets/images/foreshore-1.webp"
+import show_8 from "../../../assets/images/ariz-3.webp"
+import website_foreshore from "../../../assets/images/Frame 618.webp"
+import website_tumbi from "../../../assets/images/Frame 619.webp"
 
 const Showcase = ()=>{
     return(<div className="showcase flex flex-col gap-5 px-4 sm:px-10">

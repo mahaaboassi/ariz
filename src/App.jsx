@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Layout from './pages/layout'
 import Home from './pages/home/page'
 import About from './pages/about/page'
@@ -10,6 +10,7 @@ import Terms from './pages/support/terms'
 import Privacy from './pages/support/privacy'
 import FAQs from './pages/support/faqs'
 import DetailsBlog from './pages/blog/detailsBlog'
+import Page_404 from './pages/404/page_404'
 
 function App() {
 
@@ -25,7 +26,10 @@ function App() {
                     <Route path="policy" element={<Privacy/>} />
                     <Route path="faqs" element={<FAQs/>} />
                     <Route path="services/:link" element={<SubServices/>} />
+                    <Route path="*" element={<Navigate to="/404" />}  />
                 </Route>
+                <Route path='/404' element={<Page_404/>} />
+                <Route path='*' element={<Page_404/>} />
             </Routes>
         </BrowserRouter>
   )

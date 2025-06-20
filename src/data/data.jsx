@@ -1,16 +1,16 @@
 // Images
-import blog_1 from "../assets/images/blog-7.png"
-import blog_2 from "../assets/images/blog-10.png"
-import blog_3 from "../assets/images/blog-8.png"
-import blog_4 from "../assets/images/blog-11.png"
-import blog_5 from "../assets/images/blog-12.png"
-import blog_6 from "../assets/images/blog-14.png"
+import blog_1 from "../assets/images/blog-7.webp"
+import blog_2 from "../assets/images/blog-10.webp"
+import blog_3 from "../assets/images/blog-8.webp"
+import blog_4 from "../assets/images/blog-11.webp"
+import blog_5 from "../assets/images/blog-12.webp"
+import blog_6 from "../assets/images/blog-14.webp"
 import { hostCanonical } from "./meta"
 // Images for contact us 
-import landline from "../assets/images/landline.png"
-import mail from "../assets/images/mailIcone.png"
-import phone from "../assets/images/call.png"
-import location from "../assets/images/location.png"
+import landline from "../assets/images/landline.webp"
+import mail from "../assets/images/mailIcone.webp"
+import phone from "../assets/images/call.webp"
+import location from "../assets/images/location.webp"
 
 export const calendlyLink ="https://calendly.com/majid-arizglobal/30min"
 export const blogsData = [{

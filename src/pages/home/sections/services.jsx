@@ -1,6 +1,6 @@
 import Lines from "../../../components/lines"
 import { content, digital, graphic, paid, search, web, writer } from "../../../data/data"
-import shape from "../../../assets/images/shape.png"
+import shape from "../../../assets/images/shape.webp"
 import { Link, useNavigate } from "react-router-dom"
 const Services = ()=>{
     const navigate = useNavigate()

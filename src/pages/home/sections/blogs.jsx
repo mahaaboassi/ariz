@@ -1,5 +1,5 @@
 import Heading from "../../../components/heading"
-import img from "../../../assets/images/shape-big.png"
+import img from "../../../assets/images/shape-big.webp"
 
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';

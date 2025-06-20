@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import img from "../assets/images/logo-footer.png"
+import img from "../assets/images/logo-footer.webp"
 // for validation
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -27,17 +27,23 @@ const Footer = ()=>{
         link : "/contact"
     }]
     const services = [{
+        name : "Social Media Management",
+        link : "/services/social-media-management"
+    },{
         name : "PPC & Paid Advertising",
-        link : ""
+        link : "/services/ppc-and-paid-advertising"
     },{
-        name : "Social Media Strategy ",
-        link : ""
+        name : "Branding & Graphic Design",
+        link : "/services/branding-and-graphic-design"
     },{
-        name : "Social Media Strategy ",
-        link : ""
+        name : "Content Marketing",
+        link : "/services/content-marketing"
     },{
-        name : "See More",
-        link : ""
+        name : "Web Design & Development",
+        link : "/services/web-design-and-development"
+    },{
+        name : "Search Engine Optimization",
+        link : "/services/search-engine-optimization"
     }]
     const support = [{
         name : "FAQs",
@@ -218,7 +224,7 @@ const Footer = ()=>{
             setLoading(false)
         }
     }
-    return(<footer className="px-4 sm:px-10 flex py-10 gap-6 lg:gap-5 xl:gap-10" >
+    return(<footer className="px-4 sm:px-10 flex py-10 gap-6 lg:gap-5 xl:gap-0" >
             <div className="first-col-in-footer flex flex-col gap-5">
                 <div>
                     <img src={img} className="w-2xs" alt="Ariz Global Logo" />
@@ -226,22 +232,35 @@ const Footer = ()=>{
                 <p>
                     Ariz Global is a results-driven digital marketing agency specializing in creative branding, content strategy, and growth marketing. With deep expertise in public relations, paid media, and social storytelling, we help businesses—from startups to global enterprises—elevate their presence, drive traffic, and generate leads.
                 </p>
-                <p> © 2025 by Ariz Global</p>
+                <p> © 2025 Ariz Global. All rights reserved.</p>
+                <div className="flex gap-2">
+                    {icons.map((e,idx)=>(<Link key={`Social_Media_${e.name}_${idx}`} to={e.link} target="_blank">
+                    <div className="icon-footer" >
+                        <div className="icon-container">{e.icon}</div>
+                    </div>
+                    </Link>))}
+                </div>
             </div>
-            <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-5 lg:gap-5  xl:gap-10 ">
-                <div className="flex flex-col gap-2 sm:gap-5 pages">
+            <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-2 lg:gap-5  xl:gap-10 ">
+                <div className="flex flex-col xl:pl-20 gap-2 sm:gap-3 pages">
                     <h5>Pages</h5>
                     {pages.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
-                <div className="flex flex-col gap-2 sm:gap-5 pages">
-                    <h5>Support</h5>
-                    {support.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
+                <div className="flex flex-col gap-2 sm:gap-3 pages">
+                    <h5>Services</h5>
+                    {services.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
                 <div className="flex flex-col justify-between gap-2 ">
+                    <div className="flex flex-col gap-2 sm:gap-3 pages">
+                        <h5>Support</h5>
+                        {support.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
+                            <div>{e.name}</div>
+                        </Link>))}
+                    </div>
                     <div className="flex flex-col gap-2 ">
                         <h5>Newsletter</h5>
                         <form onSubmit={handleSubmit(onSubmit)} className="input-footer">
@@ -255,16 +274,7 @@ const Footer = ()=>{
                         </form>
                         {errors.email && <p className="p-0.5 text-error">{errors.email.message}</p>}
                     </div>
-                    <div className="flex flex-col gap-2">
-                        <h5>Follow us</h5>
-                        <div className="flex gap-2">
-                            {icons.map((e,idx)=>(<Link key={`Social_Media_${e.name}_${idx}`} to={e.link} target="_blank">
-                            <div className="icon-footer" >
-                                <div className="icon-container">{e.icon}</div>
-                            </div>
-                            </Link>))}
-                        </div>
-                    </div>
+
                 </div>
             </div>
     </footer>)

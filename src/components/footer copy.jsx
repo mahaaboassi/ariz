@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import img from "../assets/images/logo-footer.png"
+import img from "../assets/images/logo-footer.webp"
 // for validation
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';

@@ -1,4 +1,4 @@
-import img from "../../../assets/images/man-star-2.png"
+import img from "../../../assets/images/man-star-2.webp"
 const Vision = ()=>{
     const data = [{
         name : "Vision",

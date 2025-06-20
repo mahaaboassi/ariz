@@ -5,13 +5,13 @@ import 'swiper/css'; // core Swiper
 
 import {Autoplay } from 'swiper/modules';
 // Images 
-import ads_1 from "../../../assets/images/ads_1.png"
-import ads_2 from "../../../assets/images/ads-15.png"
-import ads_3 from "../../../assets/images/ads_3.png"
-import ads_4 from "../../../assets/images/ads-13.png"
-import ads_5 from "../../../assets/images/ads-14.png"
-import ads_6 from "../../../assets/images/ads-15.png"
-import ads_7 from "../../../assets/images/ads-12.png"
+import ads_1 from "../../../assets/images/ads_1.webp"
+import ads_2 from "../../../assets/images/ads-15.webp"
+import ads_3 from "../../../assets/images/ads_3.webp"
+import ads_4 from "../../../assets/images/ads-13.webp"
+import ads_5 from "../../../assets/images/ads-14.webp"
+import ads_6 from "../../../assets/images/ads-15.webp"
+import ads_7 from "../../../assets/images/ads-12.webp"
 import { Link } from "react-router-dom";
 import { calendlyLink } from "../../../data/data";
 

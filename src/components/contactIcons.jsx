@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import landline from "../assets/images/landline.png"
-import mail from "../assets/images/mailIcone.png"
-import phone from "../assets/images/call.png"
-import Whatsapp from "../assets/images/phone.png"
+import landline from "../assets/images/landline.webp"
+import mail from "../assets/images/mailIcone.webp"
+import phone from "../assets/images/call.webp"
+import Whatsapp from "../assets/images/phone.webp"
 import { useEffect, useRef, useState } from "react"
 
 const ContactIcons = ()=>{
