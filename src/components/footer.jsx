@@ -250,7 +250,7 @@ const Footer = ()=>{
                 </div>
                 <div className="flex flex-col gap-2 sm:gap-3 pages">
                     <h2>Services</h2>
-                    {services.map((e,idx)=>(<Link to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
+                    {services.map((e,idx)=>(<Link aria-label={`View our ${e.name}`} to={e.link} key={`Pages_Footer_${e.name}_${idx}`} >
                         <div>{e.name}</div>
                     </Link>))}
                 </div>
@@ -268,7 +268,7 @@ const Footer = ()=>{
                                 <input {...register("email")} className="!h-full w-full" placeholder="Enter Email" />
                                  
                             </div>
-                            <button disabled={loading} type="submit" className="icon-input">
+                            <button aria-label="Subscribe now" disabled={loading} type="submit" className="icon-input">
                                 {loading? <div className="spinner m-auto"></div>:<svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 13 8" fill="none"><path d="M13 4L9.00002 0V3H0V5H9.00002V8L13 4Z" fill="white"></path></svg>}
                             </button>
                         </form>
