@@ -28,7 +28,7 @@ const Founder = ()=>{
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  gap-10">
             <div>
-                <h4>Trusted by the Media: Read What Publications Say About Majid Ahmad</h4>
+                <h2>Trusted by the Media: Read What Publications Say About Majid Ahmad</h2>
                 <p>Featured by Trusted News Sources</p>
             </div>
             <div className="grid grid-cols-2 gap-5">
