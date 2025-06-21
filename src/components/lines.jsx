@@ -11,9 +11,15 @@ const Lines = ({children,isWithGlow})=>{
     return (<div style={{overflow:"hidden",position:"relative"}} className="h-full">
        <div className={`${isWithGlow ? "container-lines-with-glow" : "grid-container"}`}>
             {
-                [...Array(500)].map((_,idx)=>{
-                    const height = Math.floor(Math.random() * 60) + 800;
-                    return<div  className={`line-auto line-${idx}`} key={`Lines_${idx}`}></div>
+                [...Array(400)].map((_,idx)=>{
+                    if(idx== 62 || idx== 50 || idx== 70 || idx== 120 || idx == 85 || idx== 201 || idx== 154 ||
+                        idx== 300 || idx== 220 || idx== 400 || idx== 286 || idx == 140
+                      ){
+                        return<div  className={`line-auto line-${idx} ${start ? "bubble-first" : "bubble"}`} key={`Lines_${idx}`}></div>
+                      }else{
+                        return<div  className={`line-auto line-${idx}`} key={`Lines_${idx}`}></div>
+                      }
+                    
                 })
             }
        </div>
