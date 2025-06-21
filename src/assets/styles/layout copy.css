@@ -119,29 +119,15 @@ nav a.active{
     opacity: 1;
 }
 /* Lines */
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(30,71px);
-    grid-auto-rows: 71px;
-    position: absolute;
-    
+.container-lines{
+    position: relative;
+    overflow: hidden;
 }
-.line-auto{
-    border-left: 1px solid rgba(128, 128, 128, 0.155);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.155);
-}
-.line-62,.line-50,.line-70,.line-120,.line-85,.line-201,.line-154,.line-300,.line-220,.line-400,.line-140{
-    background-color: var(--dark-2);
-     animation: changeStatus 2s infinite linear;
-}
-
 .container-lines-with-glow{
-    display: grid;
-    grid-template-columns: repeat(30,71px);
-    grid-auto-rows: 71px;
+    position: relative;
+    overflow: hidden;
     background: url("../images/glow.webp");
     background-repeat: no-repeat;
-    position: absolute;
 }
 .content-lines{
     position: relative;
@@ -159,8 +145,102 @@ nav a.active{
     border-left: 1px solid rgba(128, 128, 128, 0.155);
     height: 1000px;
 }
+.lines-horizontal{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    height: 1000px;
+}
+.line-horizontal{
+    /* display: inline-block; */
+    border-top: 70px solid rgba(128, 128, 128, 0);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.155);
+}
+.square{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 71px;
+    top: 141px;
+}
+.square-left-2{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 141px;
+    top: 280px;
+}
 
-
+.square-left-3{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 563px;
+}
+.square-left-4{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 281px;
+    top: 421px;
+}
+.square-left-5{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 1338px;
+    top: 141px;
+}
+.square-left-6{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 1268px;
+    top: 280px;
+}
+.square-left-7{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 1409px;
+    top: 563px;
+}
+.square-left-8{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 915px;
+    top: 703px;
+}
+.square-left-9{
+    background-color:  var(--dark-2);
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    z-index: 20;
+    left: 915px;
+    top: 71px;
+        
+}
 .bubble-first{
     transform: scale(0);
     animation: showSquare 0.3s forwards linear;

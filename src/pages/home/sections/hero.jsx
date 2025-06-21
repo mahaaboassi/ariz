@@ -107,7 +107,7 @@ const Hero = ()=>{
     },[index])
     return (<div className="hero-section mt-32 flex flex-col gap-6 md:gap-10">
         <div>
-                <h1 className="my-5">Strategize Optimize Succeed</h1>
+                <h1 className="my-5">Strategize | Optimize | Succeed</h1>
                 <div className="flex justify-center">
                 <h2>We Provide  <TypeAnimation
                                         sequence={[
