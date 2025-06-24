@@ -184,7 +184,7 @@ nav a.active{
 .heading h2{
     font-size: var(--font-size-3xl) !important;
     color: var(--yellow-2);
-    font-weight: 600;
+    font-weight: 600 !important;
     width: 45%;
     margin: auto;
     line-height: 3rem;
