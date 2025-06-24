@@ -24,7 +24,7 @@ const validationSchema = Yup.object({
 
 
 const Contact = ()=>{
-    useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
+    useEffect(()=>{window.scrollTo({ top: 0})},[])
     const { register, handleSubmit, formState: { errors } } = useForm(
         {resolver: yupResolver(validationSchema), 
             mode: 'onChange'   }

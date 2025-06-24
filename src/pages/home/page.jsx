@@ -10,7 +10,7 @@ import Steps from "./sections/steps"
 import { MetaData } from "../../data/meta"
 
 const Home = ()=>{
-    useEffect (()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
+    useEffect (()=>{window.scrollTo({ top: 0})},[])
     return(<article>
 
         <title>{MetaData.home.title}</title>

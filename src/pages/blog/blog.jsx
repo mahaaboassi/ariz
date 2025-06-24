@@ -33,7 +33,7 @@ const Blogs = ()=>{
             setBlogs(temp)
         }
     },[currentCategory])
-    useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
+    useEffect(()=>{window.scrollTo({ top: 0})},[])
     return(
     <article>
             <title>{MetaData.blog.title}</title>

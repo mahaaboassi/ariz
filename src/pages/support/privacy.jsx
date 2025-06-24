@@ -4,7 +4,7 @@ import Lines from "../../components/lines"
 import { MetaData } from "../../data/meta"
 
 const Privacy = ()=>{
-    useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
+    useEffect(()=>{window.scrollTo({ top: 0})},[])
     return(<article>
 
             <title>{MetaData.policy.title}</title>

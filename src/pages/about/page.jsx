@@ -7,7 +7,7 @@ import Vision from "./sections/vision"
 import { MetaData } from "../../data/meta"
 
 const About = ()=>{
-    useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
+    useEffect(()=>{window.scrollTo({ top: 0})},[])
     return(<div>
             <article>
                 <title>{MetaData.about.title}</title>

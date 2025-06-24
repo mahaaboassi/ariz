@@ -18,7 +18,7 @@ const SubServices = ()=>{
     const { link } = useParams()
     const [ currentServices, setCurrentServices ] = useState({})
     useEffect(()=>{
-        window.scrollTo({ top: 0, behavior: "smooth" })
+        window.scrollTo({ top: 0})
         setCurrentServices(services.find((e)=> e.link == `/services/${link}`))}
         ,[link])
     return("name" in currentServices && <article>

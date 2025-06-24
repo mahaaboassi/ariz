@@ -6,7 +6,7 @@ import Accordion from "../../components/accordion"
 import { MetaData } from "../../data/meta"
 
 const FAQs = ()=>{
-    useEffect(()=>{window.scrollTo({ top: 0, behavior: "smooth" })},[])
+    useEffect(()=>{window.scrollTo({ top: 0})},[])
     const [openIndex, setOpenIndex] = useState(null);
     
     const handleToggle = (index) => {
