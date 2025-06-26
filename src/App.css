@@ -62,6 +62,20 @@ button:hover{
   background : var(--light) ;
   color: var(--dark-1);
 }
+.outline-btn{
+  background : var(--light) ;
+  color: var(--dark-1) ;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: var(--font-size-s);
+  transition: 0.4s;
+  font-weight: 500;
+}
+.outline-btn:hover{
+  background : var(--error-color)  ;
+  color: var(--light);
+}
 .sr-only{
   position: absolute;
   width: 1px;
