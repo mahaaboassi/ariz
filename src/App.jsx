@@ -27,7 +27,7 @@ function App() {
                     <Route path="policy" element={<Privacy/>} />
                     <Route path="faqs" element={<FAQs/>} />
                     <Route path="services/:link" element={<SubServices/>} />
-                    <Route path="createQR" element={<QR/>} />
+                    <Route path="qr" element={<QR/>} />
                     <Route path="*" element={<Navigate to="/404" />}  />
                 </Route>
                 <Route path='/404' element={<Page_404/>} />
