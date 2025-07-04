@@ -11,6 +11,7 @@ import Privacy from './pages/support/privacy'
 import FAQs from './pages/support/faqs'
 import DetailsBlog from './pages/blog/detailsBlog'
 import Page_404 from './pages/404/page_404'
+import QR from './pages/QR/page'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                     <Route path="policy" element={<Privacy/>} />
                     <Route path="faqs" element={<FAQs/>} />
                     <Route path="services/:link" element={<SubServices/>} />
+                    <Route path="createQR" element={<QR/>} />
                     <Route path="*" element={<Navigate to="/404" />}  />
                 </Route>
                 <Route path='/404' element={<Page_404/>} />
