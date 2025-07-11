@@ -2,16 +2,16 @@
 const Footer = ()=>{
     
     return(<div className="final-section">
-        <div className="flex flex-col gap-4 px-20 py-10">
+        <div className="flex flex-col gap-4 container-landing !py-10">
             <h2>What Are You Looking For?</h2>
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-2 xs:gap-5">
                 {
                     ["Social Media Management UAE","UAE Marketing Solutions",
                     "Website Design & Development","Branding & Creative Design Agency",
                     "Performance Marketing Experts","Content Marketing & Strategy",
                     "Influencer Marketing Strategy","Video Editing & Reels Creation"].map((e,idx)=>(
                         <a key={`Keywords-${e}_${idx}`} href={"#callUs"}>
-                            <div className="card-final p-4 flex justify-center items-center">
+                            <div className="card-final text-center p-4 flex justify-center items-center">
                                 {e}
                             </div>
                         </a>
@@ -21,7 +21,7 @@ const Footer = ()=>{
 
             </div>
         </div>
-        <footer className="flex flex-col justify-center items-center gap-2 px-20 py-5">
+        <footer className="flex flex-col text-center justify-center items-center gap-2 container-landing !py-5">
             <div>Ariz Global @ 2025. All rights reserved.</div>
             <div className="flex gap-1 items-center">
                 <div>

@@ -2,6 +2,9 @@
 html {
   scroll-behavior: smooth;
 }
+.container-landing{
+    padding: 0 100px;
+}
 .landing{
     background-color: var(--dark-1);
     background: url("../images/glow-landing-2.png");
@@ -12,13 +15,22 @@ html {
 /* Nav */
 .landing nav{
     border-bottom: 1px solid rgba(128, 128, 128, 0.155);
-    background-color: #0b081d5a;
+    background-color: #0b081da4;
     backdrop-filter: blur(3px); 
+      padding-top: 18px ;
+        padding-bottom: 18px ;
+}
+
+.landing nav ul{
+    font-size: var(--font-size-s);
     
+}
+.landing .logo-landing svg{
+    width: 300px;
 }
 /* Hero */
 .hero-landing{
-    
+    padding-top: 210px;
     
 }
 .hero-landing  h1{
@@ -275,13 +287,31 @@ html {
     /* overflow: hidden; */
     position: relative;
 }
+.social-media ul{
+    font-size: var(--font-size-xs);
+}
+.social-media li{
+    position: relative;
+    padding-left: 15px;
+}
+.social-media li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(var(--yellow-2),var(--yellow-1));
+    border-radius: 50%;
+    top : 50%;
+    transform: translateY(-50%);
+}
 .social-media .content-social{
     position: absolute;
     inset: 0;
     z-index: 0;
 }
-.social-media .container-img{
-    position: absolute;
+.landing .container-img{
+    position: absolute ;
     inset: 0;
     z-index: 0;
 }
@@ -398,17 +428,13 @@ html {
 /* FAQs */
 .FAQs-landing{
     position: relative;
-    /* overflow: hidden; */
-    overflow: visible;
+
 }
 .FAQs-landing h2,.FAQs-landing h3{
     text-align: start !important;
      width: 100%;
 }
-.container-img{
-    position: absolute;
-    inset: 0;
-}
+
 .FAQs-landing .container{
     padding: 15px !important ;
 }
@@ -430,4 +456,312 @@ html {
     color: var(--yellow-2);
     font-size: var(--font-size-l);
     font-weight: 600;
+}
+    /* @media (max-width : 1300px) {
+        
+        .landing form {
+            width: 90%;
+        }
+        .hero-landing h1{
+            font-size: 2.3rem;
+        }
+        .analytics-card, .behind-card {
+            width: 400px;
+            height: 220px;
+        }
+    } */
+@media (max-width : 1300px) {
+        /* hero */
+
+    .hero-landing h1{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    .analytics-card, .behind-card {
+        width: 350px;
+        height: 200px;
+    }
+    .yellow-circle,.white-circle{
+        width: 80px;
+        height: 80px;
+    }
+    .center-circle {
+        width: 50px;
+        height: 50px;
+    }
+     .landing form {
+        width: 90%;
+    }
+}
+@media (max-width:1200px) {
+    .container-landing{
+        padding: 0 70px;
+    }
+    .landing nav ul{
+        font-size: var(--font-size-xs);
+        
+    }
+    .landing nav ul img{
+        width: 20px ;
+    }
+    .landing .logo-landing svg{
+        width: 200px;
+    }
+    .container-image-drawing{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) scale(0.8)
+    }
+    .content-clients svg{
+        width: 80px;
+    }
+    
+}
+@media (max-width : 1000px) {
+    .content-clients svg{
+        width: 60px;
+    }
+}
+@media (max-width : 900px) {
+    .container-landing{
+        padding: 0 40px;
+    }
+    .hero-landing{
+        padding-top: 190px;
+        
+    }
+        /* hero */
+    .landing form {
+        width: 100%;
+    }
+    .hero-landing h1{
+        font-size: 1.9rem;
+        line-height: 2.2rem;
+    }
+    .hero-landing p{
+        font-size: var(--font-size-xs)
+    }
+    .analytics-card, .behind-card {
+        width: 300px;
+        height: 180px;
+    }
+    .yellow-circle,.white-circle{
+        width: 60px;
+        height: 60px;
+    }
+    .center-circle {
+        width: 45px;
+        height: 45px;
+    }
+    .hero-landing ul{
+        font-size: var(--font-size-xs);
+    }
+    /* clients */
+    .content-clients{
+        flex-direction: column;
+    }
+    .content-clients svg{
+        width: 80px;
+    }
+
+
+}
+@media (max-width:800px) {
+    .hero-landing{
+        grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+    .hero-landing h1, .hero-landing p{
+        text-align: center;
+    }
+    .hero-landing h1{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    .hero-landing p{
+        font-size: var(--font-size-s)
+    }
+    .container-form{
+        justify-content: center;
+    }
+    .landing form {
+        width: 80%;
+    }
+    .container-analytics{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .analytics-card, .behind-card {
+        width: 350px;
+        height: 200px;
+    }
+    .yellow-circle,.white-circle{
+        width: 80px;
+        height: 80px;
+    }
+    .center-circle {
+        width: 50px;
+        height: 50px;
+    }
+    .landing nav{
+        padding-top: 5px ;
+        padding-bottom: 5px ;
+    }
+    .hero-landing{
+        padding-top: 150px;
+        
+    }
+    .landing nav ul .value{
+        display: none;
+    }
+    .container-nav-icons{
+        background-color: #00000014;
+        padding: 7px;
+        border-radius: 5px;
+        
+    }
+    .landing .logo-landing svg{
+        width: 200px;
+    }
+
+}
+@media (max-width: 768px) {
+    .industries{
+        padding-top: 200px !important;
+    }
+    .container-image-drawing{
+        position: relative;
+        left: 50%;
+        transform: translateX(-40%) scale(0.8)
+    }
+    .landing .social-media ul{
+        font-size: var(--font-size-xxs);
+    }
+    .industries svg{
+        width: 40px;
+    }
+    .FAQs-landing .target ,.FAQs-landing p{
+        font-size: var(--font-size-xxs) ;
+    }
+    
+}
+@media (max-width:600px) {
+    .hero-landing h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .hero-landing p{
+        font-size: var(--font-size-s)
+    }
+    .container-analytics{
+        height: 280px;
+    }
+    .analytics-card, .behind-card {
+        width: 300px;
+        height: 180px;
+    }
+    .yellow-circle,.white-circle{
+        width: 60px;
+        height: 60px;
+    }
+    .center-circle {
+        width: 45px;
+        height: 45px;
+    }
+    .landing form {
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .container-landing{
+        padding: 0 30px;
+    } 
+    .hero-landing{
+        padding-top: 130px;
+        
+    }
+    .hero-landing h1{
+        font-size: 1.9rem;
+        line-height: 2.3rem;
+    }
+    .hero-landing p{
+        font-size: var(--font-size-xs)
+    }
+    .landing nav{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .landing nav ul img{
+       width : 15px
+    }
+    .landing .logo-landing svg{
+        width: 150px;
+    }
+    /* clients */
+    .clients{
+    background: url("../images/small-lines.png");
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .clients .title h2 {
+        font-size: var(--font-size-xl);
+    }
+    .content-clients svg{
+        width: 60px;
+    }
+    /* Social */
+    .container-image-drawing{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) scale(0.7)
+    }
+}
+@media (max-width:400px) {
+    .hero-landing{
+        padding-top: 130px;
+        
+    }
+    .container-analytics{
+        height: 210px;
+    }
+    .container-analytics{
+        transform: scale(0.8) translateY(-40px);
+    }
+    .hero-landing h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .hero-landing p{
+        font-size: var(--font-size-xs)
+    }
+    .landing form input::placeholder,.landing form textarea::placeholder{
+       font-size: var(--font-size-xs)
+    }
+    /* Social */
+    .container-image-drawing{
+        position: relative;
+        left: 50%;
+        transform: translateX(-60%) scale(0.6)
+    }
+}
+@media (max-width:350px) {
+    .landing nav ul img{
+       width : 12px
+    }
+    .landing .logo-landing svg{
+        width: 120px;
+    }
+    .hero-landing h1{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+    .hero-landing p{
+        font-size: var(--font-size-xxs)
+    }
+    /* Social */
+    .container-image-drawing{
+        position: relative;
+        left: 50%;
+        transform: translateX(-65%) scale(0.5)
+    }
 }

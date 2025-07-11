@@ -22,8 +22,8 @@ const Hero = ()=>{
 
     return () => observer.disconnect();
     }, []);
-    return(<div id="callUs" className="hero-landing grid grid-cols-2 pt-50 px-20">
-        <div className="flex flex-col gap-5">
+    return(<div id="callUs" className="hero-landing grid grid-cols-2 gap-2  container-landing">
+        <div className="flex flex-col gap-3 md:gap-5">
             <h1>Grow Your Brand with Smart Social Media Tools</h1>
             <p>In a market where millions compete to shine online, our social media tools help UAE brands grow smarter and faster.</p>
             <div>
@@ -31,7 +31,7 @@ const Hero = ()=>{
                     <div className="behind-card"></div>
                     <div className="analytics-card  flex flex-col justify-center items-center gap-5">
                         <h2>See Your Brand Grow</h2>
-                        <div className="flex gap-10 items-center">
+                        <div className="flex gap-5 xl:gap-10 items-center">
                             <div className="container-circles">
                                     <div className={`yellow-circle ${visible?"circle-animate-1":""}`}></div>
                                     <div className={`white-circle ${visible?"circle-animate-2":""}`}></div>
@@ -48,7 +48,7 @@ const Hero = ()=>{
                 </div>
             </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end container-form">
             <form className="flex flex-col gap-5 p-7">
                 <div className="flex gap-5 items-center">
                     <div className="line-form"></div>

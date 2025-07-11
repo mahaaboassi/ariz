@@ -100,15 +100,17 @@ const Clients = ()=>{
                 </defs>
                 </svg>
     }]
-    return(<div className="clients px-20 flex gap-20 pt-16">
-        <div className="title">
-            <h2>OUR DELIGHTED CLIENT</h2>
-        </div>
-        <div className="flex w-full">
-            <div className="items-center  flex justify-between  w-full">
-                {companies.map((e,idx)=>(<div key={`Companies_${e.name}_${idx}`}>
-                    {e.icon}
-                </div>))}
+    return(<div className="clients container-landing  ">
+        <div className="flex content-clients gap-10 xs:gap-20 pt-14 sm:pt-20">
+            <div className="title">
+                <h2>OUR DELIGHTED CLIENT</h2>
+            </div>
+            <div className="flex w-full">
+                <div className="items-center flex-wrap gap-3 flex justify-between  w-full">
+                    {companies.map((e,idx)=>(<div key={`Companies_${e.name}_${idx}`}>
+                        {e.icon}
+                    </div>))}
+                </div>
             </div>
         </div>
 

@@ -87,18 +87,18 @@ const SocialMedia = ()=>{
         <div className="container-img">
                 <img src={img} alt={"shape-img"} />
             </div>
-        <div  className="grid grid-cols-2 content-social px-20">
+        <div  className="grid grid-cols-1 md:grid-cols-2 content-social container-landing">
         <div className="flex flex-col gap-3">
             <Heading title={"What We Bring to the Table?"} subTitle={"Maximize Your Brand’s Impact on Social Media"} />
             
         
             <h4>Our Services Include:</h4>
-            <ul>
-                <li>Organic & Paid Social Media Marketing</li>
-                <li>TikTok Marketing Services in Dubai</li>
-                <li>Instagram & LinkedIn Marketing</li>
-                <li>Full Social Media Strategy & Management</li>
-                <li>Custom Social Media Packages</li>
+            <ul className="flex flex-col gap-1">
+                <li>TikTok Growth Campaigns for Dubai Brands.</li>
+                <li>Viral TikTok Content & Ads (UAE Focused).</li>
+                <li>Instagram & LinkedIn Marketing.</li>
+                <li>Social Plans Customized to Your Brand.</li>
+                <li>Custom Meta Ads Solutions.</li>
             </ul>
             <div>
                 <a href="#callUs"><button>Get a Quote</button></a>

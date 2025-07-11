@@ -128,9 +128,9 @@ const Industries = ()=>{
                 </defs>
                 </svg>
     },]
-    return(<div className="px-20 mt-96 industries">
+    return(<div className="container-landing mt-96 industries">
         <Heading subTitle={"We Work Where Your Brand Works"} title={"Trusted by Clients in Various Industries"} />
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-5  md:gap-10">
             {
                 data.map((e,idx)=>(<div className="flex items-center gap-3" key={`Industries_Landing_Page_${e.name}_${idx}`}>
                     <div>{e.icon}</div>

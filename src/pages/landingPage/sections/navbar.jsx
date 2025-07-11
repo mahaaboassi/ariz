@@ -22,9 +22,9 @@ const Navbar = ()=>{
         link : 'tel:+97143235609',
         icon : landline
     }, ]
-    return(<nav className="px-20 py-5">
+    return(<nav className="container-landing">
         <div className="flex justify-between items-center">
-            <div>
+            <div className="logo-landing">
                 <svg xmlns="http://www.w3.org/2000/svg" width="323" height="68" viewBox="0 0 323 68" fill="none">
                     <g clipPath="url(#clip0_841_1240)">
                     <g clipPath="url(#clip1_841_1240)">
@@ -329,15 +329,15 @@ const Navbar = ()=>{
                     <rect width="371" height="102" fill="white" transform="translate(-24 -13)"/>
                     </clipPath>
                     </defs>
-                    </svg>
+                </svg>
             </div>
             <div>
-                <ul className="flex gap-4 ">
+                <ul className="flex gap-2 sm:gap-4 ">
                     {info.map((e,idx)=>(<li key={`Landing_Page_Navbar_ContactInfo_${e.name}_${idx}`}>
                         <Link to={e.link}>
-                        <div className="flex gap-2 items-center">
+                        <div className="flex gap-2 items-center container-nav-icons">
                             <div><img src={e.icon} alt={e.name} /></div>
-                            <div>{e.value}</div>
+                            <div className="value">{e.value}</div>
 
                         </div>
                         </Link>

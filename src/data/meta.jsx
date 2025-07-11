@@ -1,6 +1,12 @@
 export const hostCanonical = "https://arizglobal.com"
 
 export const MetaData = {
+    landing : {
+        title: "Ariz Global | Full-Service Digital Marketing Agency in Dubai, UAE",
+        description: "Partner with Ariz Global — a results-driven digital marketing agency based in Dubai. We specialize in branding, social media management, SEO, PPC, content creation, and custom website design to help businesses grow and scale effectively.",
+        keywords: "Digital Marketing Dubai, Full-Service Marketing UAE, SEO Optimization, Branding Agency Dubai, Logo Design, Visual Identity, Instagram Growth, Facebook Ads, Google Ads PPC, Lead Generation,  Website Design, E-commerce, AI Marketing Solutions",
+        link : `${hostCanonical}/marketing`
+    },
     home : {
         title : "Ariz Global | Digital Marketing Agency in Dubai",
         description : "Ariz Global is a leading 360° digital marketing agency in Dubai, United Arab Emirates,  empowering brands to thrive in today's dynamic landscape. We leverage the power of cutting-edge technology, including AI, to deliver customized solutions across the entire marketing spectrum.",
