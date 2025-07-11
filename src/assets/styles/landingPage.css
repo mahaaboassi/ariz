@@ -17,8 +17,8 @@ html {
     border-bottom: 1px solid rgba(128, 128, 128, 0.155);
     background-color: #0b081da4;
     backdrop-filter: blur(3px); 
-      padding-top: 18px ;
-        padding-bottom: 18px ;
+    padding-top: 18px ;
+    padding-bottom: 18px ;
 }
 
 .landing nav ul{
@@ -45,8 +45,7 @@ html {
 .landing form h2{
     font-size: var(--font-size-l);
     font-weight: 600;
-    white-space: nowrap
-    
+    white-space: nowrap  
 }
 .landing form{
     background-color: var(--light);
@@ -54,12 +53,51 @@ html {
     border-radius: 20px;
     width: 70%;
 }
+.landing form button:hover{
+    box-shadow: var(--shadow-box);
+    
+}
 .landing form .line-form{
     width: 100%;
     height: 2px;
     background-color: var(--grey-2);
     opacity: 0.5;
 }
+.landing form input[type="radio"] {
+  appearance: none; /* Hide default checkbox */
+  width: 16px;
+  height: 16px;
+  border: 1px solid #888;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.landing form input[type="radio"]::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: var(--yellow-2);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.2s ease;
+}
+
+.landing form input[type="radio"]:checked::after {
+  opacity: 1;
+}
+/* When checked */
+.landing form input[type="radio"]:checked {
+  background-color: var(--light);
+  border-color: var(--yellow-2);
+}
+
+
 .landing form input::placeholder,.landing form textarea::placeholder{
     color: var(--grey-2);
 }

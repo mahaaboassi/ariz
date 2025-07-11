@@ -133,7 +133,7 @@ const Industries = ()=>{
         <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-5  md:gap-10">
             {
                 data.map((e,idx)=>(<div className="flex items-center gap-3" key={`Industries_Landing_Page_${e.name}_${idx}`}>
-                    <div>{e.icon}</div>
+                    <div style={{width:"60px"}}>{e.icon}</div>
                     <div>{e.name}</div>
                 </div>))
             }

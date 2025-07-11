@@ -73,15 +73,15 @@ const Hero = ()=>{
                         <span>Interested Monthly Retainer</span>
                         <div>
                             <div className="flex gap-1 items-center">
-                                <input type="checkbox" />
+                                <input  type="radio" name="priceRange"  />
                                 <div>5,000 AED  - 7,990 AED</div>
                             </div>
                             <div className="flex gap-1 items-center">
-                                <input type="checkbox" />
+                                <input  type="radio" name="priceRange"  />
                                 <div>7,900 AED - 12,000 AED</div>
                             </div>
                             <div className="flex gap-1 items-center"> 
-                                <input type="checkbox" />
+                                <input  type="radio" name="priceRange"  />
                                 <div>12,000 - 15,000 AED</div>
                             </div>
 
