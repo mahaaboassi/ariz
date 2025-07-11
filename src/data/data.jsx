@@ -687,7 +687,7 @@ export const contactInfo = [{
     value : "+971 4 323 5609",
     link : 'tel:+97143235609',
     icon : landline
-},,{
+},{
     name  : "Location",
     value : "609, Bayan Building, Dubai Investment Park, Dubai, UAE",
     link : 'https://maps.app.goo.gl/dxPpWYSHKmVpW3k6A',

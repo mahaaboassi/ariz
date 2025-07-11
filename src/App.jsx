@@ -12,6 +12,7 @@ import FAQs from './pages/support/faqs'
 import DetailsBlog from './pages/blog/detailsBlog'
 import Page_404 from './pages/404/page_404'
 import QR from './pages/QR/page'
+import LandingPage from './pages/landingPage/page'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
                     <Route path="qr" element={<QR/>} />
                     <Route path="*" element={<Navigate to="/404" />}  />
                 </Route>
+                <Route path='/marketing' element={<LandingPage/>} />
                 <Route path='/404' element={<Page_404/>} />
                 <Route path='*' element={<Page_404/>} />
             </Routes>
