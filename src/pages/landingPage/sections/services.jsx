@@ -20,7 +20,7 @@ const OurServices = ()=>{
         icon : writer
     },{
         title : "Web Design & Development ",
-        description : "We design responsive, SEO-optimized websites for improved performance and user experience.",
+        description : "Responsive, SEO-optimized websites for improved performance and user experience.",
         icon : web
     },{
         title : "Search Engine Optimization ",

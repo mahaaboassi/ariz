@@ -69,17 +69,27 @@ const ContactIcons = ()=>{
         };
     }, [isOpen]);
     return(<div ref={targetRef} className="icons-fixed">
-        {data.map((e,idx)=><div key={`Contact_Info_${e.name}_${idx}`} onClick={()=>handleOpen(e)} className="conatiner-icon mb-2 cursor-pointer">
+        {data.map((e,idx)=><Link key={`Contact_Info_${e.name}_${idx}`} to={e.link} target="_blank" className={`show`}>
+                    <div  onClick={()=>handleOpen(e)}  className="conatiner-icon mb-2 cursor-pointer">
                 <img className="w-5" src={e.icon} alt={e.name} />
-                {(isOpen.id == e.id && isOpen.action) && <div className="value-icon p-3 ">
+                {/* {(isOpen.id == e.id && isOpen.action) && <div className="value-icon p-3 ">
                     <Link to={e.link} target="_blank" className={`${(isOpen.id == e.id && isOpen.action) ? "show" : ""}`}>
                        <div className={`flex gap-2 value-icon-content `}>
                             {e.value}
                         </div>
                     </Link>
                         
+                    </div>} */}
+                {<div className="value-icon p-3 ">
+                    <div className={`flex gap-2 value-icon-content `}>
+                            {e.value}
+                        </div>
+                    
+                        
                     </div>}
-            </div>
+            </div>    
+        </Link>
+       
            
         )}
 

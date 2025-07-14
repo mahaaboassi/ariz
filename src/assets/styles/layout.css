@@ -367,6 +367,10 @@ p{
     align-items: center;
    
 }
+.icons-fixed .conatiner-icon:hover .value-icon{
+    display: flex;
+    animation: openContact 0.4s forwards linear;
+}
 .value-icon{
     color: white;
     background-color: var(--dark-1);
@@ -375,19 +379,18 @@ p{
     height: 40px;
     border-radius: 20px;
     border: 1px solid rgba(128, 128, 128, 0.656);
-    animation: openContact 0.3s forwards linear;
-    display: flex;
+    display: none;
     /* justify-content: center; */
     align-items: center;
     overflow: hidden;
      z-index: -100;
      font-size: var(--font-size-xs);
+     white-space: nowrap;
    
 }
 @keyframes openContact {
     from{
         width: 0px;
-
     }to{
         width: 220px;
     }

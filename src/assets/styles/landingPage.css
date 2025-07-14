@@ -42,6 +42,9 @@ html {
 .hero-landing p{
     font-size: var(--font-size-l);
 }
+.hero-landing p.text-error{
+   font-size: var(--font-size-xxs);
+    }
 .landing form h2{
     font-size: var(--font-size-l);
     font-weight: 600;
@@ -245,6 +248,19 @@ html {
     background-size: auto;
     background-repeat: no-repeat;
 }
+.clients .animation-img{
+    opacity: 0;
+    animation: uplogo 0.3s linear forwards;
+}
+@keyframes uplogo {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }to{
+         opacity: 1;
+        transform: translateY(0px);       
+    }
+}
 .clients .title h2{
     font-size: var(--font-size-xxl);
     color: var(--yellow-2);
@@ -269,9 +285,9 @@ html {
 }
 .card-services{
     position: relative;
-    z-index: 0;
+    z-index: 1;
     overflow: hidden;
-
+    border-radius: 20px;
 }
  
 
@@ -283,7 +299,7 @@ html {
     position: absolute;
     backdrop-filter: blur(3px); 
     -webkit-backdrop-filter: blur(3px);
-    z-index: -1;
+    z-index: -2;
     opacity: 0.5;
     top: -50px;
     left : -50px;
@@ -461,7 +477,7 @@ html {
 }
 /* Industries */
 .industries{
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-s);
 }
 /* FAQs */
 .FAQs-landing{
@@ -480,6 +496,15 @@ html {
 .landing footer{
     font-size: var(--font-size-xxs);
     background-color: var(--dark-2);
+}
+.landing footer a:hover svg.fill-icon path {
+    fill: var(--yellow-2);
+}
+.landing footer a:hover svg.stroke-icon path{
+    stroke: var(--yellow-2);
+}
+.landing .first-col-in-footer{
+    width: 50%;
 }
 .card-final{
     border-radius: 20px;
@@ -530,10 +555,16 @@ html {
      .landing form {
         width: 90%;
     }
+    .landing .first-col-in-footer{
+        width: 60%;
+    }
 }
 @media (max-width:1200px) {
     .container-landing{
         padding: 0 70px;
+    }
+    .landing .hero-landing{
+        padding-top: 210px;
     }
     .landing nav ul{
         font-size: var(--font-size-xs);
@@ -550,13 +581,18 @@ html {
         left: 50%;
         transform: translateX(-50%) scale(0.8)
     }
-    .content-clients svg{
+    .content-clients img{
         width: 80px;
     }
     
 }
+@media (max-width:1020px) {
+    .landing .first-col-in-footer{
+        width: 100%;
+    }
+}
 @media (max-width : 1000px) {
-    .content-clients svg{
+    .content-clients img{
         width: 60px;
     }
 }
@@ -598,8 +634,8 @@ html {
     .content-clients{
         flex-direction: column;
     }
-    .content-clients svg{
-        width: 80px;
+    .content-clients img{
+        width: 100px;
     }
 
 
@@ -610,6 +646,9 @@ html {
     }
     .hero-landing h1, .hero-landing p{
         text-align: center;
+    }
+    .hero-landing p.text-error{
+        text-align: start;
     }
     .hero-landing h1{
         font-size: 2.5rem;
@@ -675,14 +714,21 @@ html {
     .landing .social-media ul{
         font-size: var(--font-size-xxs);
     }
+    .industries{
+        font-size: var(--font-size-xs);
+    }
     .industries svg{
         width: 40px;
     }
     .FAQs-landing .target ,.FAQs-landing p{
         font-size: var(--font-size-xxs) ;
     }
+    .landing .icons-fixed{
+        top: 50%;
+    }
     
 }
+
 @media (max-width:600px) {
     .hero-landing h1{
         font-size: 2rem;
@@ -708,6 +754,9 @@ html {
     }
     .landing form {
         width: 100%;
+    }
+    .content-clients img{
+        width: 90px;
     }
 }
 @media (max-width:500px) {
@@ -744,8 +793,8 @@ html {
     .clients .title h2 {
         font-size: var(--font-size-xl);
     }
-    .content-clients svg{
-        width: 60px;
+    .content-clients img{
+        width: 82px;
     }
     /* Social */
     .container-image-drawing{

@@ -35,10 +35,10 @@ const SubServices = ()=>{
         <meta name="twitter:title" content={currentServices.meta.title} />
         <meta property="twitter:description" content={currentServices.meta.description} />
 
-        
+
         <div className="sub-services flex flex-col gap-10">
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
-                <HeadingForDynamicPages basicTitle={currentServices.name}  firstTitle={"Home"} link={"/"} secondTitle={"services"} />
+                <HeadingForDynamicPages basicTitle={currentServices.name}  firstTitle={"Home"} link={"/"} secondTitle={"services"} />   
                 <div className="flex justify-center items-center image-as-svg">
                     { currentServices.name != "Branding & Graphic Design"?currentServices.img :
                     <div className="relative">

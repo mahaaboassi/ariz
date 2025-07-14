@@ -17,6 +17,7 @@ const Page_404 = ()=>{
         <meta name="twitter:title" content={MetaData.page404.title} />
         <meta property="twitter:description" content={MetaData.page404.description} />
 
+        
         <Lines isWithGlow={true} children={<div className="page-404 text-center px-4 sm:px-10 flex flex-col justify-center items-center gap-4">
         <h1>404</h1>
         <h2>Oops! Page Not Found</h2>

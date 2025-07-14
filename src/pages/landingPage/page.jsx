@@ -8,6 +8,7 @@ import OurServices from "./sections/services"
 import SocialMedia from "./sections/socialMedia"
 import { MetaData } from "../../data/meta"
 import ContactIcons from "../../components/contactIcons"
+import Popup from "../../components/popup"
 const LandingPage = ()=>{
     return (<article className="landing ">
         <title>{MetaData.landing.title}</title>
@@ -36,6 +37,7 @@ const LandingPage = ()=>{
              <Footer/>
         </div>
         <ContactIcons/>
+        <Popup/>
         
     </article>)
 } 
