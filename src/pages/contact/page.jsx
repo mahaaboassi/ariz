@@ -176,6 +176,15 @@ const Contact = ()=>{
             <meta name="description" content={MetaData.contact.description} />
             <meta name="keywords" content={MetaData.contact.keywords} />
             <link rel="canonical" href={MetaData.contact.link} />
+            {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+            <meta property="og:title" content={MetaData.contact.title} />
+            <meta property="og:url" content={MetaData.contact.link} />
+            <meta property="og:description" content={MetaData.contact.description} />
+            {/* Twitter  */}
+            <meta name="twitter:title" content={MetaData.contact.title} />
+            <meta property="twitter:description" content={MetaData.contact.description} />
+
+
 
             <div className="contact">
               

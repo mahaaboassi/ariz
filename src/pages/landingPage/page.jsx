@@ -14,6 +14,17 @@ const LandingPage = ()=>{
         <meta name="description" content={MetaData.landing.description} />
         <meta name="keywords" content={MetaData.landing.keywords} />
         <link rel="canonical" href={MetaData.landing.link} />
+
+        {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+        <meta property="og:title" content={MetaData.landing.title} />
+        <meta property="og:url" content={MetaData.landing.link} />
+        <meta property="og:description" content={MetaData.landing.description} />
+        {/* Twitter  */}
+        <meta name="twitter:title" content={MetaData.landing.title} />
+        <meta name="twitter:description" content={MetaData.landing.description} />
+    
+
+
         <Navbar/>
         <div className="flex flex-col gap-10 xs:gap-14 md:gap-20">
              <Hero/>

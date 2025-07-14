@@ -17,6 +17,15 @@ const Home = ()=>{
         <meta name="description" content={MetaData.home.description} />
         <meta name="keywords" content={MetaData.home.keywords} />
         <link rel="canonical" href={MetaData.home.link} />
+        {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+        <meta property="og:title" content={MetaData.home.title} />
+        <meta property="og:url" content={MetaData.home.link} />
+        <meta property="og:description" content={MetaData.home.description} />
+        {/* Twitter  */}
+        <meta name="twitter:title" content={MetaData.home.title} />
+        <meta property="twitter:description" content={MetaData.home.description} />
+
+
 
 
        <Lines isWithGlow={true} children={<Hero/>}/>

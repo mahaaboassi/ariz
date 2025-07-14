@@ -11,6 +11,17 @@ const Privacy = ()=>{
             <meta name="description" content={MetaData.policy.description} />
             <meta name="keywords" content={MetaData.policy.keywords} />
             <link rel="canonical" href={MetaData.policy.link} />
+            {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+            <meta property="og:title" content={MetaData.policy.title} />
+            <meta property="og:url" content={MetaData.policy.link} />
+            <meta property="og:description" content={MetaData.policy.description} />
+            {/* Twitter  */}
+            <meta name="twitter:title" content={MetaData.policy.title} />
+            <meta property="twitter:description" content={MetaData.policy.description} />
+
+
+
+
 
             <div className="flex flex-col gap-10">
                 <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">

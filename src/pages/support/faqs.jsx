@@ -18,7 +18,13 @@ const FAQs = ()=>{
             <meta name="description" content={MetaData.faqs.description} />
             <meta name="keywords" content={MetaData.faqs.keywords} />
             <link rel="canonical" href={MetaData.faqs.link} />
-
+            {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+            <meta property="og:title" content={MetaData.faqs.title} />
+            <meta property="og:url" content={MetaData.faqs.link} />
+            <meta property="og:description" content={MetaData.faqs.description} />
+            {/* Twitter  */}
+            <meta name="twitter:title" content={MetaData.faqs.title} />
+            <meta property="twitter:description" content={MetaData.faqs.description} />
 
         <div className="flex flex-col gap-10">
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">

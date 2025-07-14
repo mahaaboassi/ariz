@@ -55,5 +55,12 @@ export const MetaData = {
         keywords : "",
         link : `${hostCanonical}/blog`
     },
+    page404: {
+        title: "404 - Page Not Found | Ariz Global",
+        description: "The page you're looking for doesn't exist. Return to Ariz Global homepage to explore our digital marketing services.",
+        keywords: "404, Page not found, Ariz Global, broken link",
+        link: "https://arizglobal.com/404",
+        }
+
 
 }

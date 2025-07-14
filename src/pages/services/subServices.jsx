@@ -27,7 +27,15 @@ const SubServices = ()=>{
         <meta name="description" content={currentServices.meta.description} />
         <meta name="keywords" content={currentServices.meta.keywords} />
         <link rel="canonical" href={currentServices.meta.link} />
+        {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+        <meta property="og:title" content={currentServices.meta.title} />
+        <meta property="og:url" content={currentServices.meta.link} />
+        <meta property="og:description" content={currentServices.meta.description} />
+        {/* Twitter  */}
+        <meta name="twitter:title" content={currentServices.meta.title} />
+        <meta property="twitter:description" content={currentServices.meta.description} />
 
+        
         <div className="sub-services flex flex-col gap-10">
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
                 <HeadingForDynamicPages basicTitle={currentServices.name}  firstTitle={"Home"} link={"/"} secondTitle={"services"} />

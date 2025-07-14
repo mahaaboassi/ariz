@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import { blogsData } from "../../data/data"
 import Lines from "../../components/lines"
+import { hostCanonical } from "../../data/meta"
 
 const FillDetails = ({currentBlog})=>{
     const navigate = useNavigate()
@@ -48,8 +49,22 @@ const DetailsBlog = ()=>{
         window.scrollTo({ top: 0, behavior: "smooth" })
         setCurrentBlog(blogsData.find(e=>e.link == link))
     },[link])
-    return(<div className="details-blog">
-        <Lines children={<div className="pb-10 mt-32 flex flex-col gap-10 px-4 sm:px-10 ">
+    return(<artical className="details-blog">
+
+
+            <title>{currentBlog.title + " | Ariz Global"}</title>
+            {/* <meta name="description" content={MetaData.blog.description} />
+            <meta name="keywords" content={MetaData.blog.keywords} /> */}
+            <link rel="canonical" href={`${hostCanonical}/blog/${currentBlog.link}`} />
+            {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+            <meta property="og:title" content={currentBlog.title + " | Ariz Global"} />
+            <meta property="og:url" content={`${hostCanonical}/blog/${currentBlog.link}`} />
+            {/* <meta property="og:description" content={MetaData.blog.description} /> */}
+            {/* Twitter  */}
+            <meta name="twitter:title" content={currentBlog.title + " | Ariz Global"} />
+            {/* <meta property="twitter:description" content={MetaData.blog.description} /> */}
+
+            <div className="pb-10 pt-32 flex flex-col gap-10 px-4 sm:px-10 ">
             <div className=" flex flex-col-reverse md:grid  md:grid-cols-2 gap-10">
                 <div className="flex flex-col gap-5 lg:gap-10" >
                     <div>
@@ -73,7 +88,7 @@ const DetailsBlog = ()=>{
                     <div> {currentBlog.description} </div>
                 </div>
                 <div className="relative ">
-                   <div className="img-container-blog sticky top-[100px]">
+                   <div className="img-container-blog  top-[100px]">
                      <img alt={currentBlog.title} src={currentBlog.img} />
                    </div>
                    <div className="hidden md:flex mt-10">
@@ -85,8 +100,9 @@ const DetailsBlog = ()=>{
             <div className="md:hidden flex ">
                 <FillDetails currentBlog={currentBlog} />
             </div>
-        </div>} />
+        </div>
+        {/* <Lines children={} /> */}
 
-    </div>)
+    </artical>)
 }
 export default DetailsBlog

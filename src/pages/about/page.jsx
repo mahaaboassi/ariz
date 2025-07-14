@@ -14,6 +14,15 @@ const About = ()=>{
                 <meta name="description" content={MetaData.about.description} />
                 <meta name="keywords" content={MetaData.about.keywords} />
                 <link rel="canonical" href={MetaData.about.link} />
+                {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+                <meta property="og:title" content={MetaData.about.title} />
+                <meta property="og:url" content={MetaData.about.link} />
+                <meta property="og:description" content={MetaData.about.description} />
+                {/* Twitter  */}
+                <meta name="twitter:title" content={MetaData.about.title} />
+                <meta property="twitter:description" content={MetaData.about.description} />
+
+
                 <Lines isWithGlow={true} children={<Intro/>} />
                 <Vision/>
                 <Metrics/>

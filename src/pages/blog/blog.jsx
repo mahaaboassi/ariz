@@ -34,12 +34,18 @@ const Blogs = ()=>{
         }
     },[currentCategory])
     useEffect(()=>{window.scrollTo({ top: 0})},[])
-    return(
-    <article>
+    return(<article>
             <title>{MetaData.blog.title}</title>
             <meta name="description" content={MetaData.blog.description} />
             <meta name="keywords" content={MetaData.blog.keywords} />
             <link rel="canonical" href={MetaData.blog.link} />
+            {/*  Open Graph for Facebook, LinkedIn, etc.  */}
+            <meta property="og:title" content={MetaData.blog.title} />
+            <meta property="og:url" content={MetaData.blog.link} />
+            <meta property="og:description" content={MetaData.blog.description} />
+            {/* Twitter  */}
+            <meta name="twitter:title" content={MetaData.blog.title} />
+            <meta property="twitter:description" content={MetaData.blog.description} />
 
 
             <div className="flex flex-col gap-10">
