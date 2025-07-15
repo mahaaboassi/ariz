@@ -45,7 +45,7 @@ const Clients = ()=>{
     return () => observer.disconnect();
     }, []);
     return(<div className="clients container-landing  ">
-        <div className="flex content-clients gap-10 xs:gap-20 pt-14 sm:pt-20">
+        <div className="flex content-clients gap-10 xs:gap-20   lg:pt-20">
             <div className="title">
                 <h2>OUR DELIGHTED CLIENTS</h2>
             </div>

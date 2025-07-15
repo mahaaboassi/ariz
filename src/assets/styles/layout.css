@@ -509,7 +509,7 @@ button:disabled{
     }
     .heading h2{
         font-size: var(--font-size-xxl) !important;
-        width: 85%;
+        width: 50%;
         line-height: 2.3rem;
     } 
     .intro-heading h1{
@@ -589,6 +589,9 @@ button:disabled{
     
 }
 @media (max-width:768px) {
+    .heading h2 {
+        width: 85%;
+    }
     .metrics h4{
         font-size: var(--font-size-xl) !important;   
     }

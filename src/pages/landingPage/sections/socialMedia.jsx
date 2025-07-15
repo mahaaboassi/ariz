@@ -89,7 +89,7 @@ const SocialMedia = ()=>{
             </div>
         <div  className="grid grid-cols-1 md:grid-cols-2 content-social container-landing">
         <div className="flex flex-col gap-3">
-            <Heading title={"What We Bring to the Table?"} subTitle={"Maximize Your Brand’s Impact on Social Media"} />
+            <Heading title={"What We Offer for Your Success"} subTitle={"Maximize Your Brand’s Impact on Social Media"} />
             
         
             <h4>Our Services Include:</h4>

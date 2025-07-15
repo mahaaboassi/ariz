@@ -1,5 +1,5 @@
 
-import landline from "../../../assets/images/landline.webp"
+import landline from "../../../assets/images/telephone.webp"
 import mail from "../../../assets/images/mailIcone.webp"
 import phone from "../../../assets/images/call.webp"
 import { Link } from "react-router-dom"
@@ -338,7 +338,6 @@ const Navbar = ()=>{
                         <div className="flex gap-2 items-center container-nav-icons">
                             <div><img src={e.icon} alt={e.name} /></div>
                             <div className="value">{e.value}</div>
-
                         </div>
                         </Link>
                     </li>))}

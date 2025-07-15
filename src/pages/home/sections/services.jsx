@@ -7,7 +7,7 @@ const Services = ()=>{
     return(<div className="px-4 sm:px-10 services ">
        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-5">
             <div className="lg:w-3/4">
-                <h2 className="pb-4">Committed to Transforming the Future and Profitability</h2>
+                <h2 className="pb-4">Tailored Marketing Solutions That Deliver Real Results</h2>
                 <p>At ARIZ Global, we specialize in building credible, results-driven digital marketing strategies tailored to your brand. Our mission is to enhance your online presence, drive qualified traffic, and increase your ROI through integrated solutions across SEO, paid advertising, social media marketing, and more. Whether you're a startup or an established business, we provide the tools to help you scale.</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

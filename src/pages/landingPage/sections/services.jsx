@@ -28,7 +28,7 @@ const OurServices = ()=>{
         icon : search
     }]
     return(<div className="container-landing service-landing">
-        <Heading title={"What We Bring to Your Brand"} subTitle={"Smart Solutions. Real Results."} />
+        <Heading title={"Marketing Solutions That Deliver Results"}  subTitle={"Smart Solutions. Real Results."} />
         <div className="grid grid-cols-1 xxs:grid-cols-2 md:grid-cols-3 gap-4 xs:gap-7 ">
             {
                 data.map((e,idx)=>(<div className="card-services flex flex-col gap-2 xs:gap-4 p-2 xs:p-4" key={`Services_LandingPage_${e.title}_${idx}`}>
@@ -38,9 +38,6 @@ const OurServices = ()=>{
                     <div className="circle-3"></div>
                     <h4>{e.title}</h4>
                     <p>{e.description}</p>
-                    <div>
-                        {/* <button className="w-full">Get a Quote</button> */}
-                    </div>
                 </div>))
             }
 
