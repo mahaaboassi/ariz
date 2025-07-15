@@ -81,7 +81,7 @@ const Footer = ()=>{
 
     return(<footer className="px-4 sm:px-10 flex py-10 gap-6 lg:gap-5 xl:gap-10" >
             <div className="first-col-in-footer flex flex-col ">
-                <div>
+                <div className="mb-3">
                     <img src={img} className="w-2xs" alt="Ariz Global Logo" />
                 </div>
                 <div>
