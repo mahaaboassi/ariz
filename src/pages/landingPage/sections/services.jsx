@@ -7,7 +7,7 @@ const OurServices = ()=>{
         description : "Enhanced brand visibility and improved audience engagement across top platforms.",
         icon : digital
     },{
-        title : "PC & Paid Advertising",
+        title : "PPC & Paid Advertising",
         description : "Targeted traffic generation and higher return on ad spend through strategic campaigns.",
         icon : paid
     },{

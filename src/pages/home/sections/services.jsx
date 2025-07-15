@@ -96,7 +96,7 @@ const Services = ()=>{
                         <div className="flex justify-center h-42">{web}</div>
                         <h3>Web Design & Development </h3>
                         {/* <p>Responsive, SEO-optimized websites designed for improved performance and user experience.</p> */}
-                        <p>We design responsive, SEO-optimized websites for improved performance and user experience.</p>
+                        <p>Responsive, SEO-optimized websites for improved performance and user experience.</p>
                         <Link  to={"/services/web-design-and-development"}>
                             <div className="flex gap-2 items-center cta-card">
                                 <div>Explore</div>

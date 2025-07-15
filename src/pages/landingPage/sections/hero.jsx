@@ -195,8 +195,8 @@ const Hero = ()=>{
     }
     return(<div id="callUs" className="hero-landing grid grid-cols-2 gap-2  container-landing">
         <div className="flex flex-col gap-3 md:gap-5">
-            <h1 className="text-center md:text-start">Grow Your Brand With Smart Social Media Tools</h1>
-            <p>In a market where millions compete to shine online, our powerful social media tools help UAE brands to grow smarter, faster, and with lasting impact.</p>
+            <h1 className="text-center md:text-start">Elevate Your Brand With Strategies That Deliver</h1>
+            <p>In a market where millions compete to shine online, our powerful social media strategies help UAE brands to grow smarter, faster, and with lasting impact.</p>
             <div>
                 <div ref={sectionRef} className="container-analytics">
                     <div className="behind-card"></div>
