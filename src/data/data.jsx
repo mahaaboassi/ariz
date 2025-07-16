@@ -331,10 +331,16 @@ export const FAGs = [{
 },{
     question :"How much do your services cost?",
     answer : "Costs vary depending on the project scope. We offer custom quotes and flexible packages to match your goals and budget. Contact us for a free consultation."
-},{
+},
+// {
+//     question :"How long does a typical project take? ",
+//     answer : "Project timelines vary. A standard website takes 3-6 weeks from scratch to finish, while ad campaigns and branding projects can range from a few days to several weeks. We always share a clear timeline at the start."
+// },
+{
     question :"How long does a typical project take? ",
-    answer : "Project timelines vary. A standard website takes 3-6 weeks from scratch to finish, while ad campaigns and branding projects can range from a few days to several weeks. We always share a clear timeline at the start."
-},{
+    answer : "Timelines vary based on the project’s size and requirements. A full website (frontend and backend) usually takes 3–6 weeks. Simpler sites take less time, while advanced features or custom backend work may take longer, while ad campaigns and branding projects can range from a few days to several weeks. We always share a clear timeline at the start."
+},
+{
     question :"How do I get started with Ariz Global?",
     answer : "Just reach out or schedule a meeting with our manager. We’ll understand your business, offer tailored recommendations, and walk you through the next steps."
 }]
