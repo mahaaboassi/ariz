@@ -354,6 +354,14 @@ html {
 }
 .container-cards-social{
     padding-top: 85px;
+    position: relative;
+}
+.container-image-drawing{
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: center
+    
 }
 .social-media .content-social{
     position: absolute;
@@ -388,11 +396,7 @@ html {
     text-align: start !important;
 
 }
-.container-image-drawing{
-    position: relative;
-    left: 50%;
-    transform: translateX(-30%)
-}
+
 .card-first{
     width: 400px;
     height: 350px;
@@ -565,9 +569,7 @@ html {
         width: 200px;
     }
     .container-image-drawing{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%) scale(0.8)
+        transform: scale(0.8)
     }
     .content-clients img{
         width: 80px;
@@ -703,11 +705,12 @@ html {
 
 }
 @media (max-width: 768px) {
-
+    .container-cards-social{
+        display: flex;
+        justify-content: center;
+    }
     .container-image-drawing{
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%) scale(0.8)
+        transform: scale(0.8)
     }
     .landing .social-media ul{
         font-size: var(--font-size-xxs);
@@ -726,6 +729,9 @@ html {
     }
     .landing .icons-fixed{
         top: 50%;
+    }
+    .industries{
+        margin-top: -50px;
     }
 
     
@@ -808,9 +814,7 @@ html {
     }
     /* Social */
     .container-image-drawing{
-        position: relative;
-        left: 50%;
-        transform: translateX(-58%) scale(0.7)
+        transform: scale(0.7)
     }
     .container-cards-social{
         padding-top: 50px;
@@ -841,12 +845,13 @@ html {
 
     /* Social */
     .container-image-drawing{
-        position: relative;
-        left: 50%;
-        transform: translateX(-67%) scale(0.6)
+        transform: scale(0.6)
     }
     .container-cards-social{
         padding-top: 0px;
+    }
+    .industries{
+        margin-top: -70px;
     }
 
 }
@@ -866,8 +871,6 @@ html {
     }
     /* Social */
     .container-image-drawing{
-        position: relative;
-        left: 50%;
-        transform: translateX(-65%) scale(0.5)
+        transform: scale(0.5)
     }
 }
