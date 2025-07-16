@@ -29,15 +29,21 @@ const OurServices = ()=>{
     }]
     return(<div className="container-landing service-landing">
         <Heading title={"Marketing Solutions That Deliver Results"}  subTitle={"Smart Solutions. Real Results."} />
+        <div  className="test">
+            <div className="test-content"></div>
+        </div>
         <div className="grid grid-cols-1 xxs:grid-cols-2 md:grid-cols-3 gap-4 xs:gap-7 ">
             {
                 data.map((e,idx)=>(<div className="card-services flex flex-col gap-2 xs:gap-4 p-2 xs:p-4" key={`Services_LandingPage_${e.title}_${idx}`}>
-                    <div className="flex">{e.icon}</div>
+                    
                     <div className="circle-1"></div>
                     <div className="circle-2"></div>
                     <div className="circle-3"></div>
-                    <h4>{e.title}</h4>
-                    <p>{e.description}</p>
+                    <div className="card-services-content">
+                        <div className="flex">{e.icon}</div>
+                        <h4>{e.title}</h4>
+                        <p>{e.description}</p>
+                    </div>
                 </div>))
             }
 
