@@ -14,7 +14,7 @@ const validationSchema = Yup.object({
     phone : Yup.string().required('Phone is required'),
     company : Yup.string().min(2,"Enter at least 2 letters").required('Company Name is required'),
     priceRange : Yup.string().required('Please select a price range'),       
-    message : Yup.string().min(2,"Enter at least 2 letters").required('Message is required'),   
+    message : Yup.string(),   
   });
 
 
