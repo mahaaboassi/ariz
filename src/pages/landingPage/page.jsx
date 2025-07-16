@@ -25,8 +25,6 @@ const LandingPage = ()=>{
         <meta name="twitter:title" content={MetaData.landing.title} />
         <meta name="twitter:description" content={MetaData.landing.description} />
     
-
-
         <Navbar/>
         <div className="flex flex-col gap-10 xs:gap-14 md:gap-20">
              <Hero/>

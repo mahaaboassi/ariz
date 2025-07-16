@@ -10,7 +10,7 @@ html {
     background: url("../images/glow-landing-2.webp");
     background-size: auto;
     background-repeat: no-repeat;
-     overflow: hidden;
+     /* overflow: hidden; */
 }
 /* Nav */
 .landing nav{
@@ -331,7 +331,7 @@ html {
 }
 /* Social Media */
 .landing .social-media{
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
 }
 .social-media ul{
@@ -351,6 +351,9 @@ html {
     border-radius: 50%;
     top : 50%;
     transform: translateY(-50%);
+}
+.container-cards-social{
+    padding-top: 85px;
 }
 .social-media .content-social{
     position: absolute;
@@ -542,6 +545,7 @@ html {
     .landing .first-col-in-footer{
         width: 60%;
     }
+
 }
 @media (max-width:1200px) {
     .container-landing{
@@ -568,7 +572,7 @@ html {
     .content-clients img{
         width: 80px;
     }
-    
+
 }
 @media (max-width:1023px) {
     .landing .first-col-in-footer{
@@ -699,16 +703,17 @@ html {
 
 }
 @media (max-width: 768px) {
-    .industries{
-        padding-top: 260px !important;
-    }
+
     .container-image-drawing{
         position: relative;
         left: 50%;
-        transform: translateX(-40%) scale(0.8)
+        transform: translateX(-50%) scale(0.8)
     }
     .landing .social-media ul{
         font-size: var(--font-size-xxs);
+    }
+    .card-second{
+        position: relative;
     }
     .industries{
         font-size: var(--font-size-xs);
@@ -722,6 +727,7 @@ html {
     .landing .icons-fixed{
         top: 50%;
     }
+
     
 }
 
@@ -786,12 +792,13 @@ html {
     }
     /* clients */
     .clients{
-    background: url("../images/small-lines.png");
+        background: url("../images/small-lines.png");
         background-size: auto;
         background-repeat: no-repeat;
     }
     .clients .title h2 {
         font-size: var(--font-size-xl);
+        width: unset;
     }
     .content-clients{
         padding-top: 50px;
@@ -803,11 +810,10 @@ html {
     .container-image-drawing{
         position: relative;
         left: 50%;
-        transform: translateX(-50%) scale(0.7)
+        transform: translateX(-58%) scale(0.7)
     }
-    /* indusrties */
-    .industries {
-        padding-top: 220px !important;
+    .container-cards-social{
+        padding-top: 50px;
     }
         /* footer */
     .landing footer svg{
@@ -837,7 +843,10 @@ html {
     .container-image-drawing{
         position: relative;
         left: 50%;
-        transform: translateX(-60%) scale(0.6)
+        transform: translateX(-67%) scale(0.6)
+    }
+    .container-cards-social{
+        padding-top: 0px;
     }
 
 }

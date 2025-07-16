@@ -128,7 +128,7 @@ const Industries = ()=>{
                 </defs>
                 </svg>
     },]
-    return(<div className="container-landing mt-96 industries flex flex-col gap-5  md:gap-10">
+    return(<div className="container-landing  industries flex flex-col gap-5  md:gap-10">
         <Heading subTitle={"We Work Where Your Brand Works"} title={"Trusted by Clients in Various Industries"} />
         <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-5  md:gap-10">
             {

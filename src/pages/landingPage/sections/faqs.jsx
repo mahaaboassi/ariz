@@ -16,7 +16,7 @@ const FAQs = ()=>{
         </div>
         <div className="grid grid-cols-1 relative md:grid-cols-2 gap-5 content-faqs container-landing">
             <div className="relative">
-                <div className="sticky flex flex-col gap-5">
+                <div className="sticky top-20 flex flex-col gap-5">
                     <Heading title={"Got questions? We’ve got answers."} subTitle={"Most Popular Questions"} />
                     <p>Explore answers to frequently asked questions to help you better understand our services and how we work.</p>
                     <div>
