@@ -7,7 +7,7 @@ html {
 }
 .landing{
     background-color: var(--dark-1);
-    background: url("../images/glow-landing-2.png");
+    background: url("../images/glow-landing-2.webp");
     background-size: auto;
     background-repeat: no-repeat;
      overflow: hidden;
@@ -248,20 +248,17 @@ html {
     background-size: auto;
     background-repeat: no-repeat;
 }
-.clients .animation-img{
-    opacity: 1;
-    animation: uplogo 0.3s linear forwards;
+.clients .base-img-class {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.7s ease;
 }
 
-@keyframes uplogo {
-    from{
-        opacity: 0;
-        transform: translateY(50px);
-    }to{
-         opacity: 1;
-        transform: translateY(0px);       
-    }
+.clients .animation-img {
+  opacity: 1;
+  transform: translateY(0);
 }
+
 .clients .title h2{
     font-size: var(--font-size-xxl);
     color: var(--yellow-2);
@@ -379,12 +376,12 @@ html {
         transform: scale(1);
     }
 }
-.landing .social-media h2{
+.landing .social-media h3{
     text-align: start !important;
     width: 100%;
 
 }
-.landing .social-media h3{
+.landing .social-media h2{
     text-align: start !important;
 
 }
@@ -591,6 +588,9 @@ html {
     }
     .content-clients img{
         width: 100px;
+    }
+    .landing form input::placeholder,.landing form textarea::placeholder,.landing form input,.landing form textarea{
+       font-size: var(--font-size-xs)
     }
 }
 @media (max-width : 1000px) {
@@ -832,9 +832,7 @@ html {
     .hero-landing p{
         font-size: var(--font-size-xs)
     }
-    .landing form input::placeholder,.landing form textarea::placeholder{
-       font-size: var(--font-size-xs)
-    }
+
     /* Social */
     .container-image-drawing{
         position: relative;

@@ -51,62 +51,62 @@ const Hero = ()=>{
     const onSubmit = async(value)=>{
         setLoading(true)
         const temp = {}
-                temp.body = `<div style="margin:auto;width: 500px;color:#0B081D; border-radius:12px;background-color: white;border: 1px solid #0B081D;font-family: Arial, sans-serif;">
-                    <!-- Header -->
-                    <div style="background: #0B081D;border-top-left-radius:12px;border-top-right-radius:12px;padding:10px;">
-                        <div style="margin: auto;text-align: center;">
-                            <img style="height: 100px;" src="https://arizglobal.com/logo192.png" alt="ariz-logo" />
-                        </div>
-                    </div>
+        temp.body = `<div style="margin:auto;width: 500px;color:#0B081D; border-radius:12px;background-color: white;border: 1px solid #0B081D;font-family: Arial, sans-serif;">
+            <!-- Header -->
+            <div style="background: #0B081D;border-top-left-radius:12px;border-top-right-radius:12px;padding:10px;">
+                <div style="margin: auto;text-align: center;">
+                    <img style="height: 100px;" src="https://arizglobal.com/logo192.png" alt="ariz-logo" />
+                </div>
+            </div>
 
-                    <!-- Body Content -->
-                    <div style="padding: 20px;">
-                        <h1 style="text-align: center; color: #C3996B; margin-bottom: 0;">Welcome to Ariz Global</h1>
+            <!-- Body Content -->
+            <div style="padding: 20px;">
+                <h1 style="text-align: center; color: #C3996B; margin-bottom: 0;">Welcome to Ariz Global</h1>
 
-                        <p>Dear Admin,</p>
-                        <p>Someone has contacted us through the Landing Page. You can find their details below:</p>
+                <p>Dear Admin,</p>
+                <p>Someone has contacted us through the Landing Page. You can find their details below:</p>
 
-                        <!-- Stylish Table -->
-                        <table style="width: 100%; border-collapse: collapse; margin-top: 15px; color: #0B081D;">
-                            <tr style="background-color: #F6F6F6;">
-                                <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Name</td>
-                                <td style="padding: 10px; border: 1px solid #DDD;">${value.name}</td>
-                            </tr>
-                            <tr>
-                                <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Email</td>
-                                <td style="padding: 10px; border: 1px solid #DDD;">${value.email}</td>
-                            </tr>
-                            <tr style="background-color: #F6F6F6;">
-                                <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Phone</td>
-                                <td style="padding: 10px; border: 1px solid #DDD;"> ${"( " + code.dial_code +" ) "+ value.phone}</td>
-                            </tr>
-                            <tr style="background-color: #F6F6F6;">
-                                <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Company</td>
-                                <td style="padding: 10px; border: 1px solid #DDD;"> ${value.company}</td>
-                            </tr>
-                            <tr style="background-color: #F6F6F6;">
-                                <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Price Range</td>
-                                <td style="padding: 10px; border: 1px solid #DDD;"> ${value.priceRange}</td>
-                            </tr>
-                            <tr>
-                                <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Message</td>
-                                <td style="padding: 10px; border: 1px solid #DDD;">${value.message}</td>
-                            </tr>
-                        </table>
+                <!-- Stylish Table -->
+                <table style="width: 100%; border-collapse: collapse; margin-top: 15px; color: #0B081D;">
+                    <tr style="background-color: #F6F6F6;">
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Name</td>
+                        <td style="padding: 10px; border: 1px solid #DDD;">${value.name}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Email</td>
+                        <td style="padding: 10px; border: 1px solid #DDD;">${value.email}</td>
+                    </tr>
+                    <tr style="background-color: #F6F6F6;">
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Phone</td>
+                        <td style="padding: 10px; border: 1px solid #DDD;"> ${"( " + code.dial_code +" ) "+ value.phone}</td>
+                    </tr>
+                    <tr style="background-color: #F6F6F6;">
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Company</td>
+                        <td style="padding: 10px; border: 1px solid #DDD;"> ${value.company}</td>
+                    </tr>
+                    <tr style="background-color: #F6F6F6;">
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Price Range</td>
+                        <td style="padding: 10px; border: 1px solid #DDD;"> ${value.priceRange}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; font-weight: bold; border: 1px solid #DDD;">Message</td>
+                        <td style="padding: 10px; border: 1px solid #DDD;">${value.message}</td>
+                    </tr>
+                </table>
 
-                        <div style="margin-top: 20px;">
-                            <p style="margin: 0;">Best regards,</p>
-                            <p style="margin: 0;">Ariz Global Team</p>
-                        </div>
-                    </div>
+                <div style="margin-top: 20px;">
+                    <p style="margin: 0;">Best regards,</p>
+                    <p style="margin: 0;">Ariz Global Team</p>
+                </div>
+            </div>
 
-                    <!-- Button -->
-                    <div style="text-align: center; padding-bottom: 20px;">
-                        <a href="https://arizglobal.com/marketing" target="_blank">
-                            <button style="background-color: #C3996B; cursor: pointer; color: white; border: none; padding: 10px 20px; border-radius: 12px;">Go to Landing Page</button>
-                        </a>
-                    </div>
-                </div>`
+            <!-- Button -->
+            <div style="text-align: center; padding-bottom: 20px;">
+                <a href="https://arizglobal.com/marketing" target="_blank">
+                    <button style="background-color: #C3996B; cursor: pointer; color: white; border: none; padding: 10px 20px; border-radius: 12px;">Go to Landing Page</button>
+                </a>
+            </div>
+        </div>`
         temp.userEmail = value.email
         temp.adminEmail = "info@arizglobal.com" 
         temp.subject = "New Inquiry Received from Ariz Global Landing Page"
@@ -246,19 +246,20 @@ const Hero = ()=>{
                     </div>
                     <div className="selected-div flex flex-col gap-2">
                         <span>Interested Monthly Retainer</span>
-                        <div>
-                            <div className="flex gap-1 items-center">
+                        <div className="flex flex-col gap-1 pl-1">
+
+                            <label className="flex items-center gap-2 cursor-pointer ">
                                 <input value="5000-7990" {...register("priceRange")}  type="radio" name="priceRange"  />
                                 <div>5,000 AED  - 7,990 AED</div>
-                            </div>
-                            <div className="flex gap-1 items-center">
+                            </label>
+                            <label className="flex items-center gap-2 cursor-pointer">
                                 <input value="7900-12000" {...register("priceRange")}  type="radio" name="priceRange"  />
                                 <div>7,900 AED - 12,000 AED</div>
-                            </div>
-                            <div className="flex gap-1 items-center"> 
+                            </label>
+                            <label className="flex items-center gap-2 cursor-pointer"> 
                                 <input value="12000-15000" {...register("priceRange")}  type="radio" name="priceRange"  />
                                 <div>12,000 - 15,000 AED</div>
-                            </div>
+                            </label>
                         {errors.priceRange && <p className="p-0.5 text-error">{errors.priceRange.message}</p>}
                         </div>
                         

@@ -53,7 +53,7 @@ const Clients = ()=>{
                 <div ref={sectionRef} className="items-center grid grid-cols-2  md:grid-cols-3  lg:grid-cols-6 gap-10 lg:gap-5 flex justify-between  w-full">
                     {companies.map((e,idx)=>{
                         return <div className="flex justify-center" key={`Companies_${e.name}_${idx}`}>
-                        <img className={visible?`animation-img`:""} src={e.icon} alt={e.name} />
+                        <img fetchpriority={idx === 0 ? "high" : undefined}  className={`${visible?`animation-img`:"" } base-img-class`} src={e.icon} alt={e.name} />
                     </div>
                     })}
                 </div>
