@@ -478,6 +478,9 @@ html {
 .industries{
     font-size: var(--font-size-s);
 }
+.industries .icon-container-industries{
+    width: 60px;
+}
 /* FAQs */
 .FAQs-landing{
     position: relative;
@@ -596,6 +599,13 @@ html {
     }
     .landing form input::placeholder,.landing form textarea::placeholder,.landing form input,.landing form textarea{
        font-size: var(--font-size-xs)
+    }
+    /* Industries */
+    .industries svg{
+        width: 40px;
+    }
+    .industries .icon-container-industries{
+        width: 50px;
     }
 }
 @media (max-width : 1000px) {
@@ -721,7 +731,7 @@ html {
         font-size: var(--font-size-xs);
     }
     .industries svg{
-        width: 40px;
+        width: 35px;
     }
     .FAQs-landing .target ,.FAQs-landing p{
         font-size: var(--font-size-xxs) ;
@@ -811,6 +821,7 @@ html {
     .content-clients img{
         width: 82px;
     }
+
     /* Social */
     .container-image-drawing{
         transform: scale(0.7)
@@ -821,6 +832,10 @@ html {
         /* footer */
     .landing footer svg{
         width: 20px;
+    }
+    /* industries */
+    .industries{
+        font-size: 13px;
     }
 }
 @media (max-width:400px) {

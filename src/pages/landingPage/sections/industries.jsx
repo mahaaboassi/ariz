@@ -130,11 +130,11 @@ const Industries = ()=>{
     },]
     return(<div className="container-landing  industries flex flex-col gap-5  md:gap-10">
         <Heading subTitle={"We Work Where Your Brand Works"} title={"Trusted by Clients in Various Industries"} />
-        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-5  md:gap-10">
+        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-2 xs:gap-5  md:gap-10">
             {
                 data.map((e,idx)=>(<div className="flex items-center gap-3" key={`Industries_Landing_Page_${e.name}_${idx}`}>
-                    <div style={{width:"60px"}}>{e.icon}</div>
-                    <div>{e.name}</div>
+                    <div className="icon-container-industries">{e.icon}</div>
+                    <div className="w-60" >{e.name}</div>
                 </div>))
             }
 
