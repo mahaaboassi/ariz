@@ -1,5 +1,5 @@
 const Accordion = ({onClick,isOpen,question,answer})=>{
-    return <div className={`container p-5`}>
+    return <div className={`container !p-4 xs:!p-5`}>
             <div onClick={onClick} className={`target flex items-center gap-5 cursor-pointer`}>
                 <div style={{width:"fit-content"}} >
                     <div className={`icon-accordion`}>

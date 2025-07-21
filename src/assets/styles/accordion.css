@@ -98,6 +98,15 @@
     to{ opacity: 0;}
     
 }
+@media (max-width:500px) {
+    .icon-accordion{
+        width: 30px;
+        height: 30px;
+    }
+    .icon-second, .icon-first{
+        width: 13px;
+    }
+}
 @media (max-width:400px) {
     .content-active{
         opacity: 1;
