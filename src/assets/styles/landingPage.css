@@ -837,6 +837,12 @@ html {
     .industries{
         font-size: 13px;
     }
+    .industries svg{
+        width: 30px;
+    }
+    .industries .icon-container-industries{
+        width: 35px;
+    }
 }
 @media (max-width:400px) {
     .hero-landing{
