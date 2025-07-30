@@ -125,15 +125,15 @@ form textarea{
     background-color: white;
     position: absolute;
     border-radius: 10px;
-    width: 180px;
-    height: 80px;
+    width: 150px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .icon-absolute svg{
-    width:  80px !important;
+    width:  70px !important;
 }
 .icon-absolute-1{
     top: 10px;
@@ -311,12 +311,12 @@ form textarea{
 }
 @media (max-width : 1000px) {
     .icon-absolute {
-        width: 130px;
-        height: 60px;
+        width: 110px;
+        height: 70px;
     }
     .icon-absolute svg{
-        width: 60px !important;
-        height: 60px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
     
 }
@@ -343,11 +343,11 @@ form textarea{
     }
     .icon-absolute{
         width: 80px;
-        height: 50px;
+        height: 60px;
     }
     .icon-absolute svg{
-        width: 50px !important;
-        height: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
     }
     .icon-absolute-1{
         top: 5px;
@@ -370,11 +370,11 @@ form textarea{
     }
     .icon-absolute{
         width: 60px;
-        height: 40px;
+        height: 45px;
     }
     .icon-absolute svg{
-        width: 40px !important;
-        height: 40px !important;
+        width: 30px !important;
+        height: 30px !important;
     }
 
     
@@ -391,8 +391,8 @@ form textarea{
         height: 40px;
     }
     .icon-absolute svg{
-        width: 30px !important;
-        height: 30px !important;
+        width: 26px !important;
+        height: 26px !important;
     }
     
 }
@@ -404,5 +404,13 @@ form textarea{
 @media (max-width : 350px) {
     .image-as-svg svg{
         height: 200px;
-    }    
+    }  
+    .icon-absolute{
+        width: 50px;
+        height: 35px;
+    }  
+    .icon-absolute svg{
+        width: 24px !important;
+        height: 24px !important;
+    }
 }
