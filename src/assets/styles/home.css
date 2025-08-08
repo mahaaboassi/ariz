@@ -572,7 +572,7 @@
         transform: scale(1) ;
         align-items: end;
     }
-    .button a{
+    .button .container-icons{
         width: 100%;
     }
     .founder-image img{
