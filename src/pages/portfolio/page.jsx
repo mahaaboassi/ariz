@@ -50,11 +50,6 @@ function Portfolio() {
     type : "Web",
     information : <></>
   },{
-    image : figma_4,
-    isAvilable : 0,
-    type : "Web",
-    information : <></>
-  },{
     image : des_6,
     isAvilable : 0,
     type : "Graphic",
