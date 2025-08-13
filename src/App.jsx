@@ -13,6 +13,7 @@ import DetailsBlog from './pages/blog/detailsBlog'
 import Page_404 from './pages/404/page_404'
 import QR from './pages/QR/page'
 import LandingPage from './pages/landingPage/page'
+import Portfolio from './pages/portfolio/page'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
                     <Route path="faqs" element={<FAQs/>} />
                     <Route path="services/:link" element={<SubServices/>} />
                     <Route path="qr" element={<QR/>} />
+                    <Route path="portfolio" element={<Portfolio/>} />
                     <Route path="*" element={<Navigate to="/404" />}  />
                 </Route>
                 <Route path='/marketing' element={<LandingPage/>} />

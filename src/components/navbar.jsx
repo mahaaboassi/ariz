@@ -8,6 +8,9 @@ const Navbar = ()=>{
         name : "Home",
         link : "/"
     },{
+        name : "Portfolio",
+        link : "/portfolio"
+    },{
         name : "About",
         link : "/about"
     },{

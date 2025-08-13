@@ -295,6 +295,65 @@ form textarea{
     transform: translateY(-50%);
 
 }
+/* Portfolio */
+.container-design{
+    background-color: var(--dark-2);
+    overflow: hidden; 
+    border-radius: 10px;
+}
+.container-design img{
+   
+}
+.widget{
+    border-radius: 10px;
+    width: fit-content;
+    font-size: var(--font-size-xxs);
+    /* border: 2px solid var(--yellow-2); */
+
+}
+.widget-type{
+    border-radius: 10px;
+    width: fit-content;
+    font-size: var(--font-size-xxs);
+    border: 1px solid rgba(128, 128, 128, 0.699); 
+}
+.view-div{
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.755);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 0;
+
+}
+.root-image{
+    transition: 0.3s;
+}
+.root-image:hover .view-div{
+    opacity: 1;
+}
+
+.container-gallery{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.91);
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-gallery img{
+    border-radius: 10px;
+}
+.icon-gallery{
+    position: fixed; 
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
@@ -376,7 +435,9 @@ form textarea{
         width: 30px !important;
         height: 30px !important;
     }
-
+    .container-design svg{
+        width: 20px;
+    }
     
 }
 @media (max-width : 450px) {
@@ -413,4 +474,5 @@ form textarea{
         width: 24px !important;
         height: 24px !important;
     }
+
 }
