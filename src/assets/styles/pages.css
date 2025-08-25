@@ -180,30 +180,27 @@ form textarea{
 /* Blogs */
 .category-container{
     flex-wrap: wrap;
-    font-size: var(--font-size-s);
-    font-weight: 600;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
 
 }
 .category{
     cursor: pointer;
     transition: 0.3s;
+    border: 1px solid var(--yellow-2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .category:hover{
     color: var(--yellow-2);
 }
 .category.active{
     color: var(--yellow-2);
-    position: relative;
 }
-.category.active::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--yellow-2);
-    height: 2px;
-}
+
 /* Support */
 .support h2{
     font-size: var(--font-size-xl);

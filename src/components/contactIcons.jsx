@@ -12,13 +12,15 @@ const ContactIcons = ()=>{
         link : "https://wa.me/971589185328",
         id: 1,
         value : "+971 58 918 5328",
-    },{
-        name : "Mail",
-        icon :mail,
-        link : "mailto:info@arizglobal.com",
-        id: 2,
-        value : "info@arizglobal.com",
-    },{
+    },
+    // {
+    //     name : "Mail",
+    //     icon :mail,
+    //     link : "mailto:info@arizglobal.com",
+    //     id: 2,
+    //     value : "info@arizglobal.com",
+    // },
+    {
         name : "Phone",
         icon : phone,
         link : "tel:+971589185328",
@@ -71,7 +73,7 @@ const ContactIcons = ()=>{
     return(<div ref={targetRef} className="icons-fixed">
         {data.map((e,idx)=><Link key={`Contact_Info_${e.name}_${idx}`} to={e.link} target="_blank" className={`show`}>
                     <div  onClick={()=>handleOpen(e)}  className="conatiner-icon mb-2 cursor-pointer">
-                <img className="w-5" src={e.icon} alt={e.name} />
+                <img className="w-6" src={e.icon} alt={e.name} />
                 {/* {(isOpen.id == e.id && isOpen.action) && <div className="value-icon p-3 ">
                     <Link to={e.link} target="_blank" className={`${(isOpen.id == e.id && isOpen.action) ? "show" : ""}`}>
                        <div className={`flex gap-2 value-icon-content `}>

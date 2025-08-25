@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom"
 import img from "../assets/images/logo-footer.webp"
+import award from "../assets/images/award_1.png"
+import logo from "../assets/images/google-partner.webp"
+import logo_1 from "../assets/images/google-review.webp"
+import logo_2 from "../assets/images/trustpilot.webp"
 // for validation
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -233,13 +237,35 @@ const Footer = ()=>{
                     Ariz Global is a results-driven digital marketing agency specializing in creative branding, content strategy, and growth marketing. With deep expertise in public relations, paid media, and social storytelling, we help businesses—from startups to global enterprises—elevate their presence, drive traffic, and generate leads.
                 </p>
                 <p> © 2025 Ariz Global. All rights reserved.</p>
-                <div className="flex gap-2">
-                    {icons.map((e,idx)=>(<Link aria-label={`Go ${e.name}`} key={`Social_Media_${e.name}_${idx}`} to={e.link} target="_blank">
-                    <div className="icon-footer" >
-                        <div className="icon-container">{e.icon}</div>
+                {/* <div> */}
+                    {/* <Link target="_blank" to={"https://meamarkets.digital/winners/ariz-global/"} >
+                        <img src={award} alt="Award" />
+                    </Link> */}
+                    
+                {/* </div> */}
+                <div className="flex gap-4">
+                    <div>
+                        <Link target="_blank" to={"https://meamarkets.digital/winners/ariz-global/"} >
+                            <img className="w-25 h-25 object-contain" src={award} alt="Review" />
+                        </Link>
+                        
                     </div>
-                    </Link>))}
+                    <div>
+                        <Link to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
+                            <img className="w-25 h-25 object-contain" src={logo_1} alt="Review" />
+                        </Link>
+                    </div>
+                    <div>
+                        <img className="w-25 h-25 object-contain" src={logo} alt="Review" />
+                    </div>
+                    <div>
+                        <Link target="_blank" to={"https://www.trustpilot.com/review/arizglobal.com"}>
+                            <img className="w-25 h-25 object-contain" src={logo_2} alt="Review" />
+                        </Link>
+                    </div>
                 </div>
+                
+                
             </div>
             <div className="second-col-in-footer grid grid-cols-1 g sm:grid-cols-3 gap-2 lg:gap-5  xl:gap-10 ">
                 <div className="flex flex-col xl:pl-20 gap-2 sm:gap-3 pages">
@@ -261,6 +287,7 @@ const Footer = ()=>{
                             <div>{e.name}</div>
                         </Link>))}
                     </div>
+                    
                     <div className="flex flex-col gap-2 ">
                         <h2>Newsletter</h2>
                         <form onSubmit={handleSubmit(onSubmit)} className="input-footer">
@@ -273,6 +300,13 @@ const Footer = ()=>{
                             </button>
                         </form>
                         {errors.email && <p className="p-0.5 text-error">{errors.email.message}</p>}
+                    </div>
+                    <div className="flex gap-2">
+                        {icons.map((e,idx)=>(<Link aria-label={`Go ${e.name}`} key={`Social_Media_${e.name}_${idx}`} to={e.link} target="_blank">
+                            <div className="icon-footer" >
+                                <div className="icon-container">{e.icon}</div>
+                            </div>
+                            </Link>))}
                     </div>
 
                 </div>

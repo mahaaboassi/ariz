@@ -55,9 +55,9 @@ const Blogs = ()=>{
                 </div>} />
                 <div className="px-4 sm:px-10">
                     <div className="flex gap-4 category-container ">
-                        <div onClick={()=>setCurrentCategory(0)} className={`category ${currentCategory === 0 ? "active" : ""}`}>All</div>
+                        <div onClick={()=>setCurrentCategory(0)} className={`category p-2 ${currentCategory === 0 ? "active" : ""}`}>All</div>
                         {
-                            categories.map((e,idx)=>(<div onClick={()=>setCurrentCategory(e.id)} className={`category ${currentCategory === e.id ? "active" : ""}`} key={`category_${e.category}_${idx}`}>
+                            categories.map((e,idx)=>(<div onClick={()=>setCurrentCategory(e.id)} className={`category p-2 ${currentCategory === e.id ? "active" : ""}`} key={`category_${e.category}_${idx}`}>
                                 {e.category}
                             </div>))
                         }
