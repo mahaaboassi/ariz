@@ -234,7 +234,7 @@ const Footer = ()=>{
                     <img src={img} className="w-2xs" alt="Ariz Global Logo" />
                 </div>
                 <p>
-                    Ariz Global is a results-driven digital marketing agency specializing in creative branding, content strategy, and growth marketing. With deep expertise in public relations, paid media, and social storytelling, we help businesses—from startups to global enterprises—elevate their presence, drive traffic, and generate leads.
+                    Ariz Global is a results-driven digital marketing agency specializing in creative branding, content strategy, and growth marketing. With deep expertise in public relations, paid media, and social storytelling, we help businesses, from startups to global enterprises elevate their presence, drive traffic, and generate leads.
                 </p>
                 <p> © 2025 Ariz Global. All rights reserved.</p>
                 {/* <div> */}
