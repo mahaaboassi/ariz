@@ -126,10 +126,10 @@ nav a.active{
     border-left: 1px solid rgba(128, 128, 128, 0.155);
     border-bottom: 1px solid rgba(128, 128, 128, 0.155);
 }
-.line-62,.line-50,.line-70,.line-120,.line-85,.line-201,.line-154,.line-300,.line-220,.line-400,.line-286,.line-140{
+
+.line-62,.line-50,.line-70,.line-120,.line-85,.line-201,.line-154,.line-300,.line-400,.line-286,.line-140{
     background-color: var(--dark-2);
 }
-
 .container-lines-with-glow{
     display: grid;
     grid-template-columns: repeat(30,71px);

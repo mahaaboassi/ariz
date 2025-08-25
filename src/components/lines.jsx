@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Lines = ({children,isWithGlow})=>{
+const Lines = ({children,isWithGlow, isContact})=>{
     const [ start, setStart ] =  useState(true)
     useEffect(()=>{
         setTimeout(() => {
@@ -15,7 +15,7 @@ const Lines = ({children,isWithGlow})=>{
                     if(idx== 62 || idx== 50 || idx== 70 || idx== 120 || idx == 85 || idx== 201 || idx== 154 ||
                         idx== 300 || idx== 220 || idx== 400 || idx== 286 || idx == 140
                       ){
-                        return<div  className={`line-auto line-${idx} ${start ? "bubble-first" : "bubble"}`} key={`Lines_${idx}`}></div>
+                        return<div  className={`line-auto ${isContact &&  idx== 286  ? ``: `line-${idx}`} ${start ? "bubble-first" : "bubble"}`} key={`Lines_${idx}`}></div>
                       }else{
                         return<div  className={`line-auto line-${idx}`} key={`Lines_${idx}`}></div>
                       }

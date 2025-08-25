@@ -188,7 +188,7 @@ const Contact = ()=>{
 
             <div className="contact">
               
-                <Lines isWithGlow={true} children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
+                <Lines isContact={true} isWithGlow={true} children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
                     <HeadingForDynamicPages basicTitle={"Keep in Touch"}  firstTitle={"Home"} link={"/"} secondTitle={"Contact"} />
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <form  onSubmit={handleSubmit(onSubmit)}  className="p-8 flex flex-col gap-5">
