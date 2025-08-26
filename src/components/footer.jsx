@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
 import img from "../assets/images/logo-footer.webp"
-import award from "../assets/images/award_1.png"
+
 import logo from "../assets/images/google-partner.webp"
 import logo_1 from "../assets/images/google-review.webp"
 import logo_2 from "../assets/images/trustpilot.png"
+import award from "../assets/images/award_1.png"
 // for validation
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -237,11 +238,7 @@ const Footer = ()=>{
                     Ariz Global is a results-driven digital marketing agency specializing in creative branding, content strategy, and growth marketing. With deep expertise in public relations, paid media, and social storytelling, we help businesses, from startups to global enterprises elevate their presence, drive traffic, and generate leads.
                 </p>
                 <p> © 2025 Ariz Global. All rights reserved.</p>
-                {/* <div> */}
-                    {/* <Link target="_blank" to={"https://meamarkets.digital/winners/ariz-global/"} >
-                        <img src={award} alt="Award" />
-                    </Link> */}
-                {/* </div> */}
+
                 <div className="flex gap-4">
                     <div>
                         <Link target="_blank" to={"https://meamarkets.digital/winners/ariz-global/"} >
@@ -250,17 +247,17 @@ const Footer = ()=>{
                         
                     </div>
                     <div>
-                        <Link to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
+                        <Link target="_blank" to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
                             <img className="w-25 h-25 object-contain" src={logo_1} alt="Review" />
                         </Link>
                     </div>
                     <div>
-                        <Link to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
+                        <Link target="_blank" to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
                             <img className="w-25 h-25 object-contain" src={logo} alt="Review" />
                         </Link>
                     </div>
                     <div>
-                        <Link target="_blank" to={"https://www.trustpilot.com/review/arizglobal.com"}>
+                        <Link  target="_blank" to={"https://www.trustpilot.com/review/arizglobal.com"}>
                             <img className="w-25 h-25 object-contain" src={logo_2} alt="Review" />
                         </Link>
                     </div>

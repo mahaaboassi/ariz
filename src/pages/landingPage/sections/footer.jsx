@@ -2,7 +2,8 @@ import { Link } from "react-router-dom"
 import img from "../../../assets/images/logo-footer.webp"
 import logo from "../../../assets/images/google-partner.webp"
 import logo_1 from "../../../assets/images/google-review.webp"
-import logo_2 from "../../../assets/images/trustpilot.webp"
+import logo_2 from "../../../assets/images/trustpilot.png"
+import award from "../../../assets/images/award_1.png"
 
 const Footer = ()=>{
 
@@ -90,13 +91,25 @@ const Footer = ()=>{
                     </p>
                     <div className="flex gap-4">
                         <div>
-                            <img className="w-25 h-25 object-contain" src={logo_1} alt="Review" />
+                            <Link target="_blank" to={"https://meamarkets.digital/winners/ariz-global/"} >
+                                <img className="w-25 h-25 object-contain" src={award} alt="Review" />
+                            </Link>
+                            
                         </div>
                         <div>
-                            <img className="w-25 h-25 object-contain" src={logo} alt="Review" />
+                            <Link target="_blank" to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
+                                <img className="w-25 h-25 object-contain" src={logo_1} alt="Review" />
+                            </Link>
                         </div>
                         <div>
-                            <img className="w-25 h-25 object-contain" src={logo_2} alt="Review" />
+                            <Link target="_blank" to={"https://maps.app.goo.gl/iqogxdzLgMxTreeDA"}>
+                                <img className="w-25 h-25 object-contain" src={logo} alt="Review" />
+                            </Link>
+                        </div>
+                        <div>
+                            <Link  target="_blank" to={"https://www.trustpilot.com/review/arizglobal.com"}>
+                                <img className="w-25 h-25 object-contain" src={logo_2} alt="Review" />
+                            </Link>
                         </div>
                     </div>
                 </div>
