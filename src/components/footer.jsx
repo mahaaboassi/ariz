@@ -241,7 +241,6 @@ const Footer = ()=>{
                     {/* <Link target="_blank" to={"https://meamarkets.digital/winners/ariz-global/"} >
                         <img src={award} alt="Award" />
                     </Link> */}
-                    
                 {/* </div> */}
                 <div className="flex gap-4">
                     <div>

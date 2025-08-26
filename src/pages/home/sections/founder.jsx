@@ -1,5 +1,5 @@
 import img from "../../../assets/images/gulf_style.png"
-import img_2 from "../../../assets/images/uae_style.png"
+import img_2 from "../../../assets/images/design_2.png"
 import shape from "../../../assets/images/shape-2.webp"
 import news from "../../../assets/images/gulf-news.webp"
 import stories from "../../../assets/images/uae-stories.webp"
