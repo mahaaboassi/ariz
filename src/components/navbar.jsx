@@ -39,7 +39,7 @@ const Navbar = ()=>{
                     <div className="line-menu-2"></div>
                     <div className="line-menu-3"></div>
                 </div>
-                <ul className={`gap-8 ${isOpenMenu?"open":""}`}>
+                <ul className={`gap-8 items-center ${isOpenMenu?"open":""}`}>
                     {data.map((e,idx)=>{
                         if(e.name == "Services"){
                             return <li
@@ -59,6 +59,13 @@ const Navbar = ()=>{
                                     </li>
                         }
                     })}
+                    {/* <li>
+                        <button>
+                            <Link to={"/influencer"}>
+                                Work With Us
+                            </Link>
+                        </button>
+                    </li> */}
                 </ul>
             </div>
         </div>

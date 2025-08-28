@@ -19,6 +19,12 @@ export const MetaData = {
         keywords : "luxury digital marketing, premium brand strategy, digital marketing agency, brand identity, prestige branding, luxury brand marketing, tailored marketing solutions, Ariz Global, global brand positioning, high-end brand marketing",
         link : `${hostCanonical}/about`
     },
+    influencer : {
+        title : "Influencer Marketing & Collaborations | Ariz Global",
+        description : "Join Ariz Global’s influencer program in Dubai and UAE. Collaborate with top brands, grow your social media presence, and access professional guidance for compliant and impactful brand partnerships.",
+        keywords : "influencer collaboration Dubai, UAE influencer registration, social media compliance, brand partnerships UAE,Dubai business license, business setup UAE, marketing campaigns Dubai, brand growth UAE",
+        link : `${hostCanonical}/influencer`
+    },
     contact : {
         title : "Contact | Ariz Global",
         description : "Get in touch with Ariz Global for premium digital marketing solutions tailored to luxury brands. Let’s elevate your brand presence together.",

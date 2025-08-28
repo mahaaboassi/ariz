@@ -88,16 +88,6 @@ nav a.active{
     font-size: var(--font-size-l);
     background-color: var(--dark-1);
 }
-.conatiner-btns{
-    animation: popUpServices 0.5s linear forwards; 
-}
-@keyframes popUpServices {
-    from{
-        opacity: 0;
-    }to{
-        opacity: 1;
-    }
-}
 .btn-sevices::before{
     content : "";
     position: absolute;
@@ -114,6 +104,17 @@ nav a.active{
     transform: rotate(-2deg);
     opacity: 1;
 }
+.conatiner-btns{
+    animation: popUpServices 0.5s linear forwards; 
+}
+@keyframes popUpServices {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
 /* Lines */
 .grid-container{
     display: grid;
