@@ -85,8 +85,8 @@ const Contact = ()=>{
                     </div>
                 </div>`
         temp.userEmail = value.email
-        // temp.adminEmail = "info@arizglobal.com"
-        temp.adminEmail = "eng.mahaab96@gmail.com"  
+        temp.adminEmail = "info@arizglobal.com"
+        // temp.adminEmail = "eng.mahaab96@gmail.com"  
         temp.subject = "New Influencer Registration – Ariz Global Website"
         const res = await fetch("https://api.arizglobal.com/api/mail", {
             method: "POST",
