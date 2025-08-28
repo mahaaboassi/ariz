@@ -5,7 +5,7 @@ import { useRef } from "react";
 import inf_1 from "../../../assets/images/influencer_1.webp";
 import inf_2 from "../../../assets/images/influencer_2.webp";
 import inf_3 from "../../../assets/images/influencer_3.webp";
-import video from "../../../assets/videos/final_influencer.mp4";
+import video from "../../../assets/videos/final_influencer_less_size.mp4"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // core Swiper
