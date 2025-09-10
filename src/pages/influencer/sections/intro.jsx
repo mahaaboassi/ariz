@@ -81,10 +81,10 @@ const Intro = () => {
         {/* Video */}
         <motion.div
           style={{ scale: videoScale }}
-          className="video-influencer absolute inset-0 pt-20 lg:pt-30 "
+          className="video-influencer absolute inset-0 pt-12 md:pt-20 lg:pt-30 "
         >
           <video
-            src={`${hostStorage}/final_influencer_less_size.mp4`}
+            src={`${hostStorage}/final_influencer_less_size_2.mp4`}
             autoPlay
             loop
             muted
