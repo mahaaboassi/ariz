@@ -37,7 +37,7 @@ const SubProject = ()=>{
                 <HeadingForDynamicPages basicTitle={currentData?.name ?? ""}  firstTitle={"Our Portfolio"} link={"/portfolio"} secondTitle={"Project"} />   
                 <div className="flex justify-center items-center w-full">
                     { 
-                    <div  className="relative w-3/4">
+                    <div  className="relative xl:w-3/4">
                         <img className="" alt="Services" src={currentData?.img ?? ""} />
                         <div className="glow" ></div>
                     </div>

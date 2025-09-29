@@ -1,12 +1,12 @@
 // Project Images 
-import figma_1 from "../assets/images/portfolio/pro_1.png";
-import figma_2 from "../assets/images/portfolio/pro_2.png";
-import figma_3 from "../assets/images/portfolio/pro_3.png";
+import figma_1 from "../assets/images/portfolio/pro_1.webp";
+import figma_2 from "../assets/images/portfolio/pro_2.webp";
+import figma_3 from "../assets/images/portfolio/pro_3.webp";
 import figma_4 from "../assets/images/portfolio/pro_4.png";
-import figma_5 from "../assets/images/portfolio/pro_5.png";
-import figma_6 from "../assets/images/portfolio/pro_6.png";
-import figma_7 from "../assets/images/portfolio/pro_7.png";
-import figma_8 from "../assets/images/portfolio/pro_8.png";
+import figma_5 from "../assets/images/portfolio/pro_5.webp";
+import figma_6 from "../assets/images/portfolio/pro_6.webp";
+import figma_7 from "../assets/images/portfolio/pro_7.webp";
+import figma_8 from "../assets/images/portfolio/pro_8.webp";
 
 // Mockup Images
 import des_1 from "../assets/images/portfolio/des_1.png";
@@ -17,13 +17,13 @@ import des_5 from "../assets/images/portfolio/des_5.png";
 import des_6 from "../assets/images/portfolio/des_6.png";
 
 // Basic Images
-import pro_1 from "../assets/images/portfolio/mockup_pro_1.png";
-import pro_2 from "../assets/images/portfolio/mockup_pro_2.png";
-import pro_3 from "../assets/images/portfolio/mockup_pro_3.png";
-import pro_4 from "../assets/images/portfolio/mockup_pro_4.png";
-import pro_5 from "../assets/images/portfolio/mockup_pro_5.png";
-import pro_6 from "../assets/images/portfolio/mockup_pro_6.png";
-import pro_7 from "../assets/images/portfolio/mockup_pro_7.png";
+import pro_1 from "../assets/images/portfolio/mockup_pro_1.webp";
+import pro_2 from "../assets/images/portfolio/mockup_pro_2.webp";
+import pro_3 from "../assets/images/portfolio/mockup_pro_3.webp";
+import pro_4 from "../assets/images/portfolio/mockup_pro_4.webp";
+import pro_5 from "../assets/images/portfolio/mockup_pro_5.webp";
+import pro_6 from "../assets/images/portfolio/mockup_pro_6.webp";
+import pro_7 from "../assets/images/portfolio/mockup_pro_7.webp";
 
 export const portfolioData = [
   {
