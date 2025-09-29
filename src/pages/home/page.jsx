@@ -8,6 +8,7 @@ import Services from "./sections/services"
 import Showcase from "./sections/showcase"
 import Steps from "./sections/steps"
 import { MetaData } from "../../data/meta"
+import Partner from "../../components/partner"
 
 const Home = ()=>{
     useEffect (()=>{window.scrollTo({ top: 0})},[])
@@ -27,14 +28,16 @@ const Home = ()=>{
 
 
 
-
-       <Lines isWithGlow={true} children={<Hero/>}/>
-       <Services/>
-       <Founder/>
-       <Showcase/>
-       <Steps/>
-       <AdsPaid/>
-       <Blogs/>
+        <Lines isWithGlow={true} children={<Hero/>}/>
+       <div className="flex flex-col gap-20">
+            <Services/>
+            <Founder/>
+            <Showcase/>
+            <Steps/>
+            <AdsPaid/>
+            <Partner isHome={true}/>
+            <Blogs/>
+       </div>
     </article>)
 }
 

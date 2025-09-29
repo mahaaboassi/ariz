@@ -1,179 +1,57 @@
 import React, { useState, useEffect } from "react";
 import Lines from "../../components/lines";
 import HeadingForDynamicPages from "../../components/headingForDynamicPages";
-
-// Project Images 
-import figma_1 from "../../assets/images/portfolio/pro_1.png";
-import figma_2 from "../../assets/images/portfolio/pro_2.png";
-import figma_3 from "../../assets/images/portfolio/pro_3.png";
-import figma_4 from "../../assets/images/portfolio/pro_4.png";
-import figma_5 from "../../assets/images/portfolio/pro_5.png";
-import figma_6 from "../../assets/images/portfolio/pro_6.png";
-import figma_7 from "../../assets/images/portfolio/pro_7.png";
-import figma_8 from "../../assets/images/portfolio/pro_8.png";
-// Mockup Images
-import des_1 from "../../assets/images/portfolio/des_1.png";
-import des_2 from "../../assets/images/portfolio/des_2.png";
-import des_3 from "../../assets/images/portfolio/des_3.png";
-import des_4 from "../../assets/images/portfolio/des_4.png";
-import des_5 from "../../assets/images/portfolio/des_5.png";
-import des_6 from "../../assets/images/portfolio/des_6.png";
-import { Link } from "react-router-dom";
+import ShowCase from "../../components/showCase";
+import { portfolioData } from "../../data/portfolio";
 
 
 
 function Portfolio() {
+  useEffect(()=>{
+      window.scrollTo({ top: 0})
+  },[])
+  return (<article>
+        <title>Our Portfolio</title>
+        <meta 
+          name="description" 
+          content="Explore our portfolio of real projects and creative designs. From modern websites to innovative applications, discover how we deliver impactful results for diverse industries." 
+        />
+        <meta name="keywords" content="portfolio, web design, UI UX design, creative projects, case studies, website development, app design, Ariz Global portfolio" />
+        <link rel="canonical" href="/portfolio" />
 
-  const figmaProjects = [{
-    image : figma_1,
-    isAvilable : 1,
-    type : "Web",
-    information : <></>
-  },{
-    image : des_3,
-    isAvilable : 0,
-    type : "Graphic",
-    information : <></>
-  },{
-    image : figma_2,
-    isAvilable : 0,
-    type : "Web",
-    information : <></>
-  },{
-    image : des_4,
-    isAvilable : 0,
-    type : "Graphic",
-    information : <></>
-  },{
-    image : figma_3,
-    isAvilable : 1,
-    type : "Web",
-    information : <></>
-  },{
-    image : des_6,
-    isAvilable : 0,
-    type : "Graphic",
-    information : <></>
-  },{
-    image : figma_5,
-    isAvilable : 1,
-    type : "Web",
-    information : <></>
-  },{
-    image : figma_6,
-    isAvilable : 0,
-    type : "Web",
-    information : <></>
-  },{
-    image : des_5,
-    isAvilable : 0,
-    type : "Graphic",
-    information : <></>
-  },{
-    image : figma_7,
-    isAvilable : 0,
-    type : "Web",
-    information : <></>
-  },{
-    image : des_2,
-    isAvilable : 0,
-    type : "Graphic",
-    information : <></>
-  },{
-    image : figma_8,
-    isAvilable : 1,
-    type : "Web",
-    information : <></>
-  },{
-    image : des_1,
-    isAvilable : 0,
-    type : "Graphic",
-    information : <></>
-  }]
-  const [ currentImage , setCurrentImage] = useState("")
-  return (
+        {/* Open Graph for Facebook, LinkedIn, etc. */}
+        <meta property="og:title" content="Our Portfolio" />
+        <meta property="og:url" content="https://yourdomain.com/portfolio" />
+        <meta 
+          property="og:description" 
+          content="Discover our portfolio of real projects, creative designs, and impactful solutions. Showcasing innovation, user-friendly experiences, and professional results." 
+        />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter */}
+        <meta name="twitter:title" content="Our Portfolio" />
+        <meta 
+          name="twitter:description" 
+          content="Explore our portfolio of real projects and creative designs. See how we transform ideas into impactful digital solutions." 
+        />
+        <meta name="twitter:card" content="summary_large_image" />
     <div>
         <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
                 <HeadingForDynamicPages basicTitle={"Our Portfolio"}  firstTitle={"Home"} link={"/"} secondTitle={"Our Portfolio"}  />
             </div>} />
-            <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10 mb-16 mt-20">
-                {figmaProjects.map((e,i)=>{
-                    return<div key={`Figma_Design_${i}`} className=" gap-5  container-design">
-                        <div onClick={()=>setCurrentImage(e.image)} className="relative root-image">
-                            <img  src={e.image} alt={e.type} />
-                            <div className="view-div cursor-pointer">
-                              <div className="">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="54" height="43" viewBox="0 0 54 43" fill="none">
-                                    <g clipPath="url(#clip0_995_986)">
-                                    <path fillRule="evenodd" clipRule="evenodd" d="M27.0007 12.646C28.746 12.646 30.4521 13.1653 31.9032 14.1382C33.3543 15.1111 34.4854 16.4939 35.1532 18.1118C35.8211 19.7296 35.9959 21.5098 35.6554 23.2274C35.3149 24.9449 34.4745 26.5225 33.2404 27.7607C32.0063 28.999 30.434 29.8422 28.7222 30.1839C27.0105 30.5255 25.2363 30.3502 23.6238 29.68C22.0114 29.0099 20.6333 27.8751 19.6637 26.419C18.694 24.963 18.1765 23.2512 18.1765 21.5C18.1765 19.1518 19.1062 16.8998 20.7611 15.2393C22.4159 13.5789 24.6604 12.646 27.0007 12.646ZM9.80053 40.2883C10.1592 40.2894 10.5028 40.4329 10.7563 40.6873C11.0099 40.9418 11.1529 41.2865 11.154 41.6464C11.1541 41.8245 11.119 42.0009 11.0509 42.1654C10.9829 42.3299 10.8831 42.4793 10.7573 42.6051C10.6316 42.7309 10.4824 42.8305 10.3182 42.8983C10.154 42.966 9.97807 43.0006 9.80053 43H1.70141C1.3436 43 1.00045 42.8574 0.747441 42.6035C0.494432 42.3497 0.352293 42.0054 0.352293 41.6464V33.6434C0.353653 33.3758 0.433771 33.1146 0.582589 32.8925C0.731406 32.6704 0.94229 32.4974 1.18876 32.3952C1.43524 32.293 1.70631 32.2661 1.96796 32.3179C2.22961 32.3698 2.47016 32.498 2.65942 32.6866L2.69018 32.7218C2.93121 32.9685 3.06949 33.298 3.0769 33.6434V40.2883H9.80053ZM9.80053 2.31926e-05C10.1594 0.000968077 10.5035 0.14351 10.7585 0.396865L10.7893 0.43214C10.9696 0.625025 11.0896 0.866664 11.1346 1.12722C11.1795 1.38777 11.1474 1.65583 11.0422 1.89829C10.9371 2.14076 10.7634 2.34701 10.5428 2.49157C10.3221 2.63614 10.0641 2.71269 9.80053 2.71177H3.0769V9.35667C3.05722 9.7029 2.90627 10.0285 2.65501 10.2666C2.40375 10.5047 2.07121 10.6374 1.72558 10.6374C1.37995 10.6374 1.04742 10.5047 0.796159 10.2666C0.544899 10.0285 0.393951 9.7029 0.374265 9.35667V1.3581C0.369766 1.18168 0.400496 1.00613 0.464648 0.841807C0.528799 0.677481 0.625073 0.527696 0.7478 0.401274C0.871596 0.273359 1.01989 0.171875 1.18376 0.102922C1.34764 0.033968 1.52372 -0.00103259 1.70141 2.31926e-05H9.80053ZM44.2009 2.71177C44.0234 2.71236 43.8475 2.67777 43.6833 2.61C43.5191 2.54223 43.3699 2.44261 43.2441 2.31686C43.1184 2.1911 43.0186 2.04167 42.9505 1.87715C42.8824 1.71263 42.8474 1.53624 42.8474 1.3581C42.8486 0.998276 42.9915 0.653518 43.2451 0.39908C43.4987 0.144642 43.8423 0.00118581 44.2009 2.31926e-05H52.2957C52.6531 0.00165047 52.9956 0.144177 53.2493 0.396865C53.3751 0.523016 53.4748 0.672888 53.5427 0.837856C53.6106 1.00282 53.6453 1.17963 53.6448 1.3581V9.35667C53.6448 9.53444 53.6099 9.71046 53.5421 9.8747C53.4743 10.0389 53.3749 10.1882 53.2496 10.3139C53.1243 10.4396 52.9756 10.5393 52.8119 10.6073C52.6483 10.6753 52.4728 10.7103 52.2957 10.7103C51.9378 10.7092 51.5949 10.5663 51.3414 10.3128C51.0879 10.0594 50.9444 9.71573 50.9421 9.35667V2.71177H44.2009ZM44.2009 43C44.0234 43.0006 43.8475 42.966 43.6833 42.8983C43.5191 42.8305 43.3699 42.7309 43.2441 42.6051C43.1184 42.4793 43.0186 42.3299 42.9505 42.1654C42.8824 42.0009 42.8474 41.8245 42.8474 41.6464C42.8486 41.2865 42.9915 40.9418 43.2451 40.6873C43.4987 40.4329 43.8423 40.2894 44.2009 40.2883H50.9465V33.6434C50.9465 33.2844 51.0887 32.9401 51.3417 32.6862C51.5947 32.4323 51.9378 32.2897 52.2957 32.2897C52.6535 32.2897 52.9966 32.4323 53.2496 32.6862C53.5026 32.9401 53.6448 33.2844 53.6448 33.6434V41.6464C53.6448 42.0054 53.5026 42.3497 53.2496 42.6035C52.9966 42.8574 52.6535 43 52.2957 43H44.2009ZM0.440183 20.3889C1.67975 18.8807 3.02339 17.4618 4.46118 16.1427C10.7629 10.4105 18.2424 7.32396 25.9548 7.16081C33.6672 6.99767 41.5422 9.76233 48.6746 15.6665C50.4318 17.1245 52.0825 18.7071 53.614 20.4021C53.8575 20.6707 54.0006 21.0157 54.019 21.3783C54.0374 21.7409 53.93 22.0987 53.7151 22.3907C51.9746 24.8764 49.893 27.1031 47.532 29.0047C41.9273 33.4524 34.9858 35.8632 27.8401 35.8436C20.6289 35.8515 13.5943 33.6061 7.71313 29.4192C4.93986 27.4491 2.4574 25.0963 0.339109 22.4304C0.10933 22.1344 -0.00686321 21.7655 0.0116882 21.3908C0.0302396 21.0161 0.182302 20.6605 0.440183 20.3889ZM6.56616 18.4576C5.53018 19.4047 4.54723 20.4086 3.62182 21.4648C5.3592 23.4955 7.33665 25.3064 9.5105 26.8574C14.8637 30.6705 21.2664 32.7184 27.8313 32.7174C34.2699 32.7286 40.5227 30.5529 45.572 26.5443C47.3754 25.0909 48.9983 23.4255 50.406 21.5838C49.2324 20.344 47.9881 19.1736 46.6794 18.0784C40.136 12.6725 32.9597 10.1415 25.9944 10.287C19.0291 10.4326 12.2747 13.2281 6.54419 18.4576H6.56616ZM27.0227 18.2636C27.6617 18.2636 28.2864 18.4537 28.8176 18.8101C29.3489 19.1664 29.7629 19.6728 30.0072 20.2652C30.2516 20.8577 30.3153 21.5095 30.1903 22.1383C30.0653 22.7671 29.7572 23.3446 29.3051 23.7976C28.8529 24.2507 28.277 24.559 27.6501 24.6836C27.0233 24.8081 26.3737 24.7433 25.7836 24.4973C25.1935 24.2514 24.6893 23.8353 24.3349 23.3018C23.9805 22.7682 23.7919 22.1412 23.7927 21.5C23.7927 21.0746 23.8763 20.6534 24.0387 20.2605C24.2011 19.8675 24.439 19.5105 24.739 19.2099C25.039 18.9093 25.3951 18.671 25.787 18.5087C26.1788 18.3463 26.5987 18.263 27.0227 18.2636Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_995_986">
-                                    <rect width="54" height="43" fill="white"/>
-                                    </clipPath>
-                                    </defs>
-                                  </svg>
-                              </div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col gap-2 p-2">
-                          <div className={`flex  items-center justify-between`}>
-
-                                  <div className="widget-type p-1">
-                                      {e.type}
-                                  </div>
-                                  <Link target="_blank" to={"https://wa.me/971589185328"}>
-                                    <div className="flex">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 54 55" fill="none">
-                                        <g clipPath="url(#clip0_994_977)">
-                                        <path fill-rule="evenodd" clipRule="evenodd" d="M46.125 8.03716C43.6347 5.54078 40.6708 3.56157 37.4055 2.21444C34.1401 0.867318 30.6384 0.179123 27.1035 0.18982C12.285 0.18982 0.225 12.1926 0.225 26.9469C0.224713 31.6424 1.46629 36.2553 3.825 40.3221L0 54.1898L14.256 50.4665C18.1961 52.6039 22.6114 53.7254 27.099 53.7286C32.4189 53.7297 37.6196 52.161 42.0435 49.2207C46.4674 46.2805 49.9156 42.1009 51.9522 37.2106C53.9888 32.3202 54.5222 26.9386 53.4849 21.7466C52.4477 16.5545 49.8864 11.7851 46.125 8.04164V8.03716ZM27.1125 49.2217C23.1063 49.2199 19.1745 48.1449 15.7298 46.1096L14.9107 45.6238L6.45075 47.8291L8.70075 39.6235L8.172 38.7817C5.24004 34.1494 4.12744 28.604 5.04707 23.2064C5.96671 17.8089 8.854 12.9383 13.1565 9.52646C17.4591 6.1146 22.8748 4.40106 28.3675 4.71367C33.8602 5.02628 39.0442 7.34311 42.9277 11.2209C46.0558 14.3342 48.186 18.3005 49.0489 22.6183C49.9118 26.9361 49.4688 31.4116 47.7758 35.4789C46.0828 39.5462 43.2159 43.0227 39.5375 45.4689C35.8591 47.9151 31.5345 49.221 27.1102 49.2217H27.1125ZM39.375 32.5509C38.7 32.2128 35.3992 30.6008 34.7872 30.3769C34.1752 30.153 33.7252 30.0388 33.2685 30.715C32.8117 31.3911 31.5315 32.8889 31.14 33.339C30.7485 33.789 30.3547 33.8472 29.6887 33.5091C29.0227 33.171 26.847 32.4658 24.2887 30.1866C22.8155 28.8343 21.5495 27.2744 20.5312 25.5565C20.1375 24.8849 20.4885 24.5244 20.8305 24.1975C21.1725 23.8707 21.5055 23.4184 21.8363 23.0266C22.1159 22.6889 22.3435 22.3116 22.5113 21.9071C22.6005 21.7228 22.6424 21.5193 22.6329 21.3149C22.6235 21.1105 22.5631 20.9116 22.4572 20.7362C22.275 20.4004 20.925 17.1092 20.385 15.7681C19.845 14.427 19.2848 14.6486 18.8708 14.6173C18.4568 14.5859 18.0315 14.5971 17.5882 14.5971C17.2465 14.6051 16.9102 14.6834 16.6004 14.8272C16.2906 14.9709 16.0141 15.1769 15.7882 15.4322C15.183 16.0972 13.4437 17.7204 13.4437 21.0116C13.4437 24.3028 15.849 27.4775 16.1865 27.9298C16.524 28.382 20.925 35.1323 27.675 38.0272C29.277 38.7123 30.528 39.1243 31.5 39.4422C32.8707 39.8535 34.3186 39.9432 35.73 39.7041C37.0215 39.5161 39.7035 38.0899 40.2682 36.5294C40.833 34.9689 40.8307 33.6188 40.662 33.3524C40.4932 33.086 40.0567 32.8912 39.3795 32.5486L39.375 32.5509Z" fill="#25D366"/>
-                                        </g>
-                                        <defs>
-                                        <clipPath id="clip0_994_977">
-                                        <rect width="54" height="54" fill="white" transform="translate(0 0.189941)"/>
-                                        </clipPath>
-                                        </defs>
-                                      </svg>
-                                    </div>
-                                  </Link>
-                            </div>
-                          <div>
-                              {e.isAvilable == 1 && <div className="widget  flex">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="33" height="20" viewBox="0 0 123 110" fill="none">
-                                      <g clipPath="url(#clip0_993_969)">
-                                      <path fill-rule="evenodd" clipRule="evenodd" d="M0 52.88L22.68 52.58C31.44 57.63 39.28 64.17 46.03 72.44C63.49 43.49 83.55 19.77 105.6 0H122.88C92.05 34.25 66.89 70.92 46.77 109.76C36.01 86.69 20.96 67.27 0 52.88Z" fill="#01A601"/>
-                                      </g>
-                                      <defs>
-                                      <clipPath id="clip0_993_969">
-                                      <rect width="122.88" height="109.76" fill="white"/>
-                                      </clipPath>
-                                      </defs>
-                                  </svg>
-                                  Available</div>}
-                            </div>
-                              
-                        </div>
-                        
-                    </div>
+        
+        <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10 mb-16 mt-20">
+                {portfolioData.map((e,i)=>{
+                    return <ShowCase key={`Figma_Design_${i}`} 
+                                    image={e.basic_img}
+                                    name={e.name}
+                                    isAvilable={e.isAvilable}
+                                    link={e.link}
+                    />
                 })}
             </div>
-
-            {currentImage != "" && <div className="container-gallery px-5">
-              <div onClick={()=>setCurrentImage("")} className="icon-gallery">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <g clipath="url(#clip0_17_1174)">
-                      <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="white"/>
-                      </g>
-                      <defs>
-                      <clipPath id="clip0_17_1174">
-                      <rect width="24" height="24" fill="white"/>
-                      </clipPath>
-                      </defs>
-                      </svg>
-              </div>
-                <img src={currentImage} alt="Image" />
-            </div>}
     </div>
+  </article>
 
   );
 }

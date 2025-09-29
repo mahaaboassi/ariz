@@ -15,6 +15,7 @@ import QR from './pages/QR/page'
 import LandingPage from './pages/landingPage/page'
 import Portfolio from './pages/portfolio/page'
 import Influencer from './pages/influencer/page'
+import SubProject from './pages/portfolio/subProject'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
                     <Route path="services/:link" element={<SubServices/>} />
                     <Route path="qr" element={<QR/>} />
                     <Route path="portfolio" element={<Portfolio/>} />
+                    <Route path="portfolio/:link" element={<SubProject/>} />
                     <Route path="influencer" element={<Influencer/>} />
                     <Route path="*" element={<Navigate to="/404" />}  />
                 </Route>

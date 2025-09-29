@@ -4,7 +4,7 @@ import Lines from "../../../components/lines"
 
 const Steps = ()=>{
     const targetRef = useRef(null)
-    return(<div className="py-20 px-4 sm:px-10 flex flex-col gap-5">
+    return(<div className="px-4 sm:px-10 flex flex-col gap-5">
         <Heading title={"One Subscription. Unlimited Creative Power"} subTitle={"How Ariz Subscription Works"} />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
             <div className="flex flex-col gap-5">

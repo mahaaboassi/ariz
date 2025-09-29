@@ -312,7 +312,7 @@ form textarea{
     border-radius: 10px;
     width: fit-content;
     font-size: var(--font-size-xxs);
-    border: 1px solid rgba(128, 128, 128, 0.699); 
+    /* border: 1px solid rgba(128, 128, 128, 0.699);  */
 }
 .view-div{
     position: absolute;
@@ -350,6 +350,32 @@ form textarea{
     top: 20px;
     right: 20px;
     cursor: pointer;
+}
+.glow{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%);
+    animation: bgGlow 3s infinite ease-in-out;
+}
+@keyframes bgGlow {
+  0% {
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0.6;
+  }
 }
 /* Influencer */
 .intro-influencer{
@@ -547,8 +573,14 @@ form textarea{
     background-color: rgba(161, 159, 159, 0.656);
 
 }
-
-
+/* Partner Section */
+.container-logo{
+    background-color: var(--light);
+    border-radius: 10px;
+}
+.container-logo img{
+    object-fit: contain;
+}
 @media (max-width : 1200px) {
     .vision-content{
         background-size: cover;
@@ -643,6 +675,13 @@ form textarea{
         transform: unset;
         width: 300px;
     }
+    .glow{
+        width: 300px;
+        height: 300px;
+    }
+    .container-logo img{
+        height: 100px;
+    } 
 }
 @media (max-width:600px) {
     .cover-video{
@@ -681,7 +720,10 @@ form textarea{
         width: 26px !important;
         height: 26px !important;
     }
-    
+    .glow{
+        width: 200px;
+        height: 200px;
+    }
 }
 @media (max-width: 400px) { 
     .vision-content{

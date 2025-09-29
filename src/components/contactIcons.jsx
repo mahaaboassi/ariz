@@ -9,9 +9,9 @@ const ContactIcons = ()=>{
     const data = [{
         name : "Whatsapp",
         icon : Whatsapp,
-        link : "https://wa.me/971589185328",
+        link : "https://wa.me/971543476609",
         id: 1,
-        value : "+971 58 918 5328",
+        value : "+971 54 347 6609",
     },
     // {
     //     name : "Mail",
@@ -23,9 +23,9 @@ const ContactIcons = ()=>{
     {
         name : "Phone",
         icon : phone,
-        link : "tel:+971589185328",
+        link : "tel:+971543476609",
         id: 3,
-        value : "+971 58 918 5328",
+        value : "+971 54 347 6609",
     },{
         name : "Landline",
         icon : landline,

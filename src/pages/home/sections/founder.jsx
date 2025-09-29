@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 import { calendlyLink, gulfNewsLink, uaeStoriesLink } from "../../../data/data"
 
 const Founder = ()=>{
-    return(<div className="px-4 sm:px-10 py-20 flex flex-col gap-5 founder">
+    return(<div className="px-4 sm:px-10 flex flex-col gap-5 founder">
         <Heading subTitle={"Driven Leadership, Proven Results"} title={"Featured by Trusted News Sources"} />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="relative founder-container">

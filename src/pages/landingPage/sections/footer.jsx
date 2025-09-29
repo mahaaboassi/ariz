@@ -44,8 +44,8 @@ const Footer = ()=>{
     
     },{
         name  : "Phone",
-        value : "+971 58 918 5328",
-        link : 'tel:+971589185328',
+        value : "+971 54 347 6609",
+        link : 'tel:+971543476609',
         icon : <svg className="fill-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 30 30" fill="none">
             <mask id="mask0_766_1009"  maskUnits="userSpaceOnUse" x="1" y="0" width="29" height="30">
             <path d="M29.4353 0.81543H1.0625V29.1882H29.4353V0.81543Z" fill="white"/>

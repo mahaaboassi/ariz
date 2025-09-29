@@ -679,8 +679,8 @@ export const contactInfo = [{
 
 }, {
     name  : "Phone",
-    value : "+971 58 918 5328",
-    link : 'tel:+971589185328',
+    value : "+971 54 347 6609",
+    link : 'tel:+971543476609',
     icon : phone
 },{
     name  : "Landline",

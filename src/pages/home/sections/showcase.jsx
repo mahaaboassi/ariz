@@ -10,16 +10,20 @@ import show_7 from "../../../assets/images/foreshore-1.webp"
 import show_8 from "../../../assets/images/ariz-3.webp"
 import website_foreshore from "../../../assets/images/Frame 618.webp"
 import website_tumbi from "../../../assets/images/Frame 619.webp"
+import { Link } from "react-router-dom"
 
 const Showcase = ()=>{
     return(<div className="showcase flex flex-col gap-5 px-4 sm:px-10">
         <Heading subTitle={"Explore Our Creative Showcase"} title={"Brands We’ve Elevated at Ariz Global"} />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-1" >
             {/* <div className="container-img rounded"><img className="w-full object-cover rounded" src={show_1} alt="show" /></div> */}
-            <div className="container-img"><img className="w-full rounded " id="img-website" src={website_foreshore} alt="show" /></div>
-            <div className="container-img"><img className="w-full object-cover rounded" src={show_8} alt="show" /></div>
-            <div className="container-img"><img className="w-full rounded" id="img-scroll" src={show_4} alt="show" /></div>
-            <div className="container-img"><img id="img-website" className="w-full rounded" src={website_tumbi} alt="show" /></div>
+            <Link to={'/portfolio'}><div className="container-img"><img className="w-full rounded " id="img-website" src={website_foreshore} alt="show" /></div></Link>
+            <Link to={'/portfolio'}><div className="container-img"><img className="w-full object-cover rounded" src={show_8} alt="show" /></div></Link>
+            <Link to={'/portfolio'}><div className="container-img"><img className="w-full rounded" id="img-scroll" src={show_4} alt="show" /></div></Link>
+            <Link to={'/portfolio'}><div className="container-img"><img id="img-website" className="w-full rounded" src={website_tumbi} alt="show" /></div></Link>
+            
+            
+            
             {/* <div className="container-img"><img className="w-full object-cover rounded" src={show_3} alt="show" /></div> */}
             {/* <div className="container-img"><img className="w-full object-cover rounded" src={show_7} alt="show" /></div> */}
 

@@ -10,6 +10,7 @@ import { MetaData } from "../../data/meta"
 import ContactIcons from "../../components/contactIcons"
 import Popup from "../../components/popup"
 import Articales from "./sections/articales"
+import Partner from "../../components/partner"
 const LandingPage = ()=>{
     return (<article className="landing ">
         <title>{MetaData.landing.title}</title>
@@ -31,6 +32,7 @@ const LandingPage = ()=>{
              <Clients/>
              <OurServices/>
              <SocialMedia/>
+             <Partner/>
              <Industries/>
              <FAQs/>
              <Articales/>
