@@ -144,7 +144,7 @@ const SubProject = ()=>{
             </div>
             <Subscribe/>
             <div className="fixed left-5 bottom-5 container-call">
-                <a target="_blank" href="tel:+971543476609">
+                <a target="_blank" href="https://wa.me/971543476609">
                     <div>
                         <div className="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 167 167" fill="none">
