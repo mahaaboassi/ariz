@@ -98,7 +98,7 @@ const SubProject = ()=>{
                     </div>
                     { currentData?.mockups && currentData.mockups?.website.length >0 && <div className="px-4 sm:px-10">
                         <Heading  title={"Website Mockups"} subTitle={"Turning Ideas into Interactive Previews"} />
-                                <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10">
+                        <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 ">
                                 {currentData.mockups.website.map((e,i)=>{
                                     return <ShowCase key={`Figma_basic_design_images_${i}`} 
                                                     image={e}
@@ -110,7 +110,7 @@ const SubProject = ()=>{
                     </div> }
                     { currentData?.mockups && currentData.mockups?.design.length >0 && <div className="px-4 sm:px-10">
                         <Heading  title={"Creative & Designs"} subTitle={"Turning Ideas into Interactive Previews"} />
-                                <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10">
+                                <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5">
                                 {currentData.mockups.design.map((e,i)=>{
                                     return <ShowCase key={`Figma_basic_design_images_${i}`} 
                                                     image={e}
@@ -128,7 +128,7 @@ const SubProject = ()=>{
                     </div> }
                     { <div className="px-4 sm:px-10">
                         <Heading  title={"More From Our Portfolio"} subTitle={"Discover Additional Projects"} />
-                                <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10 ">
+                                <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 ">
                                 { portfolioData.map((e,i)=>{
                                     return <ShowCase key={`Figma_Design_Inside_Project_${i}`} 
                                                     image={e.basic_img}
