@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import Lines from "../../components/lines"
 import shape from "../../assets/images/shape-big.webp"
 import HeadingForDynamicPages from "../../components/headingForDynamicPages"
@@ -8,7 +8,8 @@ import Subscribe from "../../components/subscribe"
 
 import ShowCase from "../../components/showCase"
 import { portfolioData } from "../../data/portfolio"
-
+// import image
+import call from "../../assets/images/callUs.png"
 
 const SubProject = ()=>{
     const { link } = useParams()
@@ -32,7 +33,7 @@ const SubProject = ()=>{
         <meta property="twitter:description" content={currentServices.meta.description} /> */}
 
         
-        <div className=" flex flex-col gap-10">
+        <div className=" flex flex-col gap-10 relative">
             <Lines children={<div className="pb-4 mt-32 flex flex-col gap-10 px-4 sm:px-10">
                 <HeadingForDynamicPages basicTitle={currentData?.name ?? ""}  firstTitle={"Our Portfolio"} link={"/portfolio"} secondTitle={"Project"} />   
                 <div className="flex justify-center items-center w-full">
@@ -142,6 +143,27 @@ const SubProject = ()=>{
                     </div> }
             </div>
             <Subscribe/>
+            <div className="fixed left-5 bottom-5 container-call">
+                <a target="_blank" href="tel:+971543476609">
+                    <div>
+                        <div className="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 167 167" fill="none">
+                                <path d="M79.8695 158.129C94.6839 158.884 109.39 155.23 122.127 147.628C134.865 140.026 145.062 128.817 151.429 115.42C157.796 102.022 160.048 87.0376 157.899 72.3605C155.75 57.6834 149.297 43.9732 139.356 32.9635C129.415 21.9539 116.432 14.1394 102.05 10.5082C87.6675 6.87695 72.5315 7.59211 58.5556 12.5632C44.5798 17.5343 32.392 26.5381 23.5333 38.436C14.6746 50.3339 9.54299 64.5915 8.78738 79.4058L10.4598 154.589L79.8695 158.129Z" fill="url(#paint0_linear_1092_969)"/>
+                                <path d="M95.6451 101.605C78.8898 101.717 65.1612 88.1772 65.0416 71.4258C65.0196 67.1801 68.4481 63.7002 72.6899 63.6708C73.1257 63.6678 73.5579 63.7021 73.9681 63.7737C74.8779 63.9164 75.7403 64.2195 76.5405 64.6758C76.6564 64.7421 76.7354 64.8533 76.7549 64.9835L78.6011 76.1327C78.6243 76.2629 78.5843 76.3935 78.4993 76.4909C77.5273 77.5815 76.2851 78.3685 74.9024 78.7691L74.2371 78.9636L74.4948 79.6099C76.8217 85.4076 81.5017 90.027 87.3347 92.2734L87.9845 92.5222L88.1661 91.8505C88.5475 90.4587 89.3172 89.2057 90.3942 88.2224C90.4719 88.1511 90.5759 88.1094 90.6839 88.1087C90.7063 88.1085 90.7323 88.1084 90.7547 88.1157L101.925 89.8075C102.059 89.8289 102.167 89.9026 102.239 90.0176C102.703 90.8114 103.018 91.6733 103.177 92.5772C103.25 92.9826 103.29 93.407 103.293 93.8539C103.323 98.0957 99.8906 101.572 95.6451 101.609L95.6451 101.605Z" fill="white"/>
+                                <path d="M125.199 78.5776C124.223 68.3721 119.48 58.9337 111.842 52.0033C104.159 45.0286 94.2218 41.2277 83.8611 41.2993C61.121 41.4567 42.7471 60.0866 42.9045 82.8266C42.9572 90.4575 45.1129 97.8802 49.1426 104.329L40.3927 124.066L68.8322 120.837C73.7957 122.829 79.0427 123.82 84.4317 123.783C85.8506 123.773 87.3025 123.689 88.7577 123.53C90.0416 123.383 91.3362 123.173 92.6118 122.907C111.631 118.928 125.416 101.928 125.39 82.4757L125.388 82.256C125.38 81.0158 125.315 79.7797 125.195 78.5813L125.199 78.5776ZM69.8636 112.193L54.1293 113.978L58.7609 103.529L57.8136 102.273C57.7422 102.18 57.6745 102.088 57.5956 101.984C53.4749 96.3773 51.2725 89.7333 51.2243 82.7653C51.0987 64.6098 65.7668 49.7411 83.9186 49.6155C100.927 49.4979 115.432 62.6675 116.938 79.5956C117.019 80.5038 117.062 81.416 117.068 82.3136C117.07 82.5705 117.068 82.8238 117.063 83.092C116.818 98.2817 106.297 111.252 91.4783 114.639C90.3479 114.901 89.1872 115.099 88.0299 115.233C86.8279 115.379 85.5957 115.455 84.3704 115.463C80.0093 115.493 75.7653 114.677 71.7465 113.037C71.3021 112.861 70.8651 112.674 70.4541 112.48L69.8562 112.197L69.8636 112.193Z" fill="white"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_1092_969" x1="158.593" y1="87.0467" x2="8.78738" y2="79.4058" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#55C355"/>
+                                <stop offset="0.990515" stop-color="#00E300"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div className="call-div p-1">+971 54 347 6609</div>
+                        
+                    </div>
+                </a>
+            </div>
         </div>
     </article>)
 }

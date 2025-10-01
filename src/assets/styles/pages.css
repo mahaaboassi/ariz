@@ -385,6 +385,49 @@ form textarea{
     opacity: 0.6;
   }
 }
+/* .call-div{
+    background-color: var(--light);
+    color: var(--dark-2);
+    border-radius: 5px;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+} */
+ .container-call{
+    z-index: 100;
+ }
+ .call-div {
+    background-color: var(--light);
+    color: var(--dark-2);
+    border-radius: 5px;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    text-align: center;
+    animation: pulse-move 2s infinite; /* 👈 pulse effect */
+    box-shadow: 0 0 10px rgba(0, 227, 0, 0.4);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.call-div:hover {
+    transform: scale(1.1) rotate(-2deg); 
+    box-shadow: 0 0 15px rgba(0, 227, 0, 0.6);
+}
+
+/* Pulse animation */
+@keyframes pulse-move {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 227, 0, 0.5);
+    }
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 15px rgba(0, 227, 0, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 227, 0, 0);
+    }
+}
 /* Influencer */
 .intro-influencer{
     
@@ -710,6 +753,14 @@ form textarea{
     }
     .container-design svg{
         width: 20px;
+    }
+    .call-div{
+        font-size: var(--font-size-xxs);
+
+    }
+    .container-call svg{
+        width: 50px;
+        height: 50px;
     }
     
 }
