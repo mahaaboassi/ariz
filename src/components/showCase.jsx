@@ -5,7 +5,7 @@ const ShowCase = ({image,isCreative,name,isAvilable,link,category})=>{
     const [ currentImage , setCurrentImage] = useState("")
     const navigate = useNavigate()
     return <>
-    <div  className=" gap-5  container-design">
+    <div  className=" gap-5  container-design relative">
                         <div  className="relative root-image">
                             <img  src={image} alt={name} />
                             {<div onClick={()=>{
@@ -50,8 +50,8 @@ const ShowCase = ({image,isCreative,name,isAvilable,link,category})=>{
                                     </div>
                                   </Link>
                             </div>
-                          <div className="flex justify-between items-center">
-                              <div className="category-protfolio p-1">{category}</div>
+                          <div className="flex gap-1 flex-row justify-between items-center ">
+                              <div className="category-protfolio p-1 ">{category}</div>
                               {isAvilable == 1 && <div className="widget  flex">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="17" viewBox="0 0 123 110" fill="none">
                                       <g clipPath="url(#clip0_993_969)">
@@ -63,7 +63,8 @@ const ShowCase = ({image,isCreative,name,isAvilable,link,category})=>{
                                       </clipPath>
                                       </defs>
                                   </svg>
-                                  Available</div>}
+                                  <span>Available</span>
+                                  </div>}
                             </div>
                               
                         </div>}
