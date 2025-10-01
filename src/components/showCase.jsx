@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 
-const ShowCase = ({image,isCreative,name,isAvilable,link})=>{
+const ShowCase = ({image,isCreative,name,isAvilable,link,category})=>{
     const [ currentImage , setCurrentImage] = useState("")
     const navigate = useNavigate()
     return <>
@@ -50,9 +50,10 @@ const ShowCase = ({image,isCreative,name,isAvilable,link})=>{
                                     </div>
                                   </Link>
                             </div>
-                          <div>
+                          <div className="flex justify-between items-center">
+                              <div className="category-protfolio p-1">{category}</div>
                               {isAvilable == 1 && <div className="widget  flex">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="33" height="20" viewBox="0 0 123 110" fill="none">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="17" viewBox="0 0 123 110" fill="none">
                                       <g clipPath="url(#clip0_993_969)">
                                       <path fill-rule="evenodd" clipRule="evenodd" d="M0 52.88L22.68 52.58C31.44 57.63 39.28 64.17 46.03 72.44C63.49 43.49 83.55 19.77 105.6 0H122.88C92.05 34.25 66.89 70.92 46.77 109.76C36.01 86.69 20.96 67.27 0 52.88Z" fill="#01A601"/>
                                       </g>

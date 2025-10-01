@@ -301,17 +301,25 @@ form textarea{
 .container-design img{
    
 }
+.category-protfolio{
+    font-size: 13px;
+    border-radius: 8px;
+    background: var(--yellow-2);
+    color: var(--light);
+    font-weight: 500;
+}
 .widget{
     border-radius: 10px;
     width: fit-content;
-    font-size: var(--font-size-xxs);
+    font-size: 13px;
     /* border: 2px solid var(--yellow-2); */
 
 }
 .widget-type{
     border-radius: 10px;
     width: fit-content;
-    font-size: var(--font-size-xxs);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
     /* border: 1px solid rgba(128, 128, 128, 0.699);  */
 }
 .view-div{

@@ -51,7 +51,7 @@ const SubProject = ()=>{
                         <img src={shape} alt={"shape-img"} />
                     </div>
                     <div className="px-4 sm:px-10">
-                        <Heading title={"Ariz Global Website Case Study"} subTitle={"Real Projects, Real Results"} />
+                        <Heading title={"Ariz Global Project Case Study"} subTitle={"Real Projects, Real Results"} />
                         <div className="text-center lg:w-3/4 m-auto">
                             {/* {currentServices.section_1.description} */}
                         </div>
@@ -96,11 +96,11 @@ const SubProject = ()=>{
                             </div>
                         </div>
                     </div>
-                    { currentData?.mockups && currentData.mockups.length >0 && <div className="px-4 sm:px-10">
-                        <Heading  title={"Further Creative Designs"} subTitle={"Real Projects, Real Results"} />
+                    { currentData?.mockups && currentData.mockups?.website.length >0 && <div className="px-4 sm:px-10">
+                        <Heading  title={"Website Mockups"} subTitle={"Turning Ideas into Interactive Previews"} />
                                 <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10">
-                                {currentData.mockups.map((e,i)=>{
-                                    return <ShowCase key={`Figma_basic_images_${i}`} 
+                                {currentData.mockups.website.map((e,i)=>{
+                                    return <ShowCase key={`Figma_basic_design_images_${i}`} 
                                                     image={e}
                                                     name={currentData.name}
                                                     isCreative={true}
@@ -108,15 +108,34 @@ const SubProject = ()=>{
                                 })}
                             </div>
                     </div> }
+                    { currentData?.mockups && currentData.mockups?.design.length >0 && <div className="px-4 sm:px-10">
+                        <Heading  title={"Creative & Designs"} subTitle={"Turning Ideas into Interactive Previews"} />
+                                <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10">
+                                {currentData.mockups.design.map((e,i)=>{
+                                    return <ShowCase key={`Figma_basic_design_images_${i}`} 
+                                                    image={e}
+                                                    name={currentData.name}
+                                                    isCreative={true}
+                                    />
+                                })}
+                            </div>
+                    </div> }
+                    { currentData?.mockups && currentData.mockups?.social && <div className="px-4 sm:px-10">
+                        <Heading  title={"Social Media Designs"} subTitle={"Turning Ideas into Interactive Previews"} />
+                        <div className="flex justify-center container-social">
+                            <img className="w-full rounded" src={currentData.mockups?.social} alt={currentData.name} />
+                        </div>
+                    </div> }
                     { <div className="px-4 sm:px-10">
                         <Heading  title={"More From Our Portfolio"} subTitle={"Discover Additional Projects"} />
                                 <div className="flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 flex-col gap-5 px-4 sm:px-10 ">
                                 { portfolioData.map((e,i)=>{
                                     return <ShowCase key={`Figma_Design_Inside_Project_${i}`} 
-                                                      image={e.basic_img}
+                                                    image={e.basic_img}
                                                     name={e.name}
                                                     isAvilable={e.isAvilable}
                                                     link={e.link}
+                                                    category={e.category}
                                     />
                                 }) }
                             </div>

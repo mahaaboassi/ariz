@@ -25,9 +25,52 @@ import pro_5 from "../assets/images/portfolio/mockup_pro_5.webp";
 import pro_6 from "../assets/images/portfolio/mockup_pro_6.webp";
 import pro_7 from "../assets/images/portfolio/mockup_pro_7.webp";
 
+
+// Websites 
+// Food
+import food_website_mockup_1 from "../assets/images/websites/food_website_mockup_1.webp"
+import food_website_mockup_2 from "../assets/images/websites/food_website_mockup_2.webp"
+import food_website_mockup_3 from "../assets/images/websites/food_website_mockup_3.webp"
+import food_website_mockup_4 from "../assets/images/websites/food_website_mockup_4.webp"
+// Hospital
+import hospital_website_mockup_1 from "../assets/images/websites/hospital_website_mockup_1.webp"
+import hospital_website_mockup_2 from "../assets/images/websites/hospital_website_mockup_2.webp"
+import hospital_website_mockup_3 from "../assets/images/websites/hospital_website_mockup_3.webp"
+import hospital_website_mockup_4 from "../assets/images/websites/hospital_website_mockup_4.webp"
+// Rental
+import rental_website_mockup_1 from "../assets/images/websites/rental_website_mockup_1.webp"
+import rental_website_mockup_2 from "../assets/images/websites/rental_website_mockup_2.webp"
+import rental_website_mockup_3 from "../assets/images/websites/rental_website_mockup_3.webp"
+import rental_website_mockup_4 from "../assets/images/websites/rental_website_mockup_4.webp"
+// Dental
+import dental_website_mockup_1 from "../assets/images/websites/dental_website_mockup_1.webp"
+import dental_website_mockup_2 from "../assets/images/websites/dental_website_mockup_2.webp"
+import dental_website_mockup_3 from "../assets/images/websites/dental_website_mockup_3.webp"
+import dental_website_mockup_4 from "../assets/images/websites/dental_website_mockup_4.webp"
+// Car
+import car_website_mockup_1 from "../assets/images/websites/car_website_mockup_1.webp"
+import car_website_mockup_2 from "../assets/images/websites/car_website_mockup_2.webp"
+import car_website_mockup_3 from "../assets/images/websites/car_website_mockup_3.webp"
+import car_website_mockup_4 from "../assets/images/websites/car_website_mockup_4.webp"
+// ICT
+import ICT_website_mockup_1 from "../assets/images/websites/ICT_website_mockup_1.webp"
+import ICT_website_mockup_2 from "../assets/images/websites/ICT_website_mockup_2.webp"
+import ICT_website_mockup_3 from "../assets/images/websites/ICT_website_mockup_3.webp"
+import ICT_website_mockup_4 from "../assets/images/websites/ICT_website_mockup_4.webp"
+// Hotel
+import hotel_website_mockup_1 from "../assets/images/websites/hotel_website_mockup_1.webp"
+import hotel_website_mockup_2 from "../assets/images/websites/hotel_website_mockup_2.webp"
+import hotel_website_mockup_3 from "../assets/images/websites/hotel_website_mockup_3.webp"
+import hotel_website_mockup_4 from "../assets/images/websites/hotel_website_mockup_4.webp"
+
+// Social Images
+import social_intellectra_1 from "../assets/images/social/social_intellectra.webp"
+import social_tumbi_1 from "../assets/images/social/social_tumbi.webp"
+import social_foreshore_1 from "../assets/images/social/social_foreshore.webp"
+
 export const portfolioData = [
   {
-    name: "Food Delivery Platform",
+    name: "Food Delivery",
     link: "/food_delivery_platform",
     goals: [
       "Deliver a smooth and intuitive user experience for browsing menus and placing orders.",
@@ -40,11 +83,15 @@ export const portfolioData = [
     img: pro_1,
     basic_img : figma_1,
     isAvilable : 1,
+    category: "Food",
     technologies: [{ name : "Figma" }],
-    mockups : []
+    mockups : {
+      website: [food_website_mockup_1,food_website_mockup_2,food_website_mockup_3,food_website_mockup_4],
+      design: []
+    }
   },
   {
-    name: "Hospital Website Design",
+    name: "Hospital",
     link: "/hospital_website_design",
     goals: [
       "Provide a clear and informative platform for patients to explore hospital services.",
@@ -56,11 +103,15 @@ export const portfolioData = [
     img: pro_2,
     basic_img : figma_5,
     isAvilable : 1,
+    category: "Hospital",
     technologies: [{ name: "Figma" }],
-    mockups : []
+    mockups : {
+      website: [hospital_website_mockup_1,hospital_website_mockup_2,hospital_website_mockup_3,hospital_website_mockup_4],
+      design: []
+    }
   },
   {
-    name: "Rental Properties Website",
+    name: "Foreshore Properties",
     link: "/rental_properties_website",
     goals: [
       "Provide an intuitive browsing experience for property listings.",
@@ -72,11 +123,16 @@ export const portfolioData = [
     img: pro_3,
     basic_img : figma_2,
     isAvilable : 0,
+    category: "Rental",
     technologies: [{ name: "Figma" }],
-    mockups : []
+    mockups : {
+      website: [rental_website_mockup_1,rental_website_mockup_2,rental_website_mockup_3,rental_website_mockup_4],
+      design: [],
+      social : social_foreshore_1
+    }
   },
   {
-    name: "Dental Clinic Landing Page",
+    name: "Dental Clinic",
     link: "/dental_clinic_landing_page",
     goals: [
       "Create a visually appealing and professional landing page for the clinic.",
@@ -88,11 +144,15 @@ export const portfolioData = [
     img: pro_4,
     basic_img : figma_3,
     isAvilable : 1,
+    category: "Dental",
     technologies: [{ name: "Figma" }],
-    mockups : []
+    mockups : {
+      website: [dental_website_mockup_1,dental_website_mockup_2,dental_website_mockup_3,dental_website_mockup_4],
+      design: []
+    }
   },
   {
-    name: "Car Store Landing Page",
+    name: "Car Store",
     link: "/car_store_landing_page",
     goals: [
       "Showcase car models and promotions effectively.",
@@ -104,11 +164,15 @@ export const portfolioData = [
     img: pro_7,
     basic_img : figma_8,
     isAvilable : 1,
+    category: "Automotive",
     technologies: [{ name: "Figma" }],
-    mockups : []
+    mockups : {
+      website: [car_website_mockup_1,car_website_mockup_2,car_website_mockup_3,car_website_mockup_4],
+      design: []
+    }
   },
   {
-    name: "ICT Systems Website",
+    name: "Intellectra",
     link: "/ict_systems_website",
     goals: [
       "Present the company’s IT solutions and services professionally.",
@@ -120,11 +184,17 @@ export const portfolioData = [
     img: pro_6,
     basic_img : figma_7,
     isAvilable : 0,
+    category: "Technology",
     technologies: [{ name: "Figma" }],
-    mockups : []
+    mockups : {
+      website: [ICT_website_mockup_1,ICT_website_mockup_2,ICT_website_mockup_3,ICT_website_mockup_4],
+      design: [],
+      social: social_intellectra_1
+
+    }
   },
   {
-    name: "Hotel Rooms Landing Page",
+    name: "Tumbi Hotels",
     link: "/hotel_rooms_landing_page",
     goals: [
       "Display available hotel rooms with clear details and images.",
@@ -136,7 +206,12 @@ export const portfolioData = [
     img: pro_5,
     basic_img : figma_6,
     isAvilable : 0,
+    category: "Hotel",
     technologies: [{ name: "Figma" }],
-    mockups : [des_5, des_6, des_2, des_1]
+    mockups : {
+      design: [des_5, des_6, des_2, des_1],
+      website: [hotel_website_mockup_1,hotel_website_mockup_2,hotel_website_mockup_3,hotel_website_mockup_4],
+      social: social_tumbi_1
+    }
   }
 ];

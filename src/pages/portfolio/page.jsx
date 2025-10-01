@@ -47,6 +47,7 @@ function Portfolio() {
                                     name={e.name}
                                     isAvilable={e.isAvilable}
                                     link={e.link}
+                                    category={e.category}
                     />
                 })}
             </div>
