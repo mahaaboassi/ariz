@@ -21,6 +21,7 @@ const SubServices = ()=>{
         window.scrollTo({ top: 0})
         setCurrentServices(services.find((e)=> e.link == `/services/${link}`))}
         ,[link])
+    
     return("name" in currentServices && <article>
 
         <title>{currentServices.meta.title}</title>
